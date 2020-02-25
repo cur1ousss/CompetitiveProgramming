@@ -1,0 +1,2350 @@
+<!DOCTYPE html>
+<!-- saved from url=(0095)https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html -->
+<html dir="ltr" lang="en-US" xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="./The many different ways of swapping two numbers - Geek Factorial_files/2549344219-widget_css_bundle.css" rel="stylesheet" type="text/css">
+
+<meta content="blogger" name="generator">
+<link href="https://geekfactorial.blogspot.com/favicon.ico" rel="icon" type="image/x-icon">
+<link href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html" rel="canonical">
+<link rel="alternate" type="application/atom+xml" title="Geek Factorial - Atom" href="https://geekfactorial.blogspot.com/feeds/posts/default">
+<link rel="alternate" type="application/rss+xml" title="Geek Factorial - RSS" href="https://geekfactorial.blogspot.com/feeds/posts/default?alt=rss">
+<link rel="service.post" type="application/atom+xml" title="Geek Factorial - Atom" href="https://www.blogger.com/feeds/4840603379647116080/posts/default">
+
+<link rel="alternate" type="application/atom+xml" title="Geek Factorial - Atom" href="https://geekfactorial.blogspot.com/feeds/8580898793592244625/comments/default">
+<!--Can't find substitution for tag [blog.ieCssRetrofitLinks]-->
+<link href="./The many different ways of swapping two numbers - Geek Factorial_files/lets-swap-it.jpg" rel="image_src">
+<meta content="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html" property="og:url">
+<meta content="The many different ways of swapping two numbers" property="og:title">
+<meta content="One of the most seen snippets of code is the one that swaps the values of two variables. This little job is crucial to many algorithms, and ..." property="og:description">
+<meta content="https://1.bp.blogspot.com/-S4rCg9H-chM/V7Fy-fLLLjI/AAAAAAAAAfs/ehW6g-nFEwIqZ9ng0vcBy2djhTTZDH8fACLcB/w1200-h630-p-k-no-nu/lets-swap-it.jpg" property="og:image">
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>The many different ways of swapping two numbers - Geek Factorial</title>
+<!-- [ Social Media meta tag ] -->
+<meta content="article" property="og:type">
+<meta content="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html" property="og:url">
+<meta content="https://1.bp.blogspot.com/-S4rCg9H-chM/V7Fy-fLLLjI/AAAAAAAAAfs/ehW6g-nFEwIqZ9ng0vcBy2djhTTZDH8fACLcB/s640/lets-swap-it.jpg" property="og:image">
+<meta content="Geek Factorial" property="og:site_name">
+<meta content="en_US" property="og:locale">
+<!-- Customize meta tags here -->
+<meta content="programming, coding, technology, puzzles, computer science, cs, geek life, geek, geeks, nerd, nerds" name="keywords">
+<meta content="zx63U8WqHOKbetf0hEfesXNK7HqQqbsZbgBI3b3GnnA" name="google-site-verification">
+<meta content="BING-META-TAG" name="msvalidate.01">
+<meta content="ALEXA-META-TAG" name="alexaVerifyID">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" name="viewport">
+<link href="./The many different ways of swapping two numbers - Geek Factorial_files/font-awesome.min.css" rel="stylesheet">
+<script id="facebook-jssdk" src="./The many different ways of swapping two numbers - Geek Factorial_files/all.js"></script><script async="" src="./The many different ways of swapping two numbers - Geek Factorial_files/script.js"></script><script src="./The many different ways of swapping two numbers - Geek Factorial_files/jquery.min.js" type="text/javascript"></script>
+<link href="./The many different ways of swapping two numbers - Geek Factorial_files/css" rel="stylesheet" type="text/css">
+<link href="./The many different ways of swapping two numbers - Geek Factorial_files/css(1)" rel="stylesheet">
+<link href="./The many different ways of swapping two numbers - Geek Factorial_files/css(2)" rel="stylesheet">
+<link href="./The many different ways of swapping two numbers - Geek Factorial_files/css(3)" rel="stylesheet">
+<link href="./The many different ways of swapping two numbers - Geek Factorial_files/css(4)" rel="stylesheet" type="text/css">
+<style id="page-skin-1" type="text/css"><!--
+/*
+---*****************************
+Platform: Blogger
+Name:     DuosMag
+Designer: Bloggertheme9 (REDESIGNED BY ANIRUDH KHANNA FOR GEEK FACTORIAL)
+License: Free Version
+Re-design Author: Anirudh Khanna
+---*****************************/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, figure { margin: 0; padding: 0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block;}
+table {border-collapse: separate; border-spacing: 0;}
+caption, th, td {text-align: left; font-weight: normal;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: "";}
+blockquote, q {quotes: "" "";}
+sup{ vertical-align: super; font-size:smaller; }
+code{ font-family: 'Courier New', Courier, monospace; font-size:12px; color:#272727; }
+a img{border: none;}
+ul ul, ol ol { padding: 0; }
+ol, ul { padding: 0px;  margin: 0; }
+ol li { list-style-type: none;  padding:0;  }
+ul li { list-style-type: none;  padding: 0;  }
+h1, h2, h3, h4, h5, h6 {/*color: #777;*/ color: #222; font-family: 'Open Sans', serif; font-weight: normal; }
+a{ color: #333; outline:none; text-decoration: none; cursor: pointer; }
+a:hover { color: #009CCC; text-decoration:none; }
+body{ background: #E9E9E9; color: #3A4145; height: 100%; padding: 0; font-family:'Open Sans', Arial, Helvetica, sans-serif; font-size: 1.02em; line-height: 24px; }
+.clear { clear:both; float:none; }
+.ct-wrapper {background:#fff; padding:0px 0px; position:relative; margin: 0 auto;}
+.outer-wrapper { position: relative; padding:0px 0 }
+.header-wrapper {display: inline-block; float: left; padding: 0; width: 100%; -moz-box-sizing: -webkit-border-box; box-sizing: border-box; margin-top: 35px; margin-left: 5px; margin-bottom: 10px; border-top-left-radius: 20px; border-top-right-radius: 20px;
+/* background: #fdfdfd url('https://1.bp.blogspot.com/-jW5W6kovBac/V6a3uQmlX_I/AAAAAAAAAcY/7VQcZOFIIVwbnT5dainn5Mvs9ZJhI0LmgCLcB/s1600/line-bg.png') !important; */
+}
+.main-wrapper { width:auto; margin-right:330px; }
+#content { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; position: relative;}
+.main-inner-wrap {float:left; position: relative; width:100%; margin-top:20px;}
+.sidebar-wrapper { width:270px; float: right;}
+.container {margin: 0 auto; padding: 0 15px; position: relative; max-width: 1150px;}
+/* LAYOUT CHANGE (FOR BIG SCREENS, SIDEBAR ON LEFT AND MAIN CONTENT ON RIGHT): */
+@media screen and (min-width: 1050px) {
+.main-wrapper {
+margin-right: 20px;
+margin-left: 265px;
+}
+.main-inner-wrap {
+float: right;
+}
+.sidebar-wrapper {
+width: 229px;
+float: left !important;
+margin-top: 10px;
+}
+.container {
+max-width: 1075px;
+}
+.container {
+max-width: 1090px;
+padding-right: 30px;
+}
+}
+body#layout #top-nav { margin-top: 40px; }
+body#layout #header, body#layout .header-right { width: 50%; }
+body#layout .main-wrapper { margin-right: 300px; }
+body#layout .widget-content { margin: 0; }
+body#layout #content {}
+body#layout .outer-wrapper, body#layout .sidebar-wrapper, body#layout .ct-wrapper { margin: 0; padding: 0; }
+.ct-wrapper, .crosscol, .post, .sidebar-wrapper, .buzed{overflow:hidden;}
+/* #header{ float:left; width:50%; } */
+/* OR, WITHOUT RIGHT HEADER: */
+/* #header{ float: none; text-align: center; margin-left:0; width: 100%; } */
+/* Left Header New Style Can Be: */
+#header{  }
+.header-right{ display:none; }
+#header-inner{ margin: 10px 0 10px 0; }
+#header h1, #header h2 { font-family: 'Open Sans', sans-serif; font-size: 2.6em /*3.2em*/; line-height: 20px /*47px*/; letter-spacing: 1.3px; font-weight: bold; text-transform: lowercase; }
+#header h1 a, #header h2 a { color:#222; /*text-shadow: -3px 3px #f5f5f5;*/ transition: 0.3s; }
+#header h1 a:hover,#header h2 a:hover {  /*text-shadow: -3px 3px #f5f5f5;*/ color: #000000; transition: 0.35s; }
+#header p.description{font-family: 'Open Sans', sans-serif; color: #000; font-size: 14px; letter-spacing: -1.25px; disply: inline-block; margin: 17px 0 0 0;}
+#header img{ border:0 none; background:none; height:auto;}
+.semicol {margin-left: 8px; color: #ccc; font-size: 1.75em; font-family: 'Times New Roman', Times, serif; line-height: 0px;}
+.lefter{margin-left:12px; margin-right:13px;}
+.header-right { float: right; }
+.header-right .widget-content { margin: 12px 0px 0 0; }
+#peekar{position:relative; width:auto; float:right; padding:6px 0px 0 0px; margin: 0px 20px 0 0;}
+#peekar input{float:left; font-size:14px; margin: 0px 0 0; padding: 8px 0px 8px 0px; text-indent:7px; width:160px; color:#444; border:1px solid #ccc; border-right: 0; -o-transition:width .7s,color .4s;-webkit-transition:width .7s,color .4s;-moz-transition:width .7s,color .4s;transition:width .7s,color .4s;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0; outline:none;}
+#peekar input:focus{}
+#peekar button{width: 50px; border: 1px solid #2f2f2f; border-left: 0; background: #2f2f2f; line-height: 20px; cursor: pointer; color:#fdfdfd; font-size:16px; padding:6px;}
+.stripes {
+width: 100%;
+height: 5px;
+bottom: 0;
+left: 0;
+overflow: hidden;
+background: #FA9300;
+}
+.stripes-thin {
+height: 4px;
+}
+.stripe {
+width: 30px;
+height: 5px;
+float: left;
+background: red;
+}
+.item1 {background: #fa9300;}
+.item2 {background: #66c9ee; width: 18px;}
+.item3 {background: #c9c9c9;}
+.item4 {background: #82b964; width: 24px;}
+.item5 {background: #d24d33;}
+.item6 {background: #72664e; width: 28px;}
+.item7 {background: #2e77bb;}
+.item8 {background: #6bd5b1; width: 14px;}
+.item9 {background: #f87aa0; width: 18px;}
+.item10 {background: #c9c9c9; width: 28px;}
+.item11 {background: #72664e;}
+.item12 {background: #ccd600; width: 24px;}
+.item13 {background: #f87aa0;}
+.item14 {background: #df620e;}
+.item15 {background: #993838; width: 18px;}
+.item16 {background: #ff9600; width: 18px;}
+.item17 {background: #d24d33;}
+.item18 {background: #8960a7;}
+.item19 {background: #82b964;}
+.item20 {background: #f87aa0; width: 14px;}
+.item21 {background: #d43f3f; width: 28px;}
+.item22 {background: #668000; width: 24px;}
+.item23 {background: #ff9600;}
+.item24 {background: #8960a7; width: 18px;}
+.item25 {background: #c9c9c9; width: 28px;}
+.item26 {background: #993838; width: 18px;}
+.item27 {background: #CCD600;}
+.item28 {background: #668000; width: 18px;}
+.item29 {background: #f4cc13; width: 14px;}
+.item30 {background: #72664e;}
+.item31 {background: #fa9300;}
+.item32 {background: #66c9ee; width: 18px;}
+.item33 {background: #c9c9c9; width: 28px;}
+.item34 {background: #82b964; width: 24px;}
+.item35 {background: #ccd600;}
+.item36 {background: #fa9300;}
+.item37 {background: #2e77bb;}
+.item38 {background: #6bd5b1; width: 14px;}
+.item39 {background: #f87aa0; width: 18px;}
+.item40 {background: #c9c9c9; width: 28px;}
+.item41 {background: #fa9300;}
+.item42 {background: #66c9ee; width: 18px;}
+.item43 {background: #c9c9c9;}
+.item44 {background: #82b964; width: 24px;}
+.item45 {background: #CCD600;}
+.item46 {background: #f87aa0; width: 28px;}
+.item47 {background: #2e77bb;}
+.item48 {background: #6bd5b1; width: 14px;}
+.item49 {background: #f87aa0; width: 18px;}
+.item50 {background: #c9c9c9; width: 28px;}
+.top-nav{background:#F9F9F9; border-bottom:0px solid #dbdbdb; width: 100%;}
+.top-nav .Pagemenu{}
+.Pagemenu {display: block;}
+.Pagemenu li {display: inline-block; position: relative; z-index: 10; margin:0;}
+.Pagemenu li a {font-size: 12px; text-transform: uppercase; font-weight: 600; text-decoration: none; padding: 12px 15px; border-right:1px solid #dbdbdb; display: block; color: #909090; transition: all 0.2s ease-in-out 0s; line-height: 22px;}
+.Pagemenu li a:hover,.Pagemenu li:hover>a {color: #333;}
+.main-nav {/*background:#303030; border-bottom:1px solid #dedede;*/ display:block; width:100%; background:#fafafa;}
+.menu {display: block; float: right; }
+.menu li {display: inline-block; position: relative; z-index: 10;}
+.menu li.home, .menu ul li ul li{margin:0;}
+.menu ul li a, .menu ul li ul li a{border:0;}
+.menu ul li::after, .menu ul li ul li::after{height:0;}
+.menu li{margin-left: -4px;}
+.menu li a {font-size: 14px; font-weight: 600; padding: 10px 20px 9px; text-transform: uppercase; text-decoration: none; line-height:18px; display: block; color: #989fa4; transition: all 0.2s ease-in-out 0s;}
+.menu li a::after {color: #949494 !important;}
+.menu li a:hover {/*background: #191A1C;*/ color: #222;}
+.sub-menu {margin-top: 0px !important;}
+.sub-menu li a {padding: 11px 15px !important;}
+.sub-menu li a:hover {background: #f0f0f0; color: #333 !important;}
+.menu li::after {content: ''; display: block; width: 0; /*height: 2px; background: #444; transition: width .2s;*/}
+.menu li:hover::after /*, .menu li.home::after */ {width: 100%;}
+.menu li a:hover,.menu li:hover>a {}
+.menu ul {visibility: hidden; opacity: 0; margin: 0; padding: 0; width: 160px; position: absolute; left: 0px;  background: #fff; z-index: 9;    transform: translate(0,20px); transition: all 0.2s ease-out;}
+.menu ul:after {line-height: 14px; bottom: 100%; left: 20%; border: solid transparent; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(255, 255, 255, 0); border-bottom-color: #fff; border-width: 6px; margin-left: -6px;}
+.menu ul li {display: block; float: none; background: none; margin: 0; padding: 0;}
+.menu ul li a, .menu ul li ul li a{border-bottom:1px solid #eaeaea;}
+.menu ul li a {font-size: 12px; font-weight: 600; display: block; color: #797979; background: #f6f6f6;}
+.menu ul li a:hover,.menu ul li:hover>a {color: #009CCC;}
+.menu li:hover>ul {visibility: visible; opacity: 1; transform: translate(0,0);}
+.menu ul ul {left: 149px; top: 0px; visibility: hidden; opacity: 0; transform: translate(20px,20px); transition: all 0.2s ease-out;}
+.menu ul ul:after {content: " "; left: -6px; top: 10%; border: solid transparent; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(255, 255, 255, 0); border-right-color: #009CCC; border-width: 6px; margin-top: -6px;}
+.menu li>ul ul:hover {visibility: visible; opacity: 1; transform: translate(0,0);}
+.resp-desk,.resp-desk1 {display: none; padding: 10px 15px; text-transform: uppercase; font-weight: 600;}
+.resp-desk {}
+.resp-desk1 {}
+.resp-desk a{color: #333;}
+.resp-desk1 a{color: #909090;}
+.social-ico{display:inline; line-height:36px; margin-left:15px;}
+.social-ico a{padding:0px 6px; margin-right:10px; font-size:20px; color:#949494;}
+.social-ico a:hover{color:#222;}
+a.homer {}
+.denim {background-color:#2ba6e1; border:2px solid #dddddd; padding:4px 8px; position:fixed; visibility:hidden; overflow:hidden; z-index:9; color:#fff; right:25px; bottom:-25px; border-radius:6px; transition:all 0.5s ease-in-out; transition-delay:0.2s;}
+.denim:hover { opacity:.8; color:#fff; transition:all 0.2s ease-in-out; transition-delay:0s;}
+.denim.zin {visibility:visible; cursor:pointer; bottom:25px;}
+.status-msg-wrap {
+margin: -10px 0 20px 0;
+}
+.status-msg-border {
+border: 0;
+opacity: 1;
+-moz-opacity: 1;
+}
+.status-msg-bg {
+background: #FAFAFA;
+opacity: 1;
+-moz-opacity: 1;
+}
+.post { margin: 0 0 35px 0; padding: 0px 0px 5px 0; border-bottom: 1px solid #fafafa;}  /* USED ON POST PAGE */
+.post-title {/*font-size:25px; <-- COMMENTED OUT, SO THAT THERE ARE DIFFERENT SIZES ON FRONT PAGE (H2) AND A POST'S PAGE (H1).*/
+font-weight:bold; font-family:'Open Sans', sans-serif; color:#222; line-height: normal; text-transform: capitalize;}
+h2.post-title {font-size:32px;} /* SIZE OF TITLES ON HOMEPAGE POSTS LIST (USES H2). TITLE ON A POST PAGE IS BIGGER (IN H1). */
+h1.post-title {font-size:36px; border-bottom: 1px solid #eee; padding: 0 0 7px; margin-bottom: 10px;} /* SIZE OF TITLES ON POST PAGES (USES H1). */
+.post-title a {padding: 0 3px; transition: .17s; color: #222;}
+.post-title a:hover {color: black; transition: .17s;}
+.post-body { line-height: 1.7em; padding: 0; margin: 0; text-transform: none; word-wrap: break-word; font-size: 1.1em; }
+.post-body div a{ color: #008DB5; }
+.post-body div a:hover{ text-decoration: underline; }
+.title-secondary a{ color: #333 !important; border: 0 !important; }
+.title-secondary a:hover{ color: #333 !important; border: 0 !important; }
+.post-header {color: #999999; font-size: 12px;}
+.title-secondary{font-size:14px; color:#909090; margin:5px 0 20px; }
+.post-author a{color:#009CCC;}
+.post-body img {}
+.with-ul:after{font-family:fontawesome; content:"\f0d7"; line-height:14px; color:#fff; margin-left:5px; font-size:10px;}
+.sidebar{ margin: 0; padding: 0; display: block; }
+.sidebar .widget{  clear: both; margin-bottom: 25px; line-height: 22px; }
+.sidebar ul{ margin:0; padding:0; list-style:none; }
+.sidebar li{border-bottom: 1px solid #eee; margin: 0; padding: 7px 0 7px 7px; text-transform: none;}
+.sidebar .Label {margin-bottom: 30px; padding: 3px 4px 7px 7px; background: rgb(253,250,250); border-top: 4px solid #f36a6a;}
+.sidebar .Label li {border-bottom: 0; padding: 1px 0 2px 3px; font-size: 0.97rem; color:#009CCC; }
+.sidebar .Label li a {/*color:#009CCC;*/  color: #555555; transition: color ease 0.2s;}
+.sidebar .Label li a:hover {color:#3A4145; transition: color ease 0.2s;}
+/* FOLDED CORNER FOR LABELS WIDGET: */
+.sidebar .Label {
+position: relative;
+}
+.sidebar .Label::after {
+background: #fff;
+content: ' ';
+width: 0;
+height: 0;
+position: absolute;
+bottom: 0;
+right: 0;
+transform:rotate(90deg);
+border-width: 0 16px 16px 0;
+border-style: solid;
+/*  border-color: #e0b9b9 #fff; */
+border-color: #ead1d1 #fff;
+box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.02), -2px 1px 1px rgba(0, 0, 0, 0.05);
+border-radius: 0 0 0 4px;
+}
+.item-control a img {display: none;}
+.sidebar .copyright {font-size:13px; color:#BBC7CC;}
+.sidebar .copyright a {color:#8A9396;}
+.sidebar .copyright a:hover {color:#444;}
+h2.btitle{font-size:22px; line-height: 26px; margin: 0 0 3px; transition: all 0.2s ease-in-out 0s;}
+h2.btitle a{color:#606060;}
+h2.btitle a:hover{color:#4775A3;}
+.blog-cent p{height:;}
+.blog-cent{margin: 0px 0 0; padding: 0px 0px;}
+.bukshan img{height:100%; width: 100%; transition:all .3s ease-out;}
+.bukshan{width:32%; height:210px; margin:5px 15px 0 0; float:left; overflow:hidden;}
+.meta-date{color: #aaa; font-size: 13px; font-weight: 500;}
+a.button {color: #fff; padding: 7px 14px; margin:8px 0 0; cursor: pointer; display: inline-block; font-size: 13px; font-weight: 700; overflow: hidden; text-transform: uppercase; transition: background-color 0.2s ease-in-out 0s;}
+#blog-pager-newer-link{float:left;font-size:100%;border-right:1px solid #eee;}
+#blog-pager-older-link{float:right;font-size:100%;border-left:1px solid #eee;}
+.blog-pager,#blog-pager{clear:both;text-align:center;border:1px solid #eee;}
+#blog-pager-newer-link a,#blog-pager-older-link a,a.home-link{color:#666;transition:all .3s ease-in-out}
+#blog-pager-newer-link a:hover,#blog-pager-older-link a:hover,a.home-link:hover{color:#29abe2}
+a.blog-pager-older-link,a.blog-pager-newer-link,a.home-link{display:block;padding:8px 20px;transition:all .3s ease-in-out;}
+a.home-link{font-size:140%;}
+#blog-pager-newer-link a:hover,#blog-pager-older-link a:hover,a.home-link:hover,a.home-box:hover,.mobile-desktop-link a.home-link:hover{color:#29abe2;}
+.mobile-desktop-link a.home-link{font-size:0;font-weight:normal;background:none;padding:0;}
+#blog-pager-older-link,#blog-newer-older-link {padding:0;}
+/* SOCIAL SHARING ICONS BELOW THE POST */
+.spinner{margin:30px auto auto; display: none;} /* <-- Hidden. Using share buttons from getsitecontrol.com */
+.spinner li{list-style:none; display:inline;}
+.spinner li a{color: #fff; border-radius:6%; font-size: 14px; font-weight: 600; line-height:42px; padding: 10px 12px;}
+.spinner li a{margin-right:4px;}
+a.fb-ico{background:#3B5998;}
+a.twi-ico{background:#19BFE5;}
+a.go-ico{background:#D64136;}
+a.bitz{background:#23A215;}
+.sit{margin-left:3px;}
+.spinner li a i{font-size:15px;}
+a:hover.fb-ico, a:hover.twi-ico, a:hover.go-ico{opacity:8;}
+blockquote {border-color: #CCCCCC; border-style: dashed; border-width: 2px 0; color: #888; font-style: italic; margin: 10px 0 10px 0; padding:1% 16px 2%;}
+blockquote:before{font-family:fontawesome; content:"\f10d"; color:#ddd; float: left; font-size: 40px; font-style: normal; font-weight: normal; margin: 1% 14px 0 0;}
+.crosscol{text-align:center; margin:10px 0 10px;}
+.buzed{text-align:center; }
+.footer{width:31%; margin-bottom:20px; float:left;}
+ul.social-profile-icons { float: right; width: auto; margin: 4px 0 0; }
+ul.social-profile-icons li {border: none !important; list-style-type: none !important; margin: 0 !important; padding: 0 !important; }
+ul.social-profile-icons li a, ul.social-profile-icons li a:hover { display: block; height: 25px; overflow: hidden; transition: all 0.25s linear 0s; width: 25px; padding: 0; }
+#breadcrumbs {/*border-bottom:1px solid #eee;*/ padding-bottom:6px; padding-top:8px; margin-top:30px; border-top:1px solid #ddd;}
+#breadcrumbs ul { margin: 0; padding: 0;}
+#breadcrumbs ul li { color:#909090; display: inline-block; margin: 0 15px 0 5px; font-size:15px; }
+#breadcrumbs ul li a{ color:#484848; margin:0; padding:0 3px; background:#fffdea; border-bottom: 2px solid #fdf5a5;}
+#breadcrumbs ul li a:hover{background:#fff58e;}
+#breadcrumbs ul li:first-child a{margin:0px;}
+#breadcrumbs ul li::before {border-color: #bbb transparent transparent;}
+#breadcrumbs ul li:first-child::before{border:none;}
+.seat-bottom{margin-bottom:10px;}
+div.PopularPosts {/*background: rgb(255,255,235);*/ background: rgb(250,250,255); border-top: 4px solid /*rgb(241, 241, 180)*/ #8080f1; padding: 3px 4px 5px 7px; font-family: 'Open Sans', sans-serif;}
+.PopularPosts ul{list-style:none;margin:0;padding:5px 5px 0 0;overflow:hidden;border-top:none}
+.PopularPosts li,.PopularPosts li img,.PopularPosts li a,.PopularPosts li a img{margin:0;padding:0;list-style:none;border:none;background:none;outline:none}
+.PopularPosts ul{margin:0;list-style:none;color:#64707a}
+.PopularPosts ul li img{background:#fafafa;display:block;margin:0 10px 0 0;width:90px;height:75px; border-radius:6%; overflow:hidden;float:left; transition:all .3s ease-out}
+.PopularPosts ul li{position:relative;margin:0;padding:.5em 0!important;border:0;position:relative;border-bottom:1px solid #efeeee;}
+/* FOLDED CORNER FOR POPULAR POSTS WIDGET: */
+.sidebar .PopularPosts {
+position: relative;
+}
+.sidebar .PopularPosts::after {
+background: #fff;
+content: ' ';
+width: 0;
+height: 0;
+position: absolute;
+bottom: 0;
+right: 0;
+transform:rotate(90deg);
+border-width: 0 16px 16px 0;
+border-style: solid;
+border-color: #d1e0ea #fff;
+box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.01), -1px 1px 1px rgba(0, 0, 0, 0.03);
+border-radius: 0 0 0 4px;
+}
+/* STAR RATINGS ON POPULAR POSTS: */
+/*
+.PopularPosts ul li:before{font-family:fontawesome;content:'\f005\f005';display:inline-block;position:absolute;color:#f39c12;text-align:center;bottom:0;right:0;margin:9px 0;font-size:11px;padding:0;font-weight:normal;line-height:normal;transition:all .3s}
+.PopularPosts ul li:nth-child(1):before{font-family:fontawesome;content:'\f005\f005\f005\f005\f005';}
+.PopularPosts ul li:nth-child(2):before{font-family:fontawesome;content:'\f005\f005\f005\f005\f006';opacity:.9}
+.PopularPosts ul li:nth-child(3):before{font-family:fontawesome;content:'\f005\f005\f005\f006\f006';opacity:.85}
+.PopularPosts ul li:nth-child(4):before{font-family:fontawesome;content:'\f005\f005\f006\f006\f006';opacity:.8}
+.PopularPosts ul li:nth-child(5):before{font-family:fontawesome;content:'\f005\f006\f006\f006\f006';opacity:.75}
+*/
+/* A STAR BEFORE EACH ENTRY: */
+/* .PopularPosts ul li:before{font-family:fontawesome; content:'\f005 '; color:#555555; padding-right:4px; margin-left:-5px; font-size:11px;}
+*/
+.PopularPosts ul li{line-height:20px !important;}
+.PopularPosts ul li:hover:before{opacity:1;}
+.PopularPosts ul li:first-child{border-top:none;}
+.PopularPosts ul li:last-child{border-bottom:none;}
+.PopularPosts ul li .item-title a,.PopularPosts ul li a{color:#555555; font-family:'Roboto', serif; font-size:16px; font-weight:normal;}
+.PopularPosts ul li a:hover{color:#009CCC;}
+.PopularPosts .item-thumbnail{margin:0;}
+.PopularPosts .item-snippet{display:none}
+.PopularPosts .item-title{font-weight:700;padding-bottom:.2em;padding:0 5px}
+.PopularPosts h2{margin-bottom:0 !important;}
+.tagcloud1 a {background: #EEE; color: #555; display: block; float: left; font-size: 14px!important; line-height: 9px; margin: 0 3px 3px 0; padding: 12px 15px;}
+.tagcloud1 a:link {color: #555;}
+.tagcloud1 a:hover {background: #009ccc; color: #fff;}
+.tagcloud1 li{padding:0 !important; margin:0 !important; text-transform:lowercase !important;}
+/*
+.showpageNum a, .showpage a, .showpagePoint {border:1px solid #dbdbdb; color: #888; cursor: pointer; font-size: 14px; font-weight: 600; padding: 10px 15px; text-decoration: none; display: inline-block; }
+.showpageNum a:hover, .showpage a:hover, .showpagePoint {background:#0088B2; color: #fff; text-decoration: none; }
+.showpageOf {display:none; margin-right:30px; margin-left:8px; }
+.showpagePoint, .showpage a, .showpageNum a { margin: 0 3px 0 0; }
+*/
+.instagram li{float:left; height:100px; list-style:none; width:31.6%; margin:0 !important; padding:0 6px 6px 0 !important;}
+.instagram img{height:100%; width:100%; transition:all .3s ease-out;}
+.instagram img:hover, .PopularPosts ul li img:hover, .related-post img:hover{opacity:0.7; }
+#footer { width: 100%; color: #333; font-size: 0.85em; }
+.footer {}
+.footer h2 {/*border-bottom: 1px solid #999;*/ color: #3f3f3f; font-weight: bold; font-size: 17.1px; margin: 0 0 15px; padding: 6px 0; text-transform: uppercase; text-align: center;}
+.footer h2 span{/*bottom: -2px; color: #222;*/ border-bottom: 3px solid #eee; padding: 6px;}
+.footer .widget{ clear: both; margin: 0px 0px; }
+.footer ul{ margin:0; padding:0; list-style:none; }
+.footer li{ margin: 0 0 0 5px; padding: 0 0 5px; text-transform: capitalize; list-style:none;}
+.mage1{background:#fafafa; border-top:1px solid #efefef; padding:20px 0 20px;}
+.mage1 .container {max-width: 1170px;}
+.footer .widget-content ul li::before, #breadcrumbs ul li::before {transform: rotate(-90deg); }
+.footer .widget-content ul li::before {margin:8px 0 0 -11px;}
+.footer .list-label-widget-content ul li a{color: #555 !important; border-radius: 30px;}
+.footer .list-label-widget-content ul li a:hover{color: white !important; opacity:.8; transition: background .09s;}
+.footer .list-label-widget-content ul span{display:inline-block; background:#333; color:white; line-height:12px; margin:0 3px 3px 0; padding:12px 17px;}
+.follow-by-email-address {padding:3px 0 3px 10px; width:97% !important; border:1px solid #ccc !important; outline:0;}
+#breadcrumbs ul li::before { margin:9px 0 0 0px;}
+.footer-credits { padding: 0px 0; color: #222; font-size: 0.85em; }
+.footer-credits .attribution {  }
+#footer a, .footer-credits a { color:#525252; }
+#footer a:hover, .footer-credits a:hover { color: #111; }
+.mage2{background:#efefef; padding:22px 20px; display:none;}
+.mage2 a{color: #525252;}
+.mage2 a:hover{color: #111; border-bottom: 1px solid #111;}
+.deen{float:right;}
+.form-go{ border: medium none; box-shadow: none; color: #fff; cursor: pointer; float: right; font-size: 13px; font-weight: 700; height: 40px; line-height: 18px; margin: -40px 0 0; padding: 10px 15px; position: relative; text-transform: uppercase; transition: all 0.2s ease-in-out 0s; z-index: 5;}
+.form-bar{background-color: #505050; border: medium none; color: #808080; float: left;    font-size: 13px; font-weight: 600; height: 20px; line-height: 18px; margin-top: 15px; padding: 10px 14px; position: relative;  transition: all 0.2s ease-in-out 0s; width: 85%; z-index: 1;}
+.related-post{ margin:10px 0 0 15px; float:left; width: 32%; min-height:50px; position:relative; }
+.related-title{ background: #fdfdfd; color: #222; font-size: 15px; line-height: 16px;  min-height: 18px; padding: 11px 14px 11px; text-align: left; width: 90%; border-top-right-radius: 5px; border-bottom-right-radius: 5px; position: absolute; border: 1px solid #f5f5f5; border-left: 5px solid #f4f4f4; transition: .2s;}
+.related-title:hover{ background: #f9f9f9; border-color: #f9f9f9; border-left-color: #f4f4f4; transition: .2s;}
+h3.kate{font-size:18px; text-transform:uppercase; margin-top:30px;}
+.related-post img{transition:all .3s ease-out; height: 100%; width: 100%; display: none;}
+.related-post:first-child{margin-left:0px;}
+.kate{margin-top:25px !important;}
+#comments{clear:both;margin-top:20px;line-height:1em;padding:20px; /*border:1px solid #e6e6e6;*/}
+#comments h3{display:inline;line-height:20px;margin-bottom:20px;margin-top:-20px;margin-left:-20px;font-family:&#39;Open Sans&#39;,sans-serif;font-size:14px;position:absolute;background:#fff;color:#777;font-weight:700;text-transform:uppercase;padding:10px 20px 10px 50px;border:1px solid #e6e6e6;border-top:none;border-left:none;}
+#comments h3:before {font-family:fontawesome;content:"\f086"; margin-right:10px;font-size:20px;padding:10px 15px;position:absolute;left:0;top:0;font-weight:normal;}
+#comments h3:after {content:': ';}
+#comments .click-comment{background:#fff;color:#444;float:right;text-decoration:underline;display:inline;line-height:20px;margin-bottom:20px;margin-top:-20px;margin-right:-20px;font-family:&#39;Open Sans&#39;,sans-serif;font-size:14px;font-weight:700;text-transform:uppercase;padding:10px 20px; /*border:1px solid #e6e6e6;border-top:none;border-right:none;*/}
+#comments .click-comment:hover{background:#fafafa;color:#222;}
+.comment_avatar_wrap{border-radius:10%;width:46px;height:46px;border:none;background:none;text-align:center;padding:0;overflow:hidden;}
+#comments .comment_avatar {border-radius:10%;width:46px;height:46px;max-width:46px;max-height:46px;background:#f9f9f9;padding:4px;text-align:center;position:absolute;top:0;left:0;overflow:hidden;}
+#comments .comment_admin .comment_avatar{border-radius:10%;width:46px;height:46px;max-width:46px;max-height:46px;padding:4px;text-align:center;position:absolute;top:0;left:0;overflow:hidden;}
+#comments .comment_avatar img {border-radius:10%;width:46px;height:46px;max-width:46px;max-height: 46px;background:url(//4.bp.blogspot.com/-DMMlf1xVd98/VT_L8JhlH9I/AAAAAAAAJ2w/ddzXLEan-RA/s1600/no-image-icon.png) no-repeat;overflow:hidden;}
+.comment_avatar img{border-radius:10%;width:46px;height:46px;background:url(//4.bp.blogspot.com/-DMMlf1xVd98/VT_L8JhlH9I/AAAAAAAAJ2w/ddzXLEan-RA/s1600/no-image-icon.png) no-repeat;overflow:hidden;}
+.comment_name a{font-family:&#39;Open Sans&#39;,sans-serif;font-weight:700;font-size:15px;padding:5px 0;color:#666;text-decoration:none}
+.comment_child .comment_name a{color:#666;}
+.comment_child .comment_name a:hover {color:#29abe2;}
+.comment_admin .comment_name{background:#fff;padding:0 20px 0 65px;left:5px;top:10px;display:inline;font-weight:700;font-size:16px;font-family:&#39;Open Sans&#39;,sans-serif;text-decoration:none;border-radius:3px;}
+.comment_admin .comment_date{left:10px;font-weight:700;font-size:11px;}
+.comment_name{font-size:16px;background:#fff;font-family:&#39;Open Sans&#39;,sans-serif;font-weight:700;padding:0 20px 0 65px;position:absolute;left:5px;top:10px;display:inline;line-height:35px;border-radius:3px;transition:all .3s ease-out;}
+.comment_name:hover,.comment_name a:hover,.comment_admin .comment_name a:hover,.comment_admin .comment_name:hover{color:#29abe2;}
+.comment_service{position:absolute;top:31px;right:0;}
+.comment_date a{font-size:11px;font-weight:400;text-transform:none;text-decoration:initial;
+color:#666!important;text-align:center;padding:1px 6px;opacity:0.9;transition:all .3s ease-out;}
+.comment_date a:hover{color:#29abe2!important;}
+.comment-delete{font-family:&#39;Open Sans&#39;;font-size:11px;color:#666!important;opacity:0.9;}
+.comment-delete:hover{color:#29abe2!important;}
+.comment_body{margin:20px 0;padding:0;position:relative;}
+.comment_body p{line-height:1.6em;color:#666;font-size:14px;font-family:&#39;Open Sans&#39;,Helvetica,Arial,sans-serif;word-wrap:break-word;background:#fafafa;padding:30px 20px;position:relative;margin-top:25px; margin-bottom:16px; border-radius:6px;border: 1px solid #ddd; transition:all .3s ease-out;}
+.comment_body p:before, .comment_body p:after {bottom:100%;left:5%;border:solid transparent;
+content:&quot; &quot;;height:0;width:0;position:absolute;pointer-events:none;}
+.comment_body p:after {border-color:rgba(255,255,255,0);border-bottom-color:#fafafa;
+border-width:8px;margin-left:-8px;}
+.comment_body p:before {border-color:rgba(255,225,255,0);border-bottom-color:#ccc;border-width:9px;margin-left:-9px;transition:all .3s ease-out;}
+.comment_child .comment_body p{color:#666;}
+.comment_body p img{vertical-align:middle;margin:0 5px;}
+.comment_body p:hover{border: 1px solid #ccc;}
+.comment_body p:hover:before {border-bottom-color:#999;}
+.comment_inner{padding-bottom:5px;margin:5px 0}
+.comment_child .comment_wrap{padding-left:7%}
+.comment_child .comment_body{margin-top:-15px;}
+.comment_reply{display:inline-block;background:#fdfdfd;color:#999!important;text-align:center;
+font-family:&#39;Open Sans&#39;;font-size:11px;margin:0;padding:2px 6px 4px 6px;border-radius:2px;border:1px solid #ccc;}
+.comment_reply:hover{text-decoration:none!important;background:#fff;color:#444!important;border-color:#999;}
+.comment-form{width:100%;max-width:100%;margin-bottom:10px;padding:0;}
+.comment_form a{text-decoration:none;text-transform:uppercase;font-weight:700;font-family:Arial,Helvetica,sans-serif;font-size:15px;color:#666}
+#comment-editor{width:103% !important; height:245px; background:url(&#39;http://4.bp.blogspot.com/-jSUS8v5kwpQ/U8Z_6Ufr-PI/AAAAAAAAEYY/o4cQPKvt8vQ/s1600/loading.gif&#39;) no-repeat 50% 25%;position:relative;margin-left:-8px;margin-top:2px}
+.comment_reply_form{padding:0 0 0 7%}
+.comment_reply_form .comment-form{width:100%}
+.comment_youtube{max-width:100%!important;width:400px;height:225px;display:block;margin:auto}
+.comment_img{max-width:100%!important}
+#respond{overflow:hidden;padding-left:10px;clear:both}
+.unneeded-paging-control,.comment_author_flag{display:none}
+.comment_child .comment_admin .comment_author_flag {color:#fff;}
+.spammer-detected{font-size:14px!important;color:#fff!important;background:#5cb0d8!important;margin:25px;
+display:inline-block;padding:10px 15px!important;}
+.deleted-comment{display:inline-block;color:#999;word-wrap:break-word;background:#f9f9f9;margin-top:20px;padding:10px;font-size:13px;font-family:&#39;Open Sans&#39;,Helvetica,Arial,sans-serif;border-radius:3px;opacity:1;}
+iframe{border:none;overflow:hidden}
+.paging-control-container{text-align:center;margin:0 0 0 25%;}
+.paging-control-container a{text-align:center;margin:0 auto;background:#666;padding:5px 10px;
+color:#fff;transition:all .3s ease-out}
+.paging-control-container a:hover{background:#e6ae48;color:#fff;}
+.comment_header {padding:0;}
+.comment_child .comment_header {padding:0;}
+.comment_admin .comment_author_flag {background:#2e9dd4; display:inline;font-family:&#39;Open Sans&#39;;font-size:10px;font-weight:400;color:#fff;text-align:center;position:relative;padding:4px 6px;line-height:normal;border-radius:2px;margin-left:10px;}
+h2.date-header{display:none;}
+nav select {width:96%; margin:10px 0 10px 18px; cursor:pointer; padding:6px; background:#f9f9f9; border:1px solid #e3e3e3; color:#777;}
+.auth-panel {margin:40px 0 15px; padding:20px 15px; color:; background:#f9f9f9; overflow:hidden; }
+.auth-panel h4{color:#111; display: block; font-size: 19px; font-weight: 400; margin-bottom:12px; padding-bottom:2px; border-bottom:0.5px solid #bbbdbd; }
+.auth-panel p {line-height: 1.7;}
+.auth-panel img {float: left;  margin:33px 18px 0 0; width:90px; height:auto; border-radius:1000px;}
+.auth-panel h4 a i{margin-left:5px; color:#111;}
+.sub-dd{/*border: 1px solid rgb(204, 204, 204);*/ padding: 6px 0; text-align: center; font-size:14px; font-style: italic; font-family: Georgia, serif;}
+.tob-contid{/*margin-bottom:20px;*/ margin-bottom:0px;}
+.item-control a img{}
+.sidebar h2, h4.kate{border-bottom: 2px solid #eee; color: #333333; font:bold 17px Arial,sans-serif; margin: 0 0 10px; padding: 6px 0px; position: relative; text-transform: uppercase;}
+.sidebar h2 span, h4.kate span {border-bottom: 2px solid #009CCC; bottom: -2px; padding: 6px;}
+.sidebar h2, h4.kate {border-bottom: 0;}
+.sidebar h2 span, h4.kate span{border-bottom: 0; padding: 0;}
+.pigment {margin-bottom:15px; padding:0; position:relative; border-bottom: 2px solid #009ccc;}
+.pigment h4 {font:bold 16px Arial,sans-serif; text-transform:uppercase; margin:0 0 -2px; padding:6px 8px; display:inline-block; border-bottom: 2px solid #444;}
+.pigment h4 a,.pigment h4 a:hover {color:#333;}
+.inner-content h2 a {}
+.inner-content h2 a:hover{}
+.fa-list-ul{font-size:15px;}
+.doze li:first-child {border-bottom: 0; padding:0; float: left; width: 48%; position:relative;}
+.doze li {float: right; margin: 0 0 16px; width: 50%; overflow: hidden;}
+.doze li img {float: left; height: 100px; margin: 0 10px 0 0; overflow: hidden; width: 150px;}
+.doze li:first-child img {height: 332px; overflow: hidden; width: 100%;}
+.tob-contid1{margin:25px 0 40px;}
+li:first-child .inner-content .denz{background:rgba(0, 0, 0, 0.5); bottom:0; padding:15px; position:absolute;}
+li:first-child .inner-content .denz span, li:first-child .inner-content .denz a{color:#fff;}
+.inner-content h2{font-size:18px; line-height:1.4em; }
+.inner-content p{display:none;}
+span.post-meta {color: #aaa; font-size: 11px; padding: 10px 0;}
+.uj_thumb img:hover, .bukshan img:hover{opacity:0.7; }
+.uj_thumb img {width:100%; height:auto; transition:all .3s ease-out;}
+.ganed li:first-child{height:320px; width:48%; margin:0; position:relative;}
+.ganed li{float: left; height: 155px; margin: 0 0 10px 10px; width: 24.6%; overflow:hidden;}
+#ad-460 h2{display:none;}
+#ad-460{overflow:hidden;}
+/***** Scheme Colors *****/
+a.button,
+.form-go,
+.tabs-widget li a.tabs-widget-current,
+.taption:hover
+{background:#0088B2;}
+a.readmorebutton
+{background:transparent; /*float:right;*/ float:left; padding:0px 12px 0 0; margin-right:0px; text-transform:none; font-family: 'Open Sans', sans-serif; font-size:14px; color:#989fa4; transition:.1s; display:none;}
+/***** Scheme Hover Colors *****/
+.form-go:hover,
+a:hover.button
+{background:#666;}
+a.readmorebutton:hover
+{background:transparent; color:#009CCC; transition:.1s;}
+/***** Bootstrap *****/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#peekar button {padding:6px 9px;}
+}
+@media (max-width: 1050px) {
+/* #header {width: 25%;} */
+.main-wrapper { margin-right:330px; width:auto; }
+.sidebar-wrapper{ float: right; max-width:300px; }
+blockquote:before{margin: 2% 14px 0 0;}
+.bukshan{width: 38%;}
+.related-post{width:31.8%;}
+.ganed li:first-child{height:313px;}
+.ganed li{width:24.4%; height:151.6px;}
+.instagram li{width:30.5%}
+.footer{width:31.2%;}
+}
+@media (max-width: 1000px) {
+/* #header {width: 32%;} */
+.main-wrapper { margin-right:315px; width:auto; }
+.sidebar-wrapper{ float: right; width:300px;}
+.doze li img{width:100px; height:100px;}
+.ganed li:first-child{height:266px;}
+.ganed li{width:24.2%; height:128px;}
+.footer{width:30%;}
+.related-post{width:31.6%;}
+.footer-credits .attribution{text-align:center;}
+.deen{float:none;}
+}
+@media (max-width: 950px) {
+}
+@media (max-width: 800px) {
+.menu,.Pagemenu {display: none;}
+.resp-desk,.resp-desk1 {display: block; margin-top:0px;}
+.mainWrap {width: 768px;}
+nav {margin: 0; background: none;}
+.social-ico{float:right; margin-right:13px;}
+.menu{float:none;}
+.menu,.Pagemenu{}
+.menu li,.Pagemenu li {display: block; margin: 0;}
+.menu ul li a{margin-left:25px;}
+.menu li a,.Pagemenu li a {background: #fbfbfb; border:0; color: #909090;}
+.menu li a:hover,.menu li:hover>a,.Pagemenu li a:hover,.menu ul li a:hover,.menu ul li:hover>a {background: #F6F6F6; color: #909090;}
+.menu ul {visibility: hidden; opacity: 0; top: 0; left: 0; width: 100%; transform: initial;}
+.menu li:hover>ul {visibility: visible; opacity: 1; position: relative; transform: initial;}
+.menu ul ul {left: 0; transform: initial;}
+.menu li>ul ul:hover {transform: initial;}
+.with-ul::after,.menu ul::after{display:none;color:#909090; border-bottom-color:#909090;}
+.menu li::after{height:0;}
+#peekar{padding:0; margin:15px 0 25px 5px; float:none;}
+.social-ico{margin:-40px 12px 0 0;}
+}
+@media (max-width: 800px) {
+/* #header {width: 45%;} */
+.header-right {display:block; }
+.ct-wrapper{ padding:0 0px;}
+.main-wrapper { margin-right:0px; width:auto; }
+.sidebar-wrapper{float:left;}
+.bukshan{width: 40%;}
+.footer {width: 90%;}
+.related-post{width:31.8%; margin-bottom:8px;}
+}
+@media (max-width: 700px) {
+/* #header{ float: none; text-align: center; margin-left:0; width: 100%;}
+#header h1 a, #header h2 a{ border-width: 0px; }
+#header h1 a:hover,#header h2 a:hover{ border-width: 0px; }
+*/
+#header h1 a, #header h2 a{ line-height: 45px; }
+.header-right{display:none;}
+.sidebar-wrapper{}
+.main-wrapper {width: 100%;}
+.bukshan{width: 38%;}
+.related-post:last-child{margin-left:0;}
+.footer {width: 100%;}
+/* HIDE ANGULAR BRACKETS OF SITE LOGO: */
+.angbrac{display:none;}
+}
+@media (max-width: 600px) {
+}
+@media (max-width: 500px) {
+.bukshan {width: 40%; height:130px; margin-right:8px;}
+.doze li:first-child, .doze li{width:100%;}
+.ganed li:first-child{width:100%;}
+.ganed li{margin:6px 6px 0px 0; width:40%;}
+.sit{display:none;}
+}
+@media (max-width: 400px) {
+.bukshan {width: 40%; height:120px;}
+.related-post{width:100%; margin-bottom:8px; margin-left:0;}
+.related-post:last-child{margin-left:0;}
+#header h1, #header h2 {/*font-size: 3.0em;*/}
+.header-wrapper {margin-bottom: 5px;}
+.main-nav {font-size: 16px !important;}
+.main-nav i {font-size: 12px !important;}
+.main-nav .tooltiptext {font-size: 12px !important;}
+}
+@media (max-width: 300px) {
+/* #header img{width:100%;} */
+.sidebar-wrapper{width:200px;}
+.lefter{margin-left:0; margin-right:0;}
+#header h1, #header h2 {/*font-size: 2.0em;*/ letter-spacing: normal;}
+#header h1 a, #header h2 a{ line-height: 50px; }
+.titlewrapper img {display: none;}
+.main-nav {font-size: 12px !important;}
+.main-nav i {font-size: 10px !important;}
+.main-nav .tooltiptext {font-size: 10px !important;}
+}
+@media (max-width: 260px) {
+#peekar, .social-ico{display:none;}
+.bukshan{width:100%; margin-bottom:5px;}
+.doze li img{width:100%;}
+.ganed li:first-child{height:208px;}
+.ganed li{width:100%;}
+}
+/* PAGE NUMBER NAVIGATION STYLE: (SCRIPT AT THE END OF BODY) */
+/* CREDIT: http://helplogger.blogspot.in/2014/04/how-to-add-numbered-page-navigation-widget-for-blogger.html */
+#blog-pager {clear:both; margin:30px auto; text-align:center; padding:7px;}
+.blog-pager {background:none;}
+.displaypageNum a,.showpage a,.pagecurrent {font-size:14px; padding:5px 12px 6px; margin-right:5px; color:#666; background-color:#eee; border-radius:100px;}
+.displaypageNum a:hover,.showpage a:hover, .pagecurrent { background:#e0e0e0; text-decoration:none; color:#111; transition:.2s;}
+#blog-pager .pagecurrent {font-weight:bold; color:#fefefe; background:#888;}
+.showpageOf {display:none !important;}
+#blog-pager .pages {border:none;}
+
+--></style>
+<style type="text/css">
+
+.post-body h1 { font-size: 44px; line-height: 34px; margin: 10px 0; }
+.post-body h2 { font-size: 24px; line-height: 40px; margin: 10px 0; }
+.post-body h3 { font-size: 20px; line-height: 34px; margin: 10px 0; }
+.post-body h4 { font-size: 26px; line-height: 36px; margin: 10px 0; }
+.post-body h5 { font-size: 24px; line-height: 34px; margin: 10px 0; }
+.post-body h6 { font-size: 18px; line-height: 24px; margin: 10px 0; }
+
+@media screen and (min-width: 240px){
+.in-lefter{margin:0 2px;}
+
+}
+
+
+@media screen and (min-width: 320px){
+.in-lefter{margin:0 10px;}
+
+}
+
+
+@media screen and (min-width: 1024px) {
+
+
+}
+
+</style>
+<style type="text/css">
+.post-body ol,.post-body ul { padding: 10px 0 20px;  margin: 0 0 0 25px;  text-align: left;  }
+.post-body ol li { list-style-type: decimal;  padding:0 0 5px;  }
+.post-body ul li { list-style-type: square;  padding: 0 0 5px;  }
+.post-body img{max-width:89%; height:auto;}
+</style>
+<style type="text/css">
+.ct-wrapper{background:#fff;}
+</style>
+<script type="text/javascript">
+
+//<![CDATA[
+
+
+var relatedTitles = new Array();
+var relatedTitlesNum = 0;
+var relatedUrls = new Array();
+var thumburl = new Array();
+var summary = 36;
+
+function stripHtmlTags(e, r) {
+    return e["replace"](/<.*?>/gi, "")["split"](/\s+/)["slice"](0, r - 1)["join"](" ")
+}
+function bintiz(e, r, t, s, i) {
+    var n = t,
+        r = r,
+        l = document["getElementById"](e),
+        m = l["innerHTML"];
+    if (/<!--\s*more\s*-->/ ["test"](m)) {
+        l["innerHTML"] = getSummaryLikeWP(e)
+    } else {
+        {
+            var c = ""
+        }
+        var o = "<p>" + stripHtmlTags(m, summary) + "... </p>";
+        l["innerHTML"] = o;
+    };
+}
+function related_results_labels_thumbs(e) {
+    for (var t = 0; t < e.feed.entry.length; t++) {
+        var l = e.feed.entry[t];
+        relatedTitles[relatedTitlesNum] = l.title.$t;
+        try {
+            thumburl[relatedTitlesNum] = l.gform_foot.url
+        } catch (r) {
+            s = l.content.$t, a = s.indexOf("<img"), b = s.indexOf('src="', a), c = s.indexOf('"', b + 5), d = s.substr(b + 5, c - b - 5), thumburl[relatedTitlesNum] = -1 != a && -1 != b && -1 != c && "" != d ? d : "http://1.bp.blogspot.com/-QjSndGbF0No/T-Nt3HgKsDI/AAAAAAAAG9o/cN6_Oy306rc/s1600/no-video.gif"
+        }
+        relatedTitles[relatedTitlesNum].length > 80 && (relatedTitles[relatedTitlesNum] = relatedTitles[relatedTitlesNum].substring(0, 80) + "...");
+        for (var i = 0; i < l.link.length; i++) "alternate" == l.link[i].rel && (relatedUrls[relatedTitlesNum] = l.link[i].href, relatedTitlesNum++)
+    }
+}
+function removeRelatedDuplicates_thumbs() {
+    for (var e = new Array(0), t = new Array(0), l = new Array(0), r = 0; r < relatedUrls.length; r++) contains_thumbs(e, relatedUrls[r]) || (e.length += 1, e[e.length - 1] = relatedUrls[r], t.length += 1, l.length += 1, t[t.length - 1] = relatedTitles[r], l[l.length - 1] = thumburl[r]);
+    relatedTitles = t, relatedUrls = e, thumburl = l
+}
+function contains_thumbs(e, t) {
+    for (var l = 0; l < e.length; l++) if (e[l] == t) return !0;
+    return !1
+}
+function printRelatedLabels_thumbs() {
+    for (var e = 0; e < relatedUrls.length; e++) relatedUrls[e] != currentposturl && relatedTitles[e] || (relatedUrls.splice(e, 1), relatedTitles.splice(e, 1), thumburl.splice(e, 1), e--);
+    var t = Math.floor((relatedTitles.length - 1) * Math.random()),
+        e = 0;
+    for (relatedTitles.length > 0 && document.write('<h4 class="kate"><span>' + relatedpoststitle + "</span></h4>"), document.write('<div class="delate"/>'); e < relatedTitles.length && 20 > e && e < maxresults;) document.write('<a class="related-post'), document.write(0 != e ? '"' : '"'), document.write(' href="' + relatedUrls[t] + '"><img src="' + thumburl[t] + '"/><div class="related-title">' + relatedTitles[t] + "</div></a>"), t < relatedTitles.length - 1 ? t++ : t = 0, e++;
+    document.write("</div>"), relatedUrls.splice(0, relatedUrls.length), thumburl.splice(0, thumburl.length), relatedTitles.splice(0, relatedTitles.length)
+}
+$(document).ready(function() {
+    var touch = $('#duled');
+    var menu = $('.menu');
+    $(touch).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+    });
+    $(window).resize(function() {
+        var w = $(window).width();
+        if (w > 800 && menu.is(':hidden')) {
+            menu.removeAttr('style');
+        }
+    });
+});
+$(document).ready(function() {
+    var touch = $('#duled1');
+    var menu = $('.Pagemenu');
+    $(touch).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+    });
+    $(window).resize(function() {
+        var w = $(window).width();
+        if (w > 800 && menu.is(':hidden')) {
+            menu.removeAttr('style');
+        }
+    });
+});
+
+function ShowPost1(_19) {
+    (function(_4) {
+        var _0 = {
+            blogURL: "",
+            MaxPost: 5,
+            idcontaint: "",
+            FirstImageSize: 300,
+            ImageSize: 300,
+            Summarylength: 90,
+            animated: false,
+            loadingClass: "loadingz",
+            pBlank: "http://2.bp.blogspot.com/-RFdFqW5Klsc/UitLuFMcVxI/AAAAAAAADpM/y5UnpsxUSrc/s1600/noimgs.jpg",
+            MonthNames: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+            tagName: false
+        };
+        _0 = _4["extend"]({}, _0, _19);
+        var _8 = _4(_0["idcontaint"]);
+        _8["html"]("<div class=\"box-content\"><ul></ul></div>")["addClass"](_0["loadingClass"]);
+        _4["get"]((_0["blogURL"] === "" ? window["location"]["protocol"] + "//" + window["location"]["host"] : _0["blogURL"]) + "/feeds/posts/summary" + (_0["tagName"] === false ? "" : "/-/" + _0["tagName"]) + "?max-results=" + _0["MaxPost"] + "&orderby=published&alt=json-in-script", function(_21) {
+            var _9, _10, _6, _20, _3, _14, _7, _15, _17, _11, _16, _5, _22, _18, _13 = "",
+                _2 = _21["feed"]["entry"];
+            for (var _1 = 0; _1 < _2["length"]; _1++) {
+                for (var _12 = 0; _12 < _2[_1]["link"]["length"]; _12++) {
+                    if (_2[_1]["link"][_12]["rel"] == "alternate") {
+                        _9 = _2[_1]["link"][_12]["href"];
+                        break
+                    }
+                };
+                for (var _5 = 0; _5 < _12; _5++) {
+                    if (_2[_1]["link"][_5]["rel"] == "replies" && _2[_1]["link"][_5]["type"] == "text/html") {
+                        _20 = _2[_1]["link"][_5]["title"]["split"](" ")[0];
+                        break
+                    }
+                };
+                if ("media$thumbnail" in _2[_1]) {
+                    _3 = _2[_1]["media$thumbnail"]["url"]
+                } else {
+                    _3 = _0["pBlank"]
+                };
+                if ("content" in _2[_1]) {
+                    _6 = _2[_1]["content"]["$t"]
+                } else {
+                    if ("summary" in _2[_1]) {
+                        _6 = _2[_1]["summary"]["$t"]
+                    } else {
+                        _6 = ""
+                    }
+                };
+                _6 = _6["replace"](/<\S[^>]*>/g, "");
+                if (_6["length"] > _0["Summarylength"]) {
+                    _6 = _6["substring"](0, _0.Summarylength) + "..."
+                };
+                if (_2[_1] === _2[0]) {
+                    _3 = _3["replace"](/\/s[0-9]+\-c/g, "/s" + _0["FirstImageSize"] + "-p");
+                    if (_3["indexOf"]("i.ytimg.com/vi/") != -1) {
+                        _3 = _3["replace"]("default", "0")
+                    };
+                    _7 = "<p>" + _6 + "</p>"
+                } else {
+                    _3 = _3["replace"](/\/s[0-9]+\-c/g, "/s" + _0["ImageSize"] + "-p");
+                    _7 = ""
+                };
+                _10 = _2[_1]["title"]["$t"];
+                _18 = _2[_1]["author"][0]["gd$image"]["src"];
+                _5 = _2[_1]["published"]["$t"]["substring"](0, 10);
+                _15 = _5["substring"](0, 4);
+                _17 = _5["substring"](5, 7);
+                _11 = _5["substring"](8, 10);
+                _16 = _0["MonthNames"][parseInt(_17, 10) - 1];
+                _14 = "<div class=\"uj_thumb\"><a title=\"" + _10 + "\" class=\" \" href=\"" + _9 + "\"><img src=\"" + _3 + "\"/></span></a></div>";
+                j = "<a class=\"more-link\" href=\"" + _9 + "\">Read More</a>";
+                _13 += "<li><div class=\"inner-content\" >" + _14 + "<div class=\"denz\"><h2><a href=\"" + _9 + "\">" + _10 + "</a></h2><span class=\"post-meta\"> <span class=\"dd\"> <i class=\"fa fa-calendar-o\"></i> " + _11 + "</span> <span class=\"dm\">" + _16 + "</span> <span class=\"dy\">" + _15 + "  - </span>  <span class=\"comt\"> <i class=\"fa fa-comment-o\"></i> " + _20 + " comment</span>  </span></div>" + _7 + "</div></li>"
+            };
+            _4("ul", _8)["append"](_13);
+            _4(_0["idcontaint"] + "  li:first-child .uj_thumb")["hover"](function() {
+                _4(_0["idcontaint"])["find"](".nb_slide_icon ")["stop"]()["animate"]({
+                    top: 0
+                }, {
+                    queue: false,
+                    duration: 300
+                })
+            }, function() {
+                _4(_0["idcontaint"])["find"](".nb_slide_icon ")["stop"]()["animate"]({
+                    top: "-60px"
+                }, {
+                    queue: false,
+                    duration: 300
+                })
+            });
+            _8["removeClass"](_0["loadingClass"])
+        }, "jsonp")
+    })(jQuery)
+};
+
+
+//]]>  
+
+$(document).ready(function(){$(".footer h2").wrapInner("<span></span>");});
+$(document).ready(function(){$(".sidebar h2").wrapInner("<span></span>");});
+$(document).ready(function() {$(document).on("click", '.bitz', function() {if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {var text = $(this).attr("data-text");var url = $(this).attr("data-href");var message = encodeURIComponent(text) + " - " + encodeURIComponent(url);var whatsapp_url = "whatsapp://send?text=" + message;window.location.href = whatsapp_url;} else {alert("This function works on Mobile Device only");}});});
+$(document).ready(function() {$('.PopularPosts img').attr('src', function(i, src) {return src.replace( 's72-c', 's400' );});});
+
+</script>
+<!-- GETSITECONTROL.COM INCLUSION SCRIPT: -->
+<script>
+  (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
+    t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
+  })(window, document, '_gscq','script','//widgets.getsitecontrol.com/51991/script.js');
+</script>
+<!-- SYNTAX HIGHLIGHTER - FOR CODE SNIPPETS IN BLOG: (To write code (e.g. in C/C++), just enclose in tags <pre class="brush:cpp; code"> ... </pre>) -->
+<!-- NOT WORKING ANYMORE, LOOKING FOR A FIX: -->
+<!-- shCore.js -->
+<script src="./The many different ways of swapping two numbers - Geek Factorial_files/shCore.js"></script>
+<!-- shBrushCpp.js -->
+<script src="./The many different ways of swapping two numbers - Geek Factorial_files/shBrushCpp.js" type="text/javascript"></script>
+<!-- shBrushJava.js -->
+<script src="./The many different ways of swapping two numbers - Geek Factorial_files/shBrushJava.js" type="text/javascript"></script>
+<!-- shBrushXml.js -->
+<script src="./The many different ways of swapping two numbers - Geek Factorial_files/shBrushXml.js" type="text/javascript"></script>
+<!-- shBrushCss.js -->
+<script src="./The many different ways of swapping two numbers - Geek Factorial_files/shBrushCss.js" type="text/javascript"></script>
+<!-- shCoreEclipse_Modified.css -->
+<style>
+/**
+ * SyntaxHighlighter
+ * http://alexgorbatchev.com/SyntaxHighlighter
+ *
+ * SyntaxHighlighter is donationware. If you are using it, please donate.
+ * http://alexgorbatchev.com/SyntaxHighlighter/donate.html
+ *
+ * @version
+ * 3.0.83 (July 02 2010)
+ * 
+ * @copyright
+ * Copyright (C) 2004-2010 Alex Gorbatchev.
+ *
+ * @license
+ * Dual licensed under the MIT and GPL licenses.
+ */
+.syntaxhighlighter a,
+.syntaxhighlighter div,
+.syntaxhighlighter code,
+.syntaxhighlighter table,
+.syntaxhighlighter table td,
+.syntaxhighlighter table tr,
+.syntaxhighlighter table tbody,
+.syntaxhighlighter table thead,
+.syntaxhighlighter table caption,
+.syntaxhighlighter textarea {
+  -moz-border-radius: 0 0 0 0 !important;
+  -webkit-border-radius: 0 0 0 0 !important;
+  background: none !important;
+  border: 0 !important;
+  bottom: auto !important;
+  float: none !important;
+  height: auto !important;
+  left: auto !important;
+  line-height: 1.1em !important;
+  margin: 0 !important;
+  outline: 0 !important;
+  overflow: visible !important;
+  padding: 0 !important;
+  position: static !important;
+  right: auto !important;
+  text-align: left !important;
+  top: auto !important;
+  vertical-align: baseline !important;
+  width: auto !important;
+  box-sizing: content-box !important;
+  font-family: Consolas, Inconsolata, "Bitstream Vera Sans Mono", "Courier New", Courier, monospace, sans-serif !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-size: .99em !important;
+  min-height: inherit !important;
+  min-height: auto !important;
+}
+
+.syntaxhighlighter {
+  width: 100% !important;
+  margin: 1em 0 1em 0 !important;
+  position: relative !important;
+  overflow: auto !important;
+  font-size: 0.99em !important;
+}
+.syntaxhighlighter.source {
+  overflow: hidden !important;
+}
+.syntaxhighlighter .bold {
+  font-weight: bold !important;
+}
+.syntaxhighlighter .italic {
+  font-style: italic !important;
+}
+.syntaxhighlighter .line {
+  white-space: pre !important;
+}
+.syntaxhighlighter table {
+  width: 100% !important;
+}
+.syntaxhighlighter table caption {
+  text-align: left !important;
+  padding: .5em 0 0.5em 1em !important;
+}
+.syntaxhighlighter table td.code {
+  width: 100% !important;
+}
+.syntaxhighlighter table td.code .container {
+  position: relative !important;
+}
+.syntaxhighlighter table td.code .container textarea {
+  box-sizing: border-box !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  border: none !important;
+  background: white !important;
+  padding-left: 1em !important;
+  overflow: hidden !important;
+  white-space: pre !important;
+}
+.syntaxhighlighter table td.gutter .line {
+  text-align: right !important;
+  padding: 0 0.5em 0 0.1em !important;
+}
+.syntaxhighlighter table td.code .line {
+  padding: 0 1em !important;
+}
+.syntaxhighlighter.nogutter td.code .container textarea, .syntaxhighlighter.nogutter td.code .line {
+  padding-left: 0em !important;
+}
+.syntaxhighlighter.show {
+  display: block !important;
+}
+.syntaxhighlighter.collapsed table {
+  display: none !important;
+}
+.toolbar {
+   visibility: hidden;
+}
+.syntaxhighlighter.collapsed .toolbar {
+  padding: 0.1em 0.8em 0em 0.8em !important;
+  font-size: 1em !important;
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+}
+.syntaxhighlighter.collapsed .toolbar span {
+  display: inline !important;
+  margin-right: 1em !important;
+}
+.syntaxhighlighter.collapsed .toolbar span a {
+  padding: 0 !important;
+  display: none !important;
+}
+.syntaxhighlighter.collapsed .toolbar span a.expandSource {
+  display: inline !important;
+}
+.syntaxhighlighter .toolbar {
+  position: absolute !important;
+  right: 1px !important;
+  top: 1px !important;
+  width: 11px !important;
+  height: 11px !important;
+  font-size: 10px !important;
+  z-index: 10 !important;
+}
+.syntaxhighlighter .toolbar span.title {
+  display: inline !important;
+}
+.syntaxhighlighter .toolbar a {
+  display: block !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  padding-top: 1px !important;
+}
+.syntaxhighlighter .toolbar a.expandSource {
+  display: none !important;
+}
+.syntaxhighlighter.ie {
+  font-size: .9em !important;
+  padding: 1px 0 1px 0 !important;
+}
+.syntaxhighlighter.ie .toolbar {
+  line-height: 8px !important;
+}
+.syntaxhighlighter.ie .toolbar a {
+  padding-top: 0px !important;
+}
+.syntaxhighlighter.printing .line .number {
+  color: #bbbbbb !important;
+}
+.syntaxhighlighter.printing .line .content {
+  color: black !important;
+}
+.syntaxhighlighter.printing .toolbar {
+  display: none !important;
+}
+.syntaxhighlighter.printing a {
+  text-decoration: none !important;
+}
+.syntaxhighlighter.printing .plain, .syntaxhighlighter.printing .plain a {
+  color: black !important;
+}
+.syntaxhighlighter.printing .comments, .syntaxhighlighter.printing .comments a {
+  color: #008200 !important;
+}
+.syntaxhighlighter.printing .string, .syntaxhighlighter.printing .string a {
+  color: blue !important;
+}
+.syntaxhighlighter.printing .keyword {
+  color: #006699 !important;
+  font-weight: bold !important;
+}
+.syntaxhighlighter.printing .preprocessor {
+  color: gray !important;
+}
+.syntaxhighlighter.printing .variable {
+  color: #aa7700 !important;
+}
+.syntaxhighlighter.printing .value {
+  color: #009900 !important;
+}
+.syntaxhighlighter.printing .functions {
+  color: #ff1493 !important;
+}
+.syntaxhighlighter.printing .constants {
+  color: #0066cc !important;
+}
+.syntaxhighlighter.printing .script {
+  font-weight: bold !important;
+}
+.syntaxhighlighter.printing .color1, .syntaxhighlighter.printing .color1 a {
+  color: gray !important;
+}
+.syntaxhighlighter.printing .color2, .syntaxhighlighter.printing .color2 a {
+  color: #ff1493 !important;
+}
+.syntaxhighlighter.printing .color3, .syntaxhighlighter.printing .color3 a {
+  color: red !important;
+}
+.syntaxhighlighter.printing .break, .syntaxhighlighter.printing .break a {
+  color: black !important;
+}
+
+.syntaxhighlighter {
+  background-color: white !important;
+}
+.syntaxhighlighter .line.alt1 {
+  background: #fcfcfc /*url('https://1.bp.blogspot.com/-jW5W6kovBac/V6a3uQmlX_I/AAAAAAAAAcY/7VQcZOFIIVwbnT5dainn5Mvs9ZJhI0LmgCLcB/s1600/line-bg.png') repeat-x*/ !important;
+}
+.syntaxhighlighter .line.alt2 {
+  background: #fdfdfd /*url('https://1.bp.blogspot.com/-jW5W6kovBac/V6a3uQmlX_I/AAAAAAAAAcY/7VQcZOFIIVwbnT5dainn5Mvs9ZJhI0LmgCLcB/s1600/line-bg.png') repeat-x*/ !important;
+}
+.syntaxhighlighter .line.highlighted.alt1, .syntaxhighlighter .line.highlighted.alt2 {
+/*  background-color: #c3defe !important; */
+  background-color: #dfefff !important;
+}
+.syntaxhighlighter .line.highlighted.number {
+  color: white !important;
+}
+.syntaxhighlighter table caption {
+  color: black !important;
+}
+.syntaxhighlighter .gutter {
+  color: #787878 !important;
+}
+.syntaxhighlighter .gutter .line {
+  border-right: 3px solid #d4d0c8 !important;
+}
+.syntaxhighlighter .gutter .line.highlighted {
+  background-color: #d4d0c8 !important;
+  color: white !important;
+}
+.syntaxhighlighter.printing .line .content {
+  border: none !important;
+}
+.syntaxhighlighter.collapsed {
+  overflow: visible !important;
+}
+.syntaxhighlighter.collapsed .toolbar {
+  color: #3f5fbf !important;
+  background: white !important;
+  border: 1px solid #d4d0c8 !important;
+}
+.syntaxhighlighter.collapsed .toolbar a {
+  color: #3f5fbf !important;
+}
+.syntaxhighlighter.collapsed .toolbar a:hover {
+  color: #aa7700 !important;
+}
+.syntaxhighlighter .toolbar {
+  color: #a0a0a0 !important;
+  background: #d4d0c8 !important;
+  border: none !important;
+}
+.syntaxhighlighter .toolbar a {
+  color: #a0a0a0 !important;
+}
+.syntaxhighlighter .toolbar a:hover {
+  color: red !important;
+}
+.syntaxhighlighter .plain, .syntaxhighlighter .plain a {
+  color: black !important;
+}
+.syntaxhighlighter .comments, .syntaxhighlighter .comments a {
+/*  color: #3f5fbf !important; */
+  color: #ef9539 !important;
+}
+.syntaxhighlighter .string, .syntaxhighlighter .string a {
+/*  color: #2a00ff !important; */
+  color: #008000 !important;
+}
+.syntaxhighlighter .keyword {
+/*  color: #7f0055 !important; */
+  color: #8c2d8c !important;
+}
+.syntaxhighlighter .preprocessor {
+/*  color: #646464 !important; */
+  color: #4b9655 !important;
+}
+.syntaxhighlighter .variable {
+  color: #aa7700 !important;
+}
+.syntaxhighlighter .value {
+  color: #009900 !important;
+}
+.syntaxhighlighter .functions {
+/*  color: #ff1493 !important; */
+  color: #3ea4b9 !important;
+}
+.syntaxhighlighter .constants {
+  color: #0066cc !important;
+}
+.syntaxhighlighter .script {
+  font-weight: bold !important;
+  color: #7f0055 !important;
+  background-color: none !important;
+}
+.syntaxhighlighter .color1, .syntaxhighlighter .color1 a {
+  color: gray !important;
+  font-style: italic !important;
+}
+.syntaxhighlighter .color2, .syntaxhighlighter .color2 a {
+  color: #ff1493 !important;
+}
+.syntaxhighlighter .color3, .syntaxhighlighter .color3 a {
+  color: red !important;
+}
+
+.syntaxhighlighter .keyword {
+  font-weight: bold !important;
+}
+.syntaxhighlighter .xml .keyword {
+  color: #3f7f7f !important;
+  font-weight: normal !important;
+}
+.syntaxhighlighter .xml .color1, .syntaxhighlighter .xml .color1 a {
+  color: #7f007f !important;
+}
+.syntaxhighlighter .xml .string {
+  font-style: italic !important;
+  color: #2a00ff !important;
+}
+</style>
+<!-- Run Syntax Highlighter -->
+<script type="text/javascript">SyntaxHighlighter.all(); SyntaxHighlighter.config.bloggerMode = true;</script>
+<style>
+	
+	.code {
+    	font-family: Consolas, Inconsolata, 'Courier New', Courier, monospace, sans-serif;
+    	font-size: .9em;
+    	word-spacing: -.11em;
+    	color: #434;
+    	font-style: normal;
+
+    	background: #fcfcfc url('https://1.bp.blogspot.com/-jW5W6kovBac/V6a3uQmlX_I/AAAAAAAAAcY/7VQcZOFIIVwbnT5dainn5Mvs9ZJhI0LmgCLcB/s1600/line-bg.png');
+    	border: 1px solid #E3EDF3;
+    	width: 100% !important;
+    	display: block;
+    	box-sizing: border-box;
+    	overflow: auto !important;
+    	-webkit-overflow-scrolling: touch;
+    	padding: 1.5% 1.7%;
+    	margin: 1em 0;
+    	line-height: 130%;
+    	white-space: pre;
+    	border-radius: 3px;
+    }
+
+
+	.syntaxhighlighter { 
+    	overflow-y: hidden !important;
+     	overflow-x: auto !important;
+    	width: 99% !important;
+    	padding: 1.5% 0;
+    	border: 1px solid #E3EDF3;
+    	border-radius: 3px;
+    	-moz-border-radius: 3px;
+    	-webkit-border-radius: 3px;
+    	background: #fcfcfc /*url('https://1.bp.blogspot.com/-jW5W6kovBac/V6a3uQmlX_I/AAAAAAAAAcY/7VQcZOFIIVwbnT5dainn5Mvs9ZJhI0LmgCLcB/s1600/line-bg.png')*/ !important;
+		background-position: 0px 10px !important;
+	}
+
+
+    .gutter div {
+        max-width: 40px !important;
+        display: none;
+     }
+
+
+	/* OUTPUT SECTION: */
+	.output {
+    	font-family: Consolas, Inconsolata, 'Courier New', Courier, monospace, sans-serif;
+    	font-size: .93em;
+    	display: block;
+    	overflow: auto;
+    	margin: 1em 0;
+    	padding: 1.5em 0.5em 1.5em 1.5em;
+    	color: #fdfdfd;
+    	line-height: 100%;
+/*    	background: #222 url('https://1.bp.blogspot.com/-jW5W6kovBac/V6a3uQmlX_I/AAAAAAAAAcY/7VQcZOFIIVwbnT5dainn5Mvs9ZJhI0LmgCLcB/s1600/line-bg.png') !important;
+*/
+    	background: #373a2d;
+    	border-radius: 5px;
+    	-moz-border-radius: 5px;
+    	-webkit-border-radius: 5px;
+	}
+
+	</style>
+<!-- HIDING ANSWER LINK BY DEFAULT AND LATER USING JQUERY TO SHOW IT AND IMPLEMENTING FUNCTIONS FOR TOGGLING ANSWER OF PUZZLES: -->
+<style>
+    .answerlink {
+        display: none;
+    }
+    </style>
+<script type="text/javascript">
+        function Toggle(cls) {  $("."+cls).toggle(); }
+        function Show(cls)   {  $("."+cls).show();   }
+        function Hide(cls)   {  $("."+cls).hide();   }
+    </script>
+<!-- GIVING RANDOM BACKGROUND COLORS ON HOVER TO LABELS: -->
+<script>
+    $(document).ready(function(){
+
+        var labelcolors = 
+                     [ "#82b964", "#d24d33", "#2e77bb", "#4da574", "#91753b", 
+                       "#b58400", "#df620e", "#993838", "#ce8200", "#6b4389", 
+                       "#d43f3f", "#769e00", "#4ea2b7" 
+                     ];
+
+		$(".footer .list-label-widget-content ul li a").hover(function(){
+                        var randomColor = labelcolors[Math.floor(Math.random()*labelcolors.length)];
+                        $(this).css("background", randomColor);
+        });
+        
+        $(".footer .list-label-widget-content ul li a").mouseout(function(){
+                        $(this).css("background", "#eee");
+        });
+
+    });
+    </script>
+<!-- REDIRECTION FROM COUNTRY-SPECIFIC DOMAIN TO .COM DOMAIN: -->
+<script type="text/javascript">
+        /* Get the full URL of the current blogger page */
+        var blog = document.location.href.toLowerCase();
+ 
+        /* Redirect if the domain is not .com already */
+        if (!blog.match(/\.blogspot\.com/)) {
+
+            /* Replace the country level domain with .com and ncr switch */
+            blog = blog.replace(/\.blogspot\..*?\//, ".blogspot.com/ncr/");
+ 
+            /* Redirect to the new .com URL in the current tab */
+            window.location.replace(blog);
+        }
+    </script>
+<!-- DISPLAY TOOLTIPS ON HOVERING UPON (USED IN SOCIAL ICONS ON MAIN-NAV): For e.g. <div class="tooltip"> <span class="tooltiptext">I am a tooltip text</span> Div container main text. </div> -->
+<style>
+    /* Tooltip container */
+    .tooltip {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Tooltip text */
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        opacity: 0;
+        background: #444;
+        color: #fff;
+        text-align: center;
+        padding: 0px 2px;
+        border-radius: 6px;
+        font-size: 12px;
+        line-height: 20px;
+ 
+        /* Position the tooltip text to top */
+        position: absolute;
+        min-height: 20px;
+        min-width: 170px;
+        bottom: -70%;
+        left: 50%; 
+        margin-left: -85px; /* Use half of the width (170/2 = 85), to center the tooltip */
+    }
+
+    /* Arrow above the tooltip box */
+    .tooltip .tooltiptext::before {
+        content: " ";
+        position: absolute;
+        top: -50%; /* At the bottom of the tooltip */
+        left: 50%;
+        margin-left: -10px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent #444 transparent;
+    }
+
+    /* Show the tooltip text when mouse is hovered over the tooltip container */
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity .3s;
+    }
+    </style>
+<link href="./The many different ways of swapping two numbers - Geek Factorial_files/authorization.css" media="all" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;" rel="stylesheet"><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=4840603379647116080&amp;zx=3cfda50d-89e4-4895-aace-f2ea573b600f' rel='stylesheet'/></noscript>
+
+</head>
+<body>
+<div class="ct-wrapper">
+<div class="mage">
+<!-- TOP NAV: (NOT SHOWING) -->
+<!-- <nav class='top-nav'> <div class='container'> <div class='resp-desk1'><a href='#' id='duled1'><i class='fa fa-reorder'/> Pages</a> </div> <form action='/search' id='peekar'> <input name='q' placeholder='Search this site...' type='text'/> <button title='Search' type='submit'><span class='fa fa-search'/></button> </form> <ul class='Pagemenu'> <li><a expr:href='data:blog.homepageUrl'>Home</a></li> <li><a href='/p/about.html'>About</a></li> <li><a href='/p/get-in-touch.html'>Get in touch</a></li> </ul> </div> </nav> -->
+<!-- MAIN NAV: -->
+<nav class="main-nav" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+<div class="container">
+<div class="resp-desk"><a href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" id="duled"><i class="fa fa-reorder"></i> Categories</a></div>
+<div class="social-ico">
+<!-- Social Profile Icons -->
+<a class="tooltip" href="https://github.com/anirudhkhanna/" target="_blank">
+<span class="tooltiptext">Me on GitHub</span><i class="fa fa-github"></i>
+</a>
+<a class="tooltip" href="https://www.linkedin.com/in/anirudhkhanna" target="_blank">
+<span class="tooltiptext">Me on LinkedIn</span><i class="fa fa-linkedin"></i>
+</a>
+<a class="tooltip" href="http://anirudhkhanna.github.io/" target="_blank">
+<span class="tooltiptext">My engineering portfolio site</span><i class="fa fa-code"></i>
+</a>
+<a class="tooltip" href="https://wallofwonders.wordpress.com/" target="_blank">
+<span class="tooltiptext">My art &amp; design blog</span><i class="fa fa-heartbeat"></i>
+</a>
+</div>
+<ul class="menu">
+<!-- Customize Navigation Menu Here -->
+<!-- <li class='home'><a expr:href='data:blog.homepageUrl'>Home</a></li> -->
+<li><a class="with-ul" href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" itemprop="url"><span itemprop="name">Programming</span></a>
+<ul class="sub-menu">
+<li><a href="https://geekfactorial.blogspot.com/search/label/programming?&amp;max-results=15">All</a></li>
+<li><a href="https://geekfactorial.blogspot.com/search/label/algorithms?&amp;max-results=15">Algorithms</a></li>
+<li><a href="https://geekfactorial.blogspot.com/search/label/bit%20manipulation?&amp;max-results=15">Bit Manipulation</a></li>
+<li><a href="https://geekfactorial.blogspot.com/search/label/c?&amp;max-results=15">C</a></li>
+<li><a href="https://geekfactorial.blogspot.com/search/label/java?&amp;max-results=15">Java</a></li>
+</ul>
+</li>
+<li><a href="https://geekfactorial.blogspot.com/search/label/technology?&amp;max-results=15" itemprop="url"><span itemprop="name">Technology</span></a></li>
+<li><a class="with-ul" href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" itemprop="url"><span itemprop="name">Puzzles</span></a>
+<ul class="sub-menu">
+<li><a href="https://geekfactorial.blogspot.com/search/label/puzzles?&amp;max-results=15">All</a></li>
+<li><a href="https://geekfactorial.blogspot.com/search/label/lateral%20thinking?&amp;max-results=15">Lateral Thinking</a></li>
+<li><a href="https://geekfactorial.blogspot.com/search/label/brain%20teasers?&amp;max-results=15">Brain Teasers</a></li>
+<li><a href="https://geekfactorial.blogspot.com/search/label/logical%20puzzles?&amp;max-results=15">Logical Puzzles</a></li>
+<li><a href="https://geekfactorial.blogspot.com/search/label/math%20and%20number%20puzzles?&amp;max-results=15">Math &amp; Number Puzzles</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<!-- container over -->
+</nav>
+<!-- main-nav over -->
+<!-- COLORED STRIPES: -->
+<div class="stripes stripes-thin">
+<span class="stripe item1"></span><span class="stripe item2"></span><span class="stripe item3"></span>
+<span class="stripe item4"></span><span class="stripe item5"></span><span class="stripe item6"></span>
+<span class="stripe item7"></span><span class="stripe item8"></span><span class="stripe item9"></span>
+<span class="stripe item10"></span><span class="stripe item11"></span><span class="stripe item12"></span>
+<span class="stripe item13"></span><span class="stripe item14"></span><span class="stripe item15"></span>
+<span class="stripe item16"></span><span class="stripe item17"></span><span class="stripe item18"></span>
+<span class="stripe item19"></span><span class="stripe item20"></span><span class="stripe item21"></span>
+<span class="stripe item22"></span><span class="stripe item23"></span><span class="stripe item24"></span>
+<span class="stripe item25"></span><span class="stripe item26"></span><span class="stripe item27"></span>
+<span class="stripe item28"></span><span class="stripe item29"></span><span class="stripe item30"></span>
+<span class="stripe item31"></span><span class="stripe item32"></span><span class="stripe item33"></span>
+<span class="stripe item34"></span><span class="stripe item35"></span><span class="stripe item36"></span>
+<span class="stripe item37"></span><span class="stripe item38"></span><span class="stripe item39"></span>
+<span class="stripe item40"></span><span class="stripe item41"></span><span class="stripe item42"></span>
+<span class="stripe item43"></span><span class="stripe item44"></span><span class="stripe item45"></span>
+<span class="stripe item46"></span><span class="stripe item47"></span><span class="stripe item48"></span>
+<span class="stripe item49"></span><span class="stripe item50"></span>
+<span class="stripe item15"></span><span class="stripe item16"></span><span class="stripe item17"></span>
+<span class="stripe item18"></span><span class="stripe item19"></span><span class="stripe item20"></span>
+<span class="stripe item21"></span><span class="stripe item22"></span><span class="stripe item23"></span>
+<span class="stripe item24"></span><span class="stripe item25"></span><span class="stripe item26"></span>
+<span class="stripe item27"></span><span class="stripe item28"></span><span class="stripe item29"></span>
+<span class="stripe item30"></span><span class="stripe item31"></span><span class="stripe item32"></span>
+<span class="stripe item33"></span><span class="stripe item34"></span><span class="stripe item35"></span>
+<span class="stripe item36"></span><span class="stripe item37"></span><span class="stripe item38"></span>
+<span class="stripe item39"></span><span class="stripe item40"></span><span class="stripe item41"></span>
+<span class="stripe item42"></span><span class="stripe item43"></span><span class="stripe item44"></span>
+<span class="stripe item45"></span><span class="stripe item46"></span><span class="stripe item47"></span>
+<span class="stripe item48"></span><span class="stripe item49"></span><span class="stripe item50"></span>
+</div>
+</div><!-- mage -->
+<div class="clear"></div>
+<div class="container">
+<div class="header-wrapper">
+<div class="header-inner-wrap">
+<!-- SEARCH WIDGET: -->
+<form action="https://geekfactorial.blogspot.com/search" id="peekar">
+<div class="peekardiv">
+<input name="q" placeholder="Search this site..." type="text">
+<button title="Search" type="submit"><span class="fa fa-search"></span></button>
+</div>
+</form>
+<!-- SITE HEADING: -->
+<div class="header section" id="header"><div class="widget Header" data-version="1" id="Header1">
+<div id="header-inner">
+<div class="titlewrapper">
+<h1 class="title">
+<a href="https://geekfactorial.blogspot.com/" itemprop="url"><span itemprop="name">Geek Factorial</span></a><span class="semicol">;</span>
+</h1>
+</div>
+<div class="descriptionwrapper">
+<p class="description"><span>Programming problems • Geek life • Logical puzzles • &amp; more</span></p>
+</div>
+</div>
+</div></div>
+</div>
+<div class="header-right no-items section" id="header-right"></div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="clear"></div>
+<div class="outer-wrapper">
+<div class="container">
+<div class="crosscol no-items section" id="crosscol"></div><div class="clear"></div>
+</div><!--Div Container-->
+<div class="container">
+</div><!--Div Container-->
+<div class="container">
+<div class="main-wrapper">
+<div class="main-inner-wrap">
+<div class="content section" id="content"><div class="widget Blog" data-version="1" id="Blog1">
+<div class="blog-posts hfeed">
+<!--Can't find substitution for tag [defaultAdStart]-->
+
+          <div class="date-outer">
+        
+<h2 class="date-header"><span>Monday, 15 August 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class="post-outer">
+<div class="post hentry uncustomized-post-template" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+<div itemtype="https://schema.org/WebPage" itemprop="mainEntityOfPage" itemscope="itemscope"></div>
+<div itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+<meta content="https://1.bp.blogspot.com/-S4rCg9H-chM/V7Fy-fLLLjI/AAAAAAAAAfs/ehW6g-nFEwIqZ9ng0vcBy2djhTTZDH8fACLcB/s640/lets-swap-it.jpg" itemprop="url">
+<meta content="700" itemprop="width">
+<meta content="700" itemprop="height">
+</div>
+<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization" style="display:none;">
+<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+<meta content="https://plus.google.com/111865623614241220835" itemprop="url">
+<meta content="100" itemprop="width">
+<meta content="100" itemprop="height">
+</div>
+<span itemprop="name">Unknown</span>
+</div>
+<a name="8580898793592244625"></a>
+<h1 class="post-title entry-title" itemprop="name headline">
+The many different ways of swapping two numbers
+</h1>
+<div class="title-secondary">
+
+
+&nbsp;
+
+<span itemprop="dateModified"><i class="fa fa-calendar-o"></i>
+<a href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html">
+<span itemprop="datePublished" title="2016-08-15T14:00:00+05:30">Monday, August 15, 2016</span>
+</a></span>
+<span class="post-comment-link">
+
+&nbsp;&nbsp; <i class="fa fa-comment-o"></i>
+<a class="comment-link" href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#comment-form" onclick="">
+No comments
+</a>
+</span>
+</div>
+<div class="post-header">
+<div class="post-header-line-1">
+</div>
+</div>
+<div class="post-body entry-content" id="post-body-8580898793592244625">
+<div itemprop="description articleBody"><p></p><div dir="ltr" style="text-align: left;" trbidi="on">One of the most seen snippets of code is the one that swaps the values of two variables. This little job is crucial to many algorithms, and there are multiple ways of doing it. Generally, for swapping two variables we use a temporary third variable, but various other ways do not even require the help of any third variable.<br>
+<div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-S4rCg9H-chM/V7Fy-fLLLjI/AAAAAAAAAfs/ehW6g-nFEwIqZ9ng0vcBy2djhTTZDH8fACLcB/s1600/lets-swap-it.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="281" src="./The many different ways of swapping two numbers - Geek Factorial_files/lets-swap-it.jpg" width="640"></a></div>I find it very interesting that there are so many ways of doing this seemingly simple job and so, I thought to share all the ways I know of swapping two numbers...<br>
+<br>
+<b>1. The simple method using a third variable</b><br>
+<div><div id="highlighter_551788" class="syntaxhighlighter  cpp"><div class="toolbar"><span><a href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2 highlighted">7</div><div class="line number8 index7 alt1 highlighted">8</div><div class="line number9 index8 alt2 highlighted">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp preprocessor">#include &lt;stdio.h&gt;</code></div><div class="line number2 index1 alt1"><code class="cpp color1 bold">int</code> <code class="cpp plain">main()</code></div><div class="line number3 index2 alt2"><code class="cpp plain">{</code></div><div class="line number4 index3 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp color1 bold">int</code> <code class="cpp plain">a = 10, b = 5, temp;</code></div><div class="line number5 index4 alt2">&nbsp;</div><div class="line number6 index5 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp comments">// Code to swap a and b:</code></div><div class="line number7 index6 alt2 highlighted"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">temp = a;</code></div><div class="line number8 index7 alt1 highlighted"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">a = b;</code></div><div class="line number9 index8 alt2 highlighted"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">b = temp;</code></div><div class="line number10 index9 alt1">&nbsp;</div><div class="line number11 index10 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp functions bold">printf</code><code class="cpp plain">(</code><code class="cpp string">"After swapping: a = %d, b = %d"</code><code class="cpp plain">, a, b);</code></div><div class="line number12 index11 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp keyword bold">return</code> <code class="cpp plain">0;</code></div><div class="line number13 index12 alt2"><code class="cpp plain">}</code></div></div></td></tr></tbody></table></div></div><br>
+Now let's look at some methods which do not require any additional variables.<br>
+<br>
+<b>2. Using arithmetic operators + and -</b><br>
+<div><div id="highlighter_280732" class="syntaxhighlighter  cpp"><div class="toolbar"><span><a href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp plain">a = a + b;</code></div><div class="line number2 index1 alt1"><code class="cpp plain">b = a - b;</code></div><div class="line number3 index2 alt2"><code class="cpp plain">a = a - b;</code></div></div></td></tr></tbody></table></div></div>The above way works well, but it may cause arithmetic overflow when adding large numbers.<br>
+<br>
+<b>3. Using arithmetic operators * and /</b><br>
+<div><div id="highlighter_803841" class="syntaxhighlighter  cpp"><div class="toolbar"><span><a href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp plain">a = a * b;</code></div><div class="line number2 index1 alt1"><code class="cpp plain">b = a / b;</code></div><div class="line number3 index2 alt2"><code class="cpp plain">a = a / b;</code></div></div></td></tr></tbody></table></div></div>This way will not work if one of the numbers is zero, as the product becomes zero. It may also cause arithmetic overflow when multiplying large numbers.<br>
+<br>
+<b>4. Using bitwise XOR operator ^</b><br>
+<div><div id="highlighter_507575" class="syntaxhighlighter  cpp"><div class="toolbar"><span><a href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp plain">a = a ^ b;</code></div><div class="line number2 index1 alt1"><code class="cpp plain">b = a ^ b;</code></div><div class="line number3 index2 alt2"><code class="cpp plain">a = a ^ b;</code></div></div></td></tr></tbody></table></div></div>This method is perhaps a bit more efficient, because it uses bitwise operator only. It can also be written in a more compact manner like this:<br>
+<div><div id="highlighter_683999" class="syntaxhighlighter  cpp"><div class="toolbar"><span><a href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp plain">a ^= b;</code></div><div class="line number2 index1 alt1"><code class="cpp plain">b ^= a;</code></div><div class="line number3 index2 alt2"><code class="cpp plain">a ^= b;</code></div></div></td></tr></tbody></table></div></div><br>
+<b>Note:</b> When using pointers to the variables, <i>the above methods 2, 3 and 4 will fail if both the pointers point to the same variable</i>. Example: If a function to swap two variables is accepting the addresses of the two variables, then a call like <i>swap(&amp;a, &amp;a);</i> should make no effect on the value of variable a, but in the above methods (except method 1) the variable will store incorrect value. So, we need to firstly check if both the pointers are exactly the same. A good example of using the above swap methods with pointers can be like:<br>
+<div><div id="highlighter_728240" class="syntaxhighlighter  cpp"><div class="toolbar"><span><a href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp keyword bold">void</code> <code class="cpp plain">swap(</code><code class="cpp color1 bold">int</code> <code class="cpp plain">*x, </code><code class="cpp color1 bold">int</code> <code class="cpp plain">*y)</code></div><div class="line number2 index1 alt1"><code class="cpp plain">{</code></div><div class="line number3 index2 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp keyword bold">if</code><code class="cpp plain">(x != y)&nbsp;&nbsp;&nbsp; </code><code class="cpp comments">// Checking that x and y are not pointing to the same location</code></div><div class="line number4 index3 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">{</code></div><div class="line number5 index4 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">*x ^= *y;</code></div><div class="line number6 index5 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">*y ^= *x;</code></div><div class="line number7 index6 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">*x ^= *y;</code></div><div class="line number8 index7 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">}</code></div><div class="line number9 index8 alt2"><code class="cpp plain">}</code></div></div></td></tr></tbody></table></div></div><br>
+<b>5. Using bitwise XOR operator ^ in one line</b><br>
+<div><div id="highlighter_457652" class="syntaxhighlighter  cpp"><div class="toolbar"><span><a href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp plain">a ^= b ^= a ^= b;</code></div></div></td></tr></tbody></table></div></div>This is similar to method 4 but three statements have been compounded into one. Order of evaluation is from right to left.<br>
+<br>
+<b>6. Using arithmetic operators + and - in one line</b><br>
+<div><div id="highlighter_166957" class="syntaxhighlighter  cpp"><div class="toolbar"><span><a href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp plain">a = (a + b) - (b = a);</code></div></div></td></tr></tbody></table></div></div>The problem of arithmetic overflow can occur in this method.<br>
+<br>
+<b>7. Using arithmetic operators * and / in one line</b><br>
+<div><div id="highlighter_355024" class="syntaxhighlighter  cpp"><div class="toolbar"><span><a href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp plain">a = (a * b) / (b = a);</code></div></div></td></tr></tbody></table></div></div>The problem of arithmetic overflow can occur in this method. Also, it will show undefined behavior if the first number a = 0 (because that will lead to division by zero).<br>
+<br>
+<b>8. Using arithmetic operators + and - in a slightly different way</b><br>
+<div><div id="highlighter_97" class="syntaxhighlighter  cpp"><div class="toolbar"><span><a href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp plain">a = b - a;</code></div><div class="line number2 index1 alt1"><code class="cpp plain">b = b - a;</code></div><div class="line number3 index2 alt2"><code class="cpp plain">a = b + a;</code></div></div></td></tr></tbody></table></div></div>Note that the corresponding method with * and / operators does not work.<br>
+<br>
+<b>Note:</b> The methods 5, 6, 7 and 8 also work well when using pointers to the variables. But <i>methods 5 and 8 will give wrong result if the pointers point to the same location</i>.<br>
+<br>
+<b>9. Using a file as buffer</b><br>
+<div><div id="highlighter_963083" class="syntaxhighlighter  cpp"><div class="toolbar"><span><a href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp color1 bold">FILE</code> <code class="cpp plain">*fp;</code></div><div class="line number2 index1 alt1">&nbsp;</div><div class="line number3 index2 alt2"><code class="cpp functions bold">fprintf</code><code class="cpp plain">(fp = </code><code class="cpp functions bold">fopen</code><code class="cpp plain">(</code><code class="cpp string">"temp.txt"</code><code class="cpp plain">, </code><code class="cpp string">"w"</code><code class="cpp plain">), </code><code class="cpp string">"%d"</code><code class="cpp plain">, a);</code></div><div class="line number4 index3 alt1"><code class="cpp functions bold">fclose</code><code class="cpp plain">(fp);</code></div><div class="line number5 index4 alt2"><code class="cpp plain">a = b;</code></div><div class="line number6 index5 alt1"><code class="cpp functions bold">fscanf</code><code class="cpp plain">(fp = </code><code class="cpp functions bold">fopen</code><code class="cpp plain">(</code><code class="cpp string">"temp.txt"</code><code class="cpp plain">, </code><code class="cpp string">"r"</code><code class="cpp plain">), </code><code class="cpp string">"%d"</code><code class="cpp plain">, &amp;b);</code></div><div class="line number7 index6 alt2"><code class="cpp functions bold">fclose</code><code class="cpp plain">(fp);</code></div></div></td></tr></tbody></table></div></div>Of course, using such a method incurs a lot more overhead than the usual methods. Just included for theoretical purposes.<br>
+<br>
+<b>10. Using a <a href="https://geekfactorial.blogspot.com/2016/08/command-line-arguments-and-their-implementation-in-c.html">command-line-related variable</a> as buffer</b><br>
+<div><div id="highlighter_737262" class="syntaxhighlighter  cpp"><div class="toolbar"><span><a href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp color1 bold">int</code> <code class="cpp plain">main(</code><code class="cpp color1 bold">int</code> <code class="cpp plain">argc, </code><code class="cpp color1 bold">char</code> <code class="cpp plain">**argv)</code></div><div class="line number2 index1 alt1"><code class="cpp plain">{</code></div><div class="line number3 index2 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp color1 bold">int</code> <code class="cpp plain">a = 10, b = 5;</code></div><div class="line number4 index3 alt1">&nbsp;</div><div class="line number5 index4 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">argc = a;</code></div><div class="line number6 index5 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">a = b;</code></div><div class="line number7 index6 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">b = argc;</code></div><div class="line number8 index7 alt1">&nbsp;</div><div class="line number9 index8 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp functions bold">printf</code><code class="cpp plain">(</code><code class="cpp string">"After swapping: a = %d, b = %d"</code><code class="cpp plain">, a, b);</code></div><div class="line number10 index9 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp keyword bold">return</code> <code class="cpp plain">0;</code></div><div class="line number11 index10 alt2"><code class="cpp plain">}</code></div></div></td></tr></tbody></table></div></div><br>
+<b>11. Using a macro</b><br>
+<div><div id="highlighter_873075" class="syntaxhighlighter  cpp"><div class="toolbar"><span><a href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp preprocessor">#define SWAP(x, y, Type) Type temp = x; x = y; y = temp;</code></div><div class="line number2 index1 alt1">&nbsp;</div><div class="line number3 index2 alt2"><code class="cpp color1 bold">int</code> <code class="cpp plain">main()</code></div><div class="line number4 index3 alt1"><code class="cpp plain">{</code></div><div class="line number5 index4 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp color1 bold">int</code> <code class="cpp plain">a = 10, b = 5;</code></div><div class="line number6 index5 alt1">&nbsp;</div><div class="line number7 index6 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">SWAP(a, b, </code><code class="cpp color1 bold">int</code><code class="cpp plain">);</code></div><div class="line number8 index7 alt1">&nbsp;</div><div class="line number9 index8 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp functions bold">printf</code><code class="cpp plain">(</code><code class="cpp string">"After swapping: a = %d, b = %d"</code><code class="cpp plain">, a, b);</code></div><div class="line number10 index9 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp keyword bold">return</code> <code class="cpp plain">0;</code></div><div class="line number11 index10 alt2"><code class="cpp plain">}</code></div></div></td></tr></tbody></table></div></div>Its advantage is that it is generic up to some extent. The same SWAP macro will work for types like int, float and char. By using this GCC-specific extension, we can improve it further like:<br>
+<div><div id="highlighter_38847" class="syntaxhighlighter  cpp"><div class="toolbar"><span><a href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp preprocessor">#define SWAP(x, y) typeof(x) temp = x; x = y; y = temp;</code></div></div></td></tr></tbody></table></div></div>The problem with method 11 will arise when there is already a variable named temp in the program!<br>
+</div><p></p></div>
+<div style="clear: both;"></div>
+</div>
+<div class="post-footer">
+<div class="post-footer-line post-footer-line-1">
+<div id="breadcrumbs">
+<ul>
+<span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+</span>
+<li itemtype="http://data-vocabulary.org/Breadcrumb">
+<i class="fa fa-tag fa-fw"></i>
+<a href="https://geekfactorial.blogspot.com/search/label/algorithms?&amp;max-results=15" itemprop="url"><span itemprop="title">algorithms</span></a>
+</li><li itemtype="http://data-vocabulary.org/Breadcrumb">
+<i class="fa fa-tag fa-fw"></i>
+<a href="https://geekfactorial.blogspot.com/search/label/programming?&amp;max-results=15" itemprop="url"><span itemprop="title">programming</span></a>
+</li>
+</ul>
+</div>
+<div class="spinner">
+<li><a class="fb-ico" href="http://www.facebook.com/share.php?u=https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html&amp;t=The%20many%20different%20ways%20of%20swapping%20two%20numbers" target="_blank" title="Share on facebook"><i class="fa fa-facebook"></i>
+<span class="sit">Facebook</span></a></li>
+<li><a class="twi-ico" href="http://twitter.com/share?original_referer=https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html&amp;source=web&amp;text=The%20many%20different%20ways%20of%20swapping%20two%20numbers" target="_blank" title="Tweet this"><i class="fa fa-twitter"></i>
+<span class="sit">Twitter</span></a></li>
+<li><a class="go-ico" data-title="Google+" href="https://plus.google.com/share?url=https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html" target="_blank" title="Share on google+"><i class="fa fa-google"></i>
+<span class="sit">Google</span></a></li>
+<li><a class="bitz" data-href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html" data-text="The many different ways of swapping two numbers" href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html#" title="Share on whatsapp"><i class="fa fa-whatsapp"></i>
+<span class="sit">Whatsapp</span></a></li>
+</div>
+</div>
+<div class="post-footer-line post-footer-line-2">
+</div>
+<div class="post-footer-line post-footer-line-3">
+<span class="post-location">
+</span>
+</div>
+</div>
+</div>
+<div id="related-posts">
+<script src="./The many different ways of swapping two numbers - Geek Factorial_files/algorithms" type="text/javascript"></script>
+<script src="./The many different ways of swapping two numbers - Geek Factorial_files/programming" type="text/javascript"></script>
+<script type="text/javascript">
+var currentposturl="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html";
+var maxresults=3;
+var relatedpoststitle="Related Posts &#8594; ";
+removeRelatedDuplicates_thumbs();
+printRelatedLabels_thumbs();
+</script><h4 class="kate"><span>Related Posts → </span></h4><div class="delate"><a class="related-post" href="https://geekfactorial.blogspot.com/2016/08/randomized-quick-sort-algorithm.html"><img src="./The many different ways of swapping two numbers - Geek Factorial_files/randomized-pivot-in-quicksort.jpg"><div class="related-title">Randomized Quick Sort algorithm - O(n log n) worst case complexity</div></a><a class="related-post" href="https://geekfactorial.blogspot.com/2016/08/quick-sort.html"><img src="./The many different ways of swapping two numbers - Geek Factorial_files/quick-sort-working.png"><div class="related-title">Quick Sort</div></a><a class="related-post" href="https://geekfactorial.blogspot.com/2016/08/merge-sort.html"><img src="./The many different ways of swapping two numbers - Geek Factorial_files/Merge_sort_algorithm_diagram.png"><div class="related-title">Merge Sort</div></a></div>
+</div>
+<div class="clear"></div>
+<div class="auth-panel">
+<img alt="Unknown" class="author_avatar" height="96" src="./The many different ways of swapping two numbers - Geek Factorial_files/anirudhkhanna.jpg" width="96">
+<h4>About the author → 
+</h4>
+<p>
+
+
+Anirudh Khanna is a Computer Science student and a geek who firmly believes in the awesomeness of technology! He is a programmer and web designer, also keenly interested in the research of new and innovative ideas in Computer Science.</p>
+<a href="https://github.com/anirudhkhanna/" style="margin-right:15px;" target="_blank" title="Me on GitHub">
+<i class="fa fa-github"></i></a>
+<a href="https://www.linkedin.com/in/anirudhkhanna" style="margin-right:15px;" target="_blank" title="Me on LinkedIn">
+<i class="fa fa-linkedin"></i></a>
+<a href="http://anirudhkhanna.github.io/" style="margin-right:15px;" target="_blank" title="My engineering portfolio website">
+<i class="fa fa-code"></i></a>
+<a href="https://wallofwonders.wordpress.com/" style="margin-right:15px;" target="_blank" title="My art &amp; design blog">
+<i class="fa fa-heartbeat"></i></a>
+</div>
+<form action="http://feedburner.google.com/fb/a/mailverify" class="sub-dd" method="post" onsubmit="window.open(&#39;http://feedburner.google.com/fb/a/mailverify?uri=bloggertheme09&amp;loc=en_US;, &#39;popupwindow&#39;, scrollbars=yes,width=550,height=520&#39;);return true" target="popupwindow">Subscribe to Geek Factorial via email : <input name="email" style="width: 160px; background-color: rgb(255, 255, 160);" type="text">
+<input name="uri" type="hidden" value="bloggertheme09"><input name="loc" type="hidden" value="en_US"><input type="submit" value="Subscribe">
+</form>
+<div class="comments" id="comments">
+<div class="clear"></div>
+<div id="comment_block">
+</div>
+<div class="clear"></div>
+<div class="clear"></div>
+<div class="comment_form" id="comment-form">
+<div class="comment-form">
+<a name="comment-form"></a>
+<p>
+</p>
+<a href="https://www.blogger.com/comment-iframe.g?blogID=4840603379647116080&amp;postID=8580898793592244625&amp;blogspotRpcToken=5000817" id="comment-editor-src"></a>
+<iframe allowtransparency="true" class="blogger-iframe-colorize blogger-comment-from-post" frameborder="0" height="194px" id="comment-editor" name="comment-editor" src="./The many different ways of swapping two numbers - Geek Factorial_files/comment-iframe.html" width="100%" data-resized="true"></iframe>
+<!--Can't find substitution for tag [post.friendConnectJs]-->
+<script src="./The many different ways of swapping two numbers - Geek Factorial_files/1646370754-comment_from_post_iframe.js" type="text/javascript"></script>
+<script type="text/javascript">
+      BLOG_CMT_createIframe('https://www.blogger.com/rpc_relay.html', '0');
+    </script>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+       //<![CDATA[
+       if (typeof(jQuery) == 'undefined') {
+ //output the script (load it from google api)
+ document.write("<scr" + "ipt type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js\"></scr" + "ipt>");
+}
+       //]]>
+       </script>
+<script async="async" src="./The many different ways of swapping two numbers - Geek Factorial_files/comments.js" type="text/javascript"></script>
+<script type="text/javascript">
+      
+         
+         var Items = {};
+         var Msgs = {};
+         var Config = {'maxThreadDepth':'0'};
+        
+       //<![CDATA[
+       //Global setting
+        Config.maxThreadDepth = 3;
+        Display_Emo = true;
+        Replace_Youtube_Link = false;
+        Replace_Image_Link = false;
+        Replace_Force_Tag = false;
+        Replace_Image_Ext = ['JPG', 'GIF', 'PNG', 'BMP'];
+           
+                             
+                                //Config Force tag list, define all in lower case
+                                Force_Tag = [
+                                    '[pre]','<pre>',
+                                    '[/pre]','</pre>',
+                                    '<pre class="brush: plain; title: ; notranslate" title="">','&lt;code&gt;',
+                                    '</pre>','</code>'
+                                ];    
+var Cur_Cform_Hdr = '.comment_form';
+var Cur_Cform_Url = $('#comment-editor')
+    .attr('src');
+
+function trim(str) {
+    var whitespace = ' \n\r\t\f\x5b\x5d\x7c\x7d\x3c\x3e\x0b\xa0\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u200b\u2028\u2029\u3000';
+    for (var i = 0; i < str.length; i++) {
+        if (whitespace.indexOf(str.charAt(i)) != -1) {
+            str = str.substring(0, i);
+            break
+        }
+    }
+    return str
+}
+$('#comment_block .comment_body p')
+    .html(function (index, oldhtml) {
+        if (Replace_Youtube_Link) {
+            var search_key = 'http://www.youtube.com/watch?v=';
+            var check_index = oldhtml.indexOf(search_key);
+            while (check_index != -1) {
+                ht = oldhtml.substring(check_index);
+                yt_link = trim(ht);
+                var yt_code_index = yt_link.indexOf('&');
+                var yt_code = '';
+                if (yt_code_index == -1) {
+                    yt_code = yt_link.substring(search_key.length)
+                } else {
+                    yt_code = yt_link.substring(search_key.length, yt_code_index)
+                }
+                var yt_video = '<iframe class="comment_youtube" src="http://www.youtube.com/embed/' + yt_code + '?autohide=1" frameborder="0" allowfullscreen></iframe>';
+                oldhtml = oldhtml.substring(0, check_index) + yt_video + oldhtml.substring(check_index + yt_link.length);
+                check_index = oldhtml.indexOf(search_key);
+                if (check_index == -1) {
+                    search_key = 'https://www.youtube.com/watch?v=';
+                    check_index = oldhtml.indexOf(search_key)
+                }
+            }
+        }
+        if (Replace_Image_Link) {
+            var save_html = '';
+            var temp_html = oldhtml;
+            for (var i = 0; i < Replace_Image_Ext.length; i++) {
+                var search_key = '.' + Replace_Image_Ext[i];
+                var upper_html = temp_html.toUpperCase();
+                var check_index = upper_html.indexOf(search_key);
+                while (check_index != -1) {
+                    img_src = temp_html.substring(0, check_index + search_key.length);
+                    upper_html = img_src.toUpperCase();
+                    var http_search = 'HTTP://';
+                    var find_http = upper_html.indexOf(http_search);
+                    var save_http = '';
+                    while (find_http != -1) {
+                        save_http = http_search.toLowerCase();
+                        img_src = img_src.substring(find_http + http_search.length);
+                        upper_html = img_src.toUpperCase();
+                        find_http = upper_html.indexOf(http_search)
+                    }
+                    http_search = 'HTTPS://';
+                    upper_html = img_src.toUpperCase();
+                    find_http = upper_html.indexOf(http_search);
+                    while (find_http != -1) {
+                        save_http = http_search.toLowerCase();
+                        img_src = img_src.substring(find_http + http_search.length);
+                        upper_html = img_src.toUpperCase();
+                        find_http = upper_html.indexOf(http_search)
+                    }
+                    if (save_http == '' || img_src.length < 6) {
+                        break
+                    }
+                    img_src = save_http + img_src;
+                    save_html += temp_html.substring(0, check_index + search_key.length - img_src.length) + '<img src="' + img_src + '" class="comment_img"/>';
+                    temp_html = temp_html.substring(check_index + search_key.length);
+                    upper_html = temp_html.toUpperCase();
+                    check_index = upper_html.indexOf(search_key)
+                }
+            }
+            oldhtml = save_html + temp_html
+        }
+        if (Replace_Force_Tag) {
+            var length = Force_Tag.length;
+            if (length % 2 == 1) {
+                length--
+            }
+            for (var i = 0; i < length; i += 2) {
+                while (1) {
+                    var temp_html = oldhtml.toLowerCase();
+                    check_index = temp_html.indexOf(Force_Tag[i]);
+                    if (check_index != -1) {
+                        oldhtml = oldhtml.substring(0, check_index) + Force_Tag[i + 1] + oldhtml.substring(check_index + Force_Tag[i].length)
+                    } else {
+                        break
+                    }
+                }
+            }
+        }
+        return oldhtml
+    });
+$('.comment_wrap .comment_body p')
+    .html(function (i, h) {
+        temp = h.toLowerCase();
+        index = temp.indexOf('@<a href="#c');
+        if (index != -1) {
+            index_tail = temp.indexOf('</a>', index);
+            if (index_tail != -1) {
+                h = h.substring(0, index) + h.substring(index_tail + 4)
+            }
+        }
+        return h
+    });
+
+function Valid_Par_Id(par_id) {
+    r = par_id.indexOf('c');
+    if (r != -1) par_id = par_id.substring(r + 1);
+    return par_id
+}
+
+function Cform_Ins_ParID(par_id) {
+    par_id = '&parentID=' + par_id + '#%7B';
+    n_cform_url = Cur_Cform_Url.replace(/#%7B/, par_id);
+    return n_cform_url
+}
+
+function Reset_Comment_Form() {
+    html = $(Cur_Cform_Hdr)
+        .html();
+    $(Cur_Cform_Hdr)
+        .html('');
+    Cur_Cform_Hdr = '.comment_form';
+    $(Cur_Cform_Hdr)
+        .html(html);
+    $('#comment-editor')
+        .attr('src', Cur_Cform_Url)
+}
+
+function Display_Reply_Form(e) {
+    par_id = $(e)
+        .attr('id');
+    par_id = Valid_Par_Id(par_id);
+    html = $(Cur_Cform_Hdr)
+        .html();
+    if (Cur_Cform_Hdr == '.comment_form') {
+        reset_html = '<a href="#origin_cform" onclick="Reset_Comment_Form()">' + Msgs.addComment + '</a><a name="origin_cform"/>';
+        $(Cur_Cform_Hdr)
+            .html(reset_html)
+    } else {
+        $(Cur_Cform_Hdr)
+            .html('')
+    }
+    Cur_Cform_Hdr = '#r_f_c' + par_id;
+    $(Cur_Cform_Hdr)
+        .html(html);
+    $('#comment-editor')
+        .attr('src', Cform_Ins_ParID(par_id))
+}
+cur_url = window.location.href;
+search_formid = '#comment-form_';
+search_index = cur_url.indexOf(search_formid);
+if (search_index != -1) {
+    ret_id = cur_url.substring(search_index + search_formid.length);
+    Display_Reply_Form('#rc' + ret_id)
+}
+for (var i = 0; i < Items.length; i++) {
+    if ('parentId' in Items[i]) {
+        var par_id = Items[i].parentId;
+        var par_level = parseInt($('#c' + par_id + ':first')
+            .attr('level'));
+        $('#c' + par_id + ' .comment_child:first')
+            .html(function (index, oldhtml) {
+                var child_id = Items[i].id;
+                if (par_level >= Config.maxThreadDepth) {
+                    $('#c' + child_id + ':first .comment_reply')
+                        .remove()
+                }
+                var child_html = $('#c' + child_id + ':first')
+                    .html();
+                child_html = '<div class="comment_wrap" id="c' + child_id + '" level="' + (par_level + 1) + '">' + child_html + '</div>';
+                $('#c' + child_id)
+                    .remove();
+                return (oldhtml + child_html)
+            })
+    }
+}
+
+var avatar=$("#comments");
+avatar.find('.comment_avatar img').each(function() {
+        var ava = $(this).attr('src');
+        $(this).show().attr('src', ava.replace(/\/s[0-9]+(\-c)?\//,"/s100-c/"));
+});      
+//]]>
+</script>
+</div>
+
+        </div></div>
+      
+<!--Can't find substitution for tag [adEnd]-->
+</div>
+<div class="blog-pager" id="blog-pager">
+<span id="blog-pager-newer-link">
+<a class="blog-pager-newer-link" href="https://geekfactorial.blogspot.com/2016/08/passing-null-to-printf-in-c.html" id="Blog1_blog-pager-newer-link" title="Newer Post">Newer Post</a>
+</span>
+<span id="blog-pager-older-link">
+<a class="blog-pager-older-link" href="https://geekfactorial.blogspot.com/2016/08/puzzle-100-statements.html" id="Blog1_blog-pager-older-link" title="Older Post">Older Post</a>
+</span>
+<a class="home-link" href="https://geekfactorial.blogspot.com/"><i class="fa fa-home"></i></a>
+</div>
+<div class="clear"></div>
+</div></div>
+</div><!-- main-inner-wrap -->
+</div><!-- /main-wrapper -->
+<div class="sidebar-wrapper">
+<div class="sidebar section" id="sidebar"><div class="widget PopularPosts" data-version="1" id="PopularPosts2">
+<h2><span>Popular Posts</span></h2>
+<div class="widget-content popular-posts">
+<ul>
+<li>
+<a href="https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html">The many different ways of swapping two numbers</a>
+</li>
+<li>
+<a href="https://geekfactorial.blogspot.com/2016/08/some-bit-manipulation-puzzles-in-c.html">Some bit manipulation puzzles in C</a>
+</li>
+<li>
+<a href="https://geekfactorial.blogspot.com/2016/08/randomized-quick-sort-algorithm.html">Randomized Quick Sort algorithm - O(n log n) worst case complexity</a>
+</li>
+<li>
+<a href="https://geekfactorial.blogspot.com/2016/08/write-a-program-to-get-the-nth-byte-of-an-integer.html">Write a program to get the nth byte of an integer</a>
+</li>
+<li>
+<a href="https://geekfactorial.blogspot.com/2016/08/puzzle-100-statements.html">Puzzle: 100 statements</a>
+</li>
+<li>
+<a href="https://geekfactorial.blogspot.com/2016/08/command-line-arguments-and-their-implementation-in-c.html">Command line arguments and their implementation in C</a>
+</li>
+<li>
+<a href="https://geekfactorial.blogspot.com/2016/08/binary-search-in-sorted-and-shifted.html">Binary Search in sorted and shifted (rotated) array</a>
+</li>
+</ul>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="https://www.blogger.com/rearrange?blogID=4840603379647116080&amp;widgetType=PopularPosts&amp;widgetId=PopularPosts2&amp;action=editWidget&amp;sectionId=sidebar" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;PopularPosts2&quot;));" rel="nofollow" target="configPopularPosts2" title="Edit">
+<img alt="" height="18" src="./The many different ways of swapping two numbers - Geek Factorial_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div><div class="widget Label" data-version="1" id="Label1">
+<h2><span>TOPICS</span></h2>
+<div class="widget-content list-label-widget-content">
+<ul>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/algorithms?&amp;max-results=15">algorithms</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/bit%20manipulation?&amp;max-results=15">bit manipulation</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/brain%20teasers?&amp;max-results=15">brain teasers</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/c?&amp;max-results=15">c</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/css?&amp;max-results=15">css</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/divide%20and%20conquer?&amp;max-results=15">divide and conquer</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/geek%20factorial?&amp;max-results=15">geek factorial</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/html?&amp;max-results=15">html</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/java?&amp;max-results=15">java</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/lateral%20thinking?&amp;max-results=15">lateral thinking</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/logical%20puzzles?&amp;max-results=15">logical puzzles</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/math%20and%20number%20puzzles?&amp;max-results=15">math and number puzzles</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/miscellaneous?&amp;max-results=15">miscellaneous</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/programming?&amp;max-results=15">programming</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/puzzles?&amp;max-results=15">puzzles</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/web%20design?&amp;max-results=15">web design</a>
+</li>
+</ul>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="https://www.blogger.com/rearrange?blogID=4840603379647116080&amp;widgetType=Label&amp;widgetId=Label1&amp;action=editWidget&amp;sectionId=sidebar" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;Label1&quot;));" rel="nofollow" target="configLabel1" title="Edit">
+<img alt="" height="18" src="./The many different ways of swapping two numbers - Geek Factorial_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div><div class="widget HTML" data-version="1" id="HTML2">
+<div class="widget-content">
+<a href="https://feeds.feedburner.com/geekfactorial" target="_blank">
+<i class="fa fa-rss"></i> Subscribe to the feed
+</a>
+<br>
+<a href="https://geekfactorial.blogspot.com/p/get-in-touch.html">
+<i class="fa fa-envelope"></i> Get in touch
+</a>
+<br>
+<a href="https://geekfactorial.blogspot.com/p/about.html">
+<i class="fa fa-info-circle"></i> About
+</a>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="https://www.blogger.com/rearrange?blogID=4840603379647116080&amp;widgetType=HTML&amp;widgetId=HTML2&amp;action=editWidget&amp;sectionId=sidebar" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;HTML2&quot;));" rel="nofollow" target="configHTML2" title="Edit">
+<img alt="" height="18" src="./The many different ways of swapping two numbers - Geek Factorial_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div><div class="widget HTML" data-version="1" id="HTML3">
+<div class="widget-content">
+<p class="copyright">
+© <a target="_blank" href="http://anirudhkhanna.github.io/">Anirudh Khanna</a> 2016<script>var curr_year=new Date().getFullYear(); if(curr_year!='2016') document.write(' - '+curr_year);</script> - 2019
+<br>
+Powered by <a target="_blank" href="https://blogger.com/">Blogger</a>
+</p>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="https://www.blogger.com/rearrange?blogID=4840603379647116080&amp;widgetType=HTML&amp;widgetId=HTML3&amp;action=editWidget&amp;sectionId=sidebar" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;HTML3&quot;));" rel="nofollow" target="configHTML3" title="Edit">
+<img alt="" height="18" src="./The many different ways of swapping two numbers - Geek Factorial_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div></div>
+</div><!-- sidebar-wrapper -->
+<div class="clear"></div>
+</div><!--Div Container-->
+</div><!-- outer-wrapper -->
+<!-- COLORED STRIPES: -->
+<div class="stripes stripes-thin">
+<span class="stripe item1"></span><span class="stripe item2"></span><span class="stripe item3"></span>
+<span class="stripe item4"></span><span class="stripe item5"></span><span class="stripe item6"></span>
+<span class="stripe item7"></span><span class="stripe item8"></span><span class="stripe item9"></span>
+<span class="stripe item10"></span><span class="stripe item11"></span><span class="stripe item12"></span>
+<span class="stripe item13"></span><span class="stripe item14"></span><span class="stripe item15"></span>
+<span class="stripe item16"></span><span class="stripe item17"></span><span class="stripe item18"></span>
+<span class="stripe item19"></span><span class="stripe item20"></span><span class="stripe item21"></span>
+<span class="stripe item22"></span><span class="stripe item23"></span><span class="stripe item24"></span>
+<span class="stripe item25"></span><span class="stripe item26"></span><span class="stripe item27"></span>
+<span class="stripe item28"></span><span class="stripe item29"></span><span class="stripe item30"></span>
+<span class="stripe item31"></span><span class="stripe item32"></span><span class="stripe item33"></span>
+<span class="stripe item34"></span><span class="stripe item35"></span><span class="stripe item36"></span>
+<span class="stripe item37"></span><span class="stripe item38"></span><span class="stripe item39"></span>
+<span class="stripe item40"></span><span class="stripe item41"></span><span class="stripe item42"></span>
+<span class="stripe item43"></span><span class="stripe item44"></span><span class="stripe item45"></span>
+<span class="stripe item46"></span><span class="stripe item47"></span><span class="stripe item48"></span>
+<span class="stripe item49"></span><span class="stripe item50"></span>
+<span class="stripe item15"></span><span class="stripe item16"></span><span class="stripe item17"></span>
+<span class="stripe item18"></span><span class="stripe item19"></span><span class="stripe item20"></span>
+<span class="stripe item21"></span><span class="stripe item22"></span><span class="stripe item23"></span>
+<span class="stripe item24"></span><span class="stripe item25"></span><span class="stripe item26"></span>
+<span class="stripe item27"></span><span class="stripe item28"></span><span class="stripe item29"></span>
+<span class="stripe item30"></span><span class="stripe item31"></span><span class="stripe item32"></span>
+<span class="stripe item33"></span><span class="stripe item34"></span><span class="stripe item35"></span>
+<span class="stripe item36"></span><span class="stripe item37"></span><span class="stripe item38"></span>
+<span class="stripe item39"></span><span class="stripe item40"></span><span class="stripe item41"></span>
+<span class="stripe item42"></span><span class="stripe item43"></span><span class="stripe item44"></span>
+<span class="stripe item45"></span><span class="stripe item46"></span><span class="stripe item47"></span>
+<span class="stripe item48"></span><span class="stripe item49"></span><span class="stripe item50"></span>
+</div>
+<div id="footer">
+<div class="mage1">
+<div class="container">
+<div class="footer boxer lefter section" id="footer1"><div class="widget HTML" data-version="1" id="HTML4">
+<h2 class="title"><span>About Geek Factorial</span></h2>
+<div class="widget-content">
+<span style="font-style: italic; font-size: 15px; font-family: Georgia, serif;">The factorial of anything is either equal to or, in most cases, larger than itself.</span>
+<div><br></div>
+
+<div><b><a href="https://geekfactorial.blogspot.com/">Geek Factorial</a></b> was started with the philosophy that whenever a geek comes here looking for knowledge, then he shall leave much geekier than he was. And don't worry if your geekiness is currently just plain zero, because even 0! = 1, which is a good start! Cheers :)</div>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="https://www.blogger.com/rearrange?blogID=4840603379647116080&amp;widgetType=HTML&amp;widgetId=HTML4&amp;action=editWidget&amp;sectionId=footer1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;HTML4&quot;));" rel="nofollow" target="configHTML4" title="Edit">
+<img alt="" height="18" src="./The many different ways of swapping two numbers - Geek Factorial_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div></div>
+<div class="footer boxer lefter tagcloud1 section" id="footer2"><div class="widget Label" data-version="1" id="Label3">
+<h2><span>Topics</span></h2>
+<div class="widget-content list-label-widget-content">
+<ul>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/algorithms?&amp;max-results=15">algorithms</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/bit%20manipulation?&amp;max-results=15">bit manipulation</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/brain%20teasers?&amp;max-results=15">brain teasers</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/c?&amp;max-results=15">c</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/css?&amp;max-results=15">css</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/divide%20and%20conquer?&amp;max-results=15">divide and conquer</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/geek%20factorial?&amp;max-results=15">geek factorial</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/html?&amp;max-results=15">html</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/java?&amp;max-results=15">java</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/lateral%20thinking?&amp;max-results=15">lateral thinking</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/logical%20puzzles?&amp;max-results=15">logical puzzles</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/math%20and%20number%20puzzles?&amp;max-results=15">math and number puzzles</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/miscellaneous?&amp;max-results=15">miscellaneous</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/programming?&amp;max-results=15">programming</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/puzzles?&amp;max-results=15">puzzles</a>
+</li>
+<li>
+<a dir="ltr" href="https://geekfactorial.blogspot.com/search/label/web%20design?&amp;max-results=15">web design</a>
+</li>
+</ul>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="https://www.blogger.com/rearrange?blogID=4840603379647116080&amp;widgetType=Label&amp;widgetId=Label3&amp;action=editWidget&amp;sectionId=footer2" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;Label3&quot;));" rel="nofollow" target="configLabel3" title="Edit">
+<img alt="" height="18" src="./The many different ways of swapping two numbers - Geek Factorial_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div></div>
+<div class="footer boxer lefter section" id="footer3"><div class="widget FollowByEmail" data-version="1" id="FollowByEmail1">
+<h2 class="title"><span>Follow Geek Factorial</span></h2>
+<div class="widget-content">
+<div class="follow-by-email-inner">
+<p style="margin-bottom:10px; font-size:13px;">Follow the blog. Get notifications of new posts by email.</p>
+<form action="https://feedburner.google.com/fb/a/mailverify" method="post" onsubmit="window.open(&quot;https://feedburner.google.com/fb/a/mailverify?uri=GeekFactorial&quot;, &quot;popupwindow&quot;, &quot;scrollbars=yes,width=550,height=520&quot;); return true" target="popupwindow">
+<table width="100%">
+<tbody><tr>
+<td>
+<input class="follow-by-email-address" name="email" placeholder="Email address..." type="text">
+</td>
+<td width="64px">
+<input class="follow-by-email-submit" type="submit" value="Submit">
+</td>
+</tr>
+</tbody></table>
+<input name="uri" type="hidden" value="GeekFactorial">
+<input name="loc" type="hidden" value="en_US">
+</form>
+</div>
+</div>
+<span class="item-control blog-admin">
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="https://www.blogger.com/rearrange?blogID=4840603379647116080&amp;widgetType=FollowByEmail&amp;widgetId=FollowByEmail1&amp;action=editWidget&amp;sectionId=footer3" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;FollowByEmail1&quot;));" rel="nofollow" target="configFollowByEmail1" title="Edit">
+<img alt="" height="18" src="./The many different ways of swapping two numbers - Geek Factorial_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</span>
+</div><div class="widget HTML" data-version="1" id="HTML1">
+<div class="widget-content">
+<br>
+
+<div style="float:right; font-size:13px; margin-top:15px; border-top:1px solid #ddd;">Designed and developed by <a href="http://anirudhkhanna.github.io/" target="_blank" style="text-decoration:underline;">Anirudh Khanna</a>. I also run the design &amp; creativity blog, <a href="https://wallofwonders.wordpress.com/" target="_blank" style="text-decoration:underline;">Wall of Wonders</a>. You can find me on <a href="https://github.com/anirudhkhanna/" target="_blank" style="text-decoration:underline;">GitHub</a>, <a href="https://www.linkedin.com/in/anirudhkhanna" target="_blank" style="text-decoration:underline;">LinkedIn</a>.</div>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="https://www.blogger.com/rearrange?blogID=4840603379647116080&amp;widgetType=HTML&amp;widgetId=HTML1&amp;action=editWidget&amp;sectionId=footer3" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;HTML1&quot;));" rel="nofollow" target="configHTML1" title="Edit">
+<img alt="" height="18" src="./The many different ways of swapping two numbers - Geek Factorial_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div></div>
+<div class="clear"></div>
+</div><!--Div Container-->
+</div><!-- mage1 -->
+</div><!-- footer -->
+<div class="footer-credits">
+<div class="mage2">
+<div class="container">
+<div class="attribution lefter">© Copyright  2016 <script>var curr_year=new Date().getFullYear(); if(curr_year!='2016') document.write(' - '+curr_year);</script> - 2019
+<a href="https://geekfactorial.blogspot.com/">Geek Factorial</a>
+<span class="deen">Powered by <a href="https://blogger.com/" target="_blank">Blogger</a></span>
+</div>
+</div>
+</div><!-- mage2 -->
+</div><!-- footer-credits -->
+</div><!-- ct-wrapper -->
+<div id="fb-root"></div>
+<script type="text/javascript">
+//<![CDATA[
+
+//Facebook Script
+(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/en_US/all.js#xfbml=1";fjs.parentNode.insertBefore(js,fjs)}(document,'script','facebook-jssdk'));
+
+//]]>
+</script>
+<!-- Page Counter - Edit Number Of Post To Show On Each Page -->
+<script type="text/javascript">
+
+var home_page="/";
+var urlactivepage=location.href;
+var postperpage=7;
+var numshowpage=2;
+var upPageWord ='Previous';
+var downPageWord ='Next';
+
+</script>
+<script type="text/javascript">
+//<![CDATA[
+
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('5 G;5 i;5 b;5 n;1f();x 1g(15){5 6=\'\';H=I(K/2);3(H==K-H){K=H*2+1}J=b-H;3(J<1)J=1;o=I(15/j)+1;3(o-1==15/j)o=o-1;L=J+K-1;3(L>o)L=o;6+="<4 e=\'1y\'>1z "+b+\' 1A \'+o+"</4>";5 16=I(b)-1;3(b>1){3(b==2){3(i=="w"){6+=\'<4 e="1B"><a f="\'+y+\'">\'+M+\'</a></4>\'}c{6+=\'<4 e="k"><a f="/r/s/\'+n+\'?&7-l=\'+j+\'">\'+M+\'</a></4>\'}}c{3(i=="w"){6+=\'<4 e="k"><a f="#" z="N(\'+16+\');A B">\'+M+\'</a></4>\'}c{6+=\'<4 e="k"><a f="#" z="O(\'+16+\');A B">\'+M+\'</a></4>\'}}}1h(5 g=J;g<=L;g++){3(b==g){6+=\'<4 e="1C">\'+g+\'</4>\'}c 3(g==1){3(i=="w"){6+=\'<4 e="k"><a f="\'+y+\'">1</a></4>\'}c{6+=\'<4 e="k"><a f="/r/s/\'+n+\'?&7-l=\'+j+\'">1</a></4>\'}}c{3(i=="w"){6+=\'<4 e="k"><a f="#" z="N(\'+g+\');A B">\'+g+\'</a></4>\'}c{6+=\'<4 e="k"><a f="#" z="O(\'+g+\');A B">\'+g+\'</a></4>\'}}}5 17=I(b)+1;3(b<o){3(i=="w"){6+=\'<4 e="k"><a f="#" z="N(\'+17+\');A B">\'+1i+\'</a></4>\'}c{6+=\'<4 e="k"><a f="#" z="O(\'+17+\');A B">\'+1i+\'</a></4>\'}}5 C=u.1D("C");5 18=u.1E("1F-1G");1h(5 p=0;p<C.P;p++){C[p].1j=6}3(C&&C.P>0){6=\'\'}3(18){18.1j=6}}x 1a(Q){5 R=Q.R;5 1k=I(R.1H$1I.$t,10);1g(1k)}x 1f(){5 d=m;3(d.9("/r/s/")!=-1){3(d.9("?S-7")!=-1){n=d.D(d.9("/r/s/")+14,d.9("?S-7"))}c{n=d.D(d.9("/r/s/")+14,d.9("?&7"))}}3(d.9("?q=")==-1&&d.9(".6")==-1){3(d.9("/r/s/")==-1){i="w";3(m.9("#E=")!=-1){b=m.D(m.9("#E=")+8,m.P)}c{b=1}u.1l("<h T=\\""+y+"U/V/W?7-l=1&X=Y-Z-h&11=1a\\"><\\/h>")}c{i="s";3(d.9("&7-l=")==-1){j=1J}3(m.9("#E=")!=-1){b=m.D(m.9("#E=")+8,m.P)}c{b=1}u.1l(\'<h T="\'+y+\'U/V/W/-/\'+n+\'?X=Y-Z-h&11=1a&7-l=1" ><\\/h>\')}}}x N(F){12=(F-1)*j;G=F;5 13=u.1m(\'1n\')[0];5 v=u.1o(\'h\');v.1p=\'1q/1r\';v.1s("T",y+"U/V/W?1t-1u="+12+"&7-l=1&X=Y-Z-h&11=1b");13.1v(v)}x O(F){12=(F-1)*j;G=F;5 13=u.1m(\'1n\')[0];5 v=u.1o(\'h\');v.1p=\'1q/1r\';v.1s("T",y+"U/V/W/-/"+n+"?1t-1u="+12+"&7-l=1&X=Y-Z-h&11=1b");13.1v(v)}x 1b(Q){1c=Q.R.1K[0];5 1w=1c.1x.$t.D(0,19)+1c.1x.$t.D(1L,1M);5 1d=1N(1w);3(i=="w"){5 1e="/r?S-7="+1d+"&7-l="+j+"#E="+G}c{5 1e="/r/s/"+n+"?S-7="+1d+"&7-l="+j+"#E="+G}1O.f=1e}',62,113,'|||if|span|var|html|max||indexOf||nomerhal|else|thisUrl|class|href|jj|script|jenis|postperpage|showpageNum|results|urlactivepage|lblname1|maksimal|||search|label||document|newInclude|page|function|home_page|onclick|return|false|pageArea|substring|PageNo|numberpage|nopage|nomerkiri|parseInt|mulai|numshowpage|akhir|upPageWord|redirectpage|redirectlabel|length|root|feed|updated|src|feeds|posts|summary|alt|json|in||callback|jsonstart|nBody||banyakdata|prevnomer|nextnomer|blogPager||hitungtotaldata|finddatepost|post|timestamp|alamat|halamanblogger|loophalaman|for|downPageWord|innerHTML|totaldata|write|getElementsByTagName|head|createElement|type|text|javascript|setAttribute|start|index|appendChild|timestamp1|published|showpageOf|Page|of|showpage|showpagePoint|getElementsByName|getElementById|blog|pager|openSearch|totalResults|20|entry|23|29|encodeURIComponent|location'.split('|'),0,{}))
+
+//]]>
+</script>
+<!-- PAGE NUMBER NAVIGATION SCRIPT: (STYLE AT THE END OF SKIN SECTION) CREDIT: http://helplogger.blogspot.in/2014/04/how-to-add-numbered-page-navigation-widget-for-blogger.html -->
+<!-- / PAGE NUMBER NAVIGATION SCRIPT OVER -->
+
+<script type="text/javascript" src="./The many different ways of swapping two numbers - Geek Factorial_files/3680708148-widgets.js"></script>
+<script type="text/javascript">
+window['__wavt'] = 'AOuZoY4t5-pJWN8jUjG718rJ1aYXAVVfqw:1565981246245';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d4840603379647116080','//geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html','4840603379647116080');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '4840603379647116080', 'title': 'Geek Factorial', 'url': 'https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html', 'canonicalUrl': 'https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html', 'homepageUrl': 'https://geekfactorial.blogspot.com/', 'searchUrl': 'https://geekfactorial.blogspot.com/search', 'canonicalHomepageUrl': 'https://geekfactorial.blogspot.com/', 'blogspotFaviconUrl': 'https://geekfactorial.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': 'UA-82113940-1', 'encoding': 'UTF-8', 'locale': 'en-GB', 'localeUnderscoreDelimited': 'en_gb', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Geek Factorial - Atom\x22 href\x3d\x22https://geekfactorial.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Geek Factorial - RSS\x22 href\x3d\x22https://geekfactorial.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Geek Factorial - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/4840603379647116080/posts/default\x22 /\x3e\n\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Geek Factorial - Atom\x22 href\x3d\x22https://geekfactorial.blogspot.com/feeds/8580898793592244625/comments/default\x22 /\x3e\n', 'meTag': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/1581ed35ea803b4e', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'disableGComments': true, 'sharing': {'platforms': [{'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en_GB\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Read more', 'pageType': 'item', 'postId': '8580898793592244625', 'postImageThumbnailUrl': 'https://1.bp.blogspot.com/-S4rCg9H-chM/V7Fy-fLLLjI/AAAAAAAAAfs/ehW6g-nFEwIqZ9ng0vcBy2djhTTZDH8fACLcB/s72-c/lets-swap-it.jpg', 'postImageUrl': 'https://1.bp.blogspot.com/-S4rCg9H-chM/V7Fy-fLLLjI/AAAAAAAAAfs/ehW6g-nFEwIqZ9ng0vcBy2djhTTZDH8fACLcB/s640/lets-swap-it.jpg', 'pageName': 'The many different ways of swapping two numbers', 'pageTitle': 'Geek Factorial: The many different ways of swapping two numbers'}}, {'name': 'features', 'data': {'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': 'Edit', 'linkCopiedToClipboard': 'Link copied to clipboard', 'ok': 'Ok', 'postLink': 'Post link'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Custom', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'The many different ways of swapping two numbers', 'description': 'One of the most seen snippets of code is the one that swaps the values of two variables. This little job is crucial to many algorithms, and ...', 'featuredImage': 'https://1.bp.blogspot.com/-S4rCg9H-chM/V7Fy-fLLLjI/AAAAAAAAAfs/ehW6g-nFEwIqZ9ng0vcBy2djhTTZDH8fACLcB/s640/lets-swap-it.jpg', 'url': 'https://geekfactorial.blogspot.com/2016/08/the-many-different-ways-of-swapping-two-numbers.html', 'type': 'item', 'isSingleItem': true, 'isMultipleItems': false, 'isError': false, 'isPage': false, 'isPost': true, 'isHomepage': false, 'isArchive': false, 'isLabelSearch': false, 'postId': 8580898793592244625}}]);
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'content', document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'showBacklinks': true, 'postId': '8580898793592244625', 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/2034968870-lbx__en_gb.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts2', 'sidebar', document.getElementById('PopularPosts2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebar', document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar', document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar', document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'footer1', document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label3', 'footer2', document.getElementById('Label3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowByEmailView', new _WidgetInfo('FollowByEmail1', 'footer3', document.getElementById('FollowByEmail1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'footer3', document.getElementById('HTML1'), {}, 'displayModeFull'));
+</script>
+
+<link type="text/css" rel="stylesheet" href="./The many different ways of swapping two numbers - Geek Factorial_files/368954415-lightbox_bundle.css"><script type="text/javascript" src="./The many different ways of swapping two numbers - Geek Factorial_files/2034968870-lbx__en_gb.js"></script></body></html>

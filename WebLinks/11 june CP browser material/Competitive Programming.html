@@ -1,0 +1,473 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<script src="Competitive%20Programming_files/osd.js"></script><script src="Competitive%20Programming_files/show_ads_impl.js" id="google_shimpl"></script><script src="Competitive%20Programming_files/ca-pub-5994970727713591.js"></script><script type="text/javascript">/* Copyright 2008 Google. */ (function() { (function(){function e(g){this.t={};this.tick=function(h,k,f){this.t[h]=[void 0!=f?f:(new Date).getTime(),k];if(void 0==f)try{window.console.timeStamp("CSI/"+h)}catch(m){}};this.tick("start",null,g)}var a;if(window.performance)var d=(a=window.performance.timing)&&a.responseStart;var l=0<d?new e(d):new e;window.jstiming={Timer:e,load:l};if(a){var b=a.navigationStart;0<b&&d>=b&&(window.jstiming.srt=d-b)}if(a){var c=window.jstiming.load;0<b&&d>=b&&(c.tick("_wtsrt",void 0,b),c.tick("wtsrt_","_wtsrt",
+d),c.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),c&&0<b&&(c.tick("_tbnd",void 0,window.chrome.csi().startE),c.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,c&&0<b&&(c.tick("_tbnd",void 0,window.external.startE),c.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(g){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="https://www.google.com/images/icons/product/sites-16.ico">
+<link rel="apple-touch-icon" href="https://ssl.gstatic.com/sites/p/02a2ca/system/app/images/apple-touch-icon.png" type="image/png">
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { function d(a){return document.getElementById(a)}window.byId=d;function g(a){return a.replace(/^\s+|\s+$/g,"")}window.trim=g;var h=[],k=0;window.JOT_addListener=function(a,b,c){var f=new String(k++);a={eventName:a,handler:b,compId:c,key:f};h.push(a);return f};window.JOT_removeListenerByKey=function(a){for(var b=0;b<h.length;b++)if(h[b].key==a){h.splice(b,1);break}};window.JOT_removeAllListenersForName=function(a){for(var b=0;b<h.length;b++)h[b].eventName==a&&h.splice(b,1)};
+window.JOT_postEvent=function(a,b,c){var f={eventName:a,eventSrc:b||{},payload:c||{}};if(window.JOT_fullyLoaded)for(b=h.length,c=0;c<b&&c<h.length;c++){var e=h[c];e&&e.eventName==a&&(f.listenerCompId=e.compId||"",(e="function"==typeof e.handler?e.handler:window[e.handler])&&e(f))}else window.JOT_delayedEvents.push({eventName:a,eventSrc:b,payload:c})};window.JOT_delayedEvents=[];window.JOT_fullyLoaded=!1;
+window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1440<=a||0>a)return null;var c=0;60<=a&&(a/=60,c=2);2<=a&&c++;return b?window.JOT_siteRelTimeStrs[c].replace("__duration__",Math.floor(a)):window.JOT_userRelTimeStrs[c].replace("__duration__",Math.floor(a))}; })()
+</script>
+<script>
+
+  
+
+  var breadcrumbs = [{"path":"/site/stevenhalim/home","deleted":false,"title":"We are moving soon to http://cpbook.net/","dir":"ltr"}];
+  var JOT_clearDotPath = 'https://ssl.gstatic.com/sites/p/02a2ca/system/app/images/cleardot.gif';
+
+  
+  var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+  
+  
+
+  
+
+  var webspace = {"gvizGstaticVersion":"current","enableAnalytics":false,"pageSharingId":"jotspot_page","codeembeds":{"outerIframeSrc":"https://www.gstatic.com/jotspot/embeds/code/0f08d42392f2000e7e3f3daf5b427a43/outer_iframe.html","innerIframeSrc":"https://2032948362-jotspot-embeds.googleusercontent.com/code/8d87fa64604b2a11fae2ed06104c58d3/inner_iframe.html"},"enableUniversalAnalytics":false,"sharingPolicy":"OPENED","siteTitle":"Competitive Programming","jot2atari":{"eligibility":"ineligible"},"onepickUrl":"https://docs.google.com/picker","adsensePublisherId":"ca-pub-5994970727713591","features":{"oAuthForChartsApi":true,"moreMobileStyleImprovements":null,"googleChartsOverGstatic":false,"picasaAlbumInsert":false,"enableJot2Atari":true,"plusBadge":false},"isPublic":true,"newSitesBaseUrl":"https://sites.google.com","isConsumer":true,"serverFlags":{"jot2AtariLearnMoreUrl":"https://support.google.com/sites/answer/7035197"},"domainAnalyticsAccountId":"","plusPageId":"","signInUrl":"https://accounts.google.com/AccountChooser?continue\u003dhttps://sites.google.com/site/stevenhalim/home\u0026service\u003djotspot","analyticsAccountId":"","scottyUrl":"/_/upload","homePath":"/","siteNoticeUrlEnabled":null,"plusPageUrl":"","adsensePromoClickedOrSiteIneligible":true,"csiReportUri":"https://gg.google.com/csi","sharingId":"jotspot","termsUrl":"//www.google.com/intl/en/policies/terms/","gvizVersion":1,"editorResources":{"sitelayout":["https://ssl.gstatic.com/sites/p/02a2ca/system/app/css/sitelayouteditor.css"],"text":["https://ssl.gstatic.com/sites/p/02a2ca/system/js/codemirror.js","https://ssl.gstatic.com/sites/p/02a2ca/system/app/css/codemirror_css.css","https://ssl.gstatic.com/sites/p/02a2ca/system/js/trog_edit__en.js","https://ssl.gstatic.com/sites/p/02a2ca/system/app/css/trogedit.css","/site/stevenhalim/_/rsrc/1559201124000/system/app/css/editor.css","https://ssl.gstatic.com/sites/p/02a2ca/system/app/css/codeeditor.css","/site/stevenhalim/_/rsrc/1559201124000/system/app/css/camelot/editor-jfk.css"]},"sharingUrlPrefix":"/_/sharing","isAdsenseEnabled":true,"domain":"defaultdomain","baseUri":"/site/stevenhalim","name":"stevenhalim","siteTemplateId":false,"siteNoticeRevision":null,"siteNoticeUrlAddress":null,"siteNoticeMessage":null,"page":{"isRtlLocale":false,"canDeleteWebspace":null,"isPageDraft":null,"parentPath":null,"parentWuid":null,"siteLocale":"en","timeZone":"Asia/Kolkata","type":"text","title":"We are moving soon to http://cpbook.net/","locale":"en","wuid":"wuid:gx:5e9d378726ec6761","revision":332,"path":"/home","isSiteRtlLocale":false,"pageInheritsPermissions":null,"name":"home","canChangePath":false,"state":"","properties":{},"bidiEnabled":false,"currentTemplate":{"path":"/system/app/pagetemplates/text","title":"Web Page"}},"canPublishScriptToAnyone":true,"user":{"keyboardShortcuts":true,"sessionIndex":"","onePickToken":"","guest_":true,"displayNameOrEmail":"guest","userName":"guest","uid":"","renderMobile":false,"domain":"","namespace":"","hasWriteAccess":false,"namespaceUser":false,"primaryEmail":"guest","hasAdminAccess":false},"gadgets":{"baseUri":"/site/stevenhalim/system/app/pages/gadgets"}};
+  webspace.page.breadcrumbs = breadcrumbs;
+
+  
+  var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="Competitive Programming">
+<meta itemprop="name" content="Competitive Programming">
+<meta property="og:title" content="Competitive Programming">
+<meta name="description" content="This is the supporting web page for a book titled: &quot;Competitive Programming 3: The New  Lower Bound of Programming Contests&quot; written by Steven Halim and Felix Halim.">
+<meta itemprop="description" content="This is the supporting web page for a book titled: &quot;Competitive Programming 3: The New  Lower Bound of Programming Contests&quot; written by Steven Halim and Felix Halim.">
+<meta id="meta-tag-description" property="og:description" content="This is the supporting web page for a book titled: &quot;Competitive Programming 3: The New  Lower Bound of Programming Contests&quot; written by Steven Halim and Felix Halim.">
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="Competitive%20Programming_files/standard-css-iceberg-ltr-ltr.css">
+<link rel="stylesheet" type="text/css" href="Competitive%20Programming_files/overlay.css">
+<link rel="stylesheet" type="text/css" href="Competitive%20Programming_files/allthemes-view.css">
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/site/stevenhalim/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Competitive Programming</title>
+<meta itemprop="image" content="http://static.lulu.com/images/services/buy_now_buttons/us/blue.gif?20130514083221">
+<meta property="og:image" content="http://static.lulu.com/images/services/buy_now_buttons/us/blue.gif?20130514083221">
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+<link rel="preload" href="Competitive%20Programming_files/integrator.js" as="script"><script type="text/javascript" src="Competitive%20Programming_files/integrator.js"></script><link rel="preload" href="Competitive%20Programming_files/integrator_002.js" as="script"><script type="text/javascript" src="Competitive%20Programming_files/integrator_002.js"></script><link rel="preload" href="Competitive%20Programming_files/show_ads_impl.js" as="script"><script src="Competitive%20Programming_files/ga.js"></script></head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything" class="">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="">
+<table id="sites-chrome-header" class="sites-layout-hbox" style="" cellspacing="0">
+<tbody><tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class="" role="banner"><div class="sites-header-cell-buffer-wrapper"><h2><a href="https://sites.google.com/site/stevenhalim/" dir="ltr" id="sites-chrome-userheader-title">Competitive Programming</a></h2></div></td><td class="sites-layout-searchbox  "><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/site/stevenhalim/system/app/pages/search" role="search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site"><input type="text" id="jot-ui-searchInput" name="q" size="20" aria-label="Search this site"><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0" style="-moz-user-select: none;">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container" role="navigation">
+</td>
+</tr>
+</tbody></table>
+</div>
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tbody><tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left" style="display: none; width: 150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed" role="navigation"><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotid="navList" class="has-expander"><li class="topLevel nav-first parent " wuid="gx:5e9d378726ec6761"><div class="current-bg" jotid="wuid:gx:5e9d378726ec6761" dir="ltr" style="padding-left: 0px;"><div class="expander"></div>We are moving soon to http://cpbook.net/</div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="https://sites.google.com/site/stevenhalim/home/second" jotid="wuid:gx:fd6071261374a9a" class="sites-navigation-link">Errata (1st -&gt; 2nd Ed)</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="https://sites.google.com/site/stevenhalim/home/third" jotid="wuid:gx:18b604a0ff665ff4" class="sites-navigation-link">Errata (2nd-&gt;3rd Ed)</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="https://sites.google.com/site/stevenhalim/home/fourth" jotid="wuid:gx:43760a0733c5dacd" class="sites-navigation-link">Errata (3rd-&gt;4th Ed)</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="https://sites.google.com/site/stevenhalim/home/credits" jotid="wuid:gx:467906d2e720cec6" class="sites-navigation-link">Problem Credits</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="https://sites.google.com/site/stevenhalim/home/sales" jotid="wuid:gx:419f87f13047fe0" class="sites-navigation-link">Sales Data</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="https://sites.google.com/site/stevenhalim/home/material" jotid="wuid:gx:420a85a513a3e1c5" class="sites-navigation-link">Supporting Material</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="https://sites.google.com/site/stevenhalim/home/tableofcontents" jotid="wuid:gx:104336d6598280a9" class="sites-navigation-link">Table of Contents</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="https://sites.google.com/site/stevenhalim/home/testimonials" jotid="wuid:gx:5028a4c8c2c96e04" class="sites-navigation-link">Testimonials</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="https://sites.google.com/site/stevenhalim/home/workshop" jotid="wuid:gx:512bf1034e12655d" class="sites-navigation-link">Workshop</a></div></li></ul></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="https://sites.google.com/site/stevenhalim/system/app/pages/sitemap/hierarchy" jotid="wuid:gx:2e3e2c47a96164d3" class="sites-navigation-link topLevel">Sitemap</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_15153730126418152" class="sites-embed" role="complementary"><div class="sites-embed-content-notitle"><span jotid="content"><p><script type="text/javascript">
+<!--
+google_ad_client="pub-5994970727713591";
+google_ad_host="pub-6693688277674466";
+google_ad_width=120;
+google_ad_height=600;
+google_ad_format="120x600_as";
+google_ad_type="text_image";
+google_color_border="FFFFFF";
+google_color_bg="FFFFFF";
+google_color_link="000000";
+google_color_url="0033CC";
+google_color_text="444444";
+//-->
+</script>
+<script type="text/javascript" src="Competitive%20Programming_files/show_ads.js">
+</script><ins id="aswift_0_expand" style="display: inline-table; border: medium none; height: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 120px; background-color: transparent;"><ins id="aswift_0_anchor" style="display: block; border: medium none; height: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 120px; background-color: transparent; overflow: hidden; opacity: 0;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0px;width:120px;height:600px;" width="120" height="600" frameborder="0"></iframe></ins></ins>
+</p></span></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas" role="main">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+</div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr" tabindex="-1" style="outline: none">We are moving soon to http://cpbook.net/</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" class="sites-layout-name-one-column sites-layout-hbox" cellspacing="0"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><font size="2"><span style="border-collapse:separate;color:rgb(0,0,0);font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><font size="2"><span style="border-collapse:separate;color:rgb(0,0,0);font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><font style="font-family:verdana,sans-serif">
+</font></span></font></span></font>
+<div dir="ltr">
+<div style="text-align:left;font-family:verdana,sans-serif"><font size="2"><span style="border-collapse:separate;color:rgb(0,0,0);font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px">
+</span></font>
+</div>
+<div style="text-align:left;font-family:arial,sans-serif"><span style="border-collapse:separate;color:rgb(0,0,0);font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><font>
+<p style="text-align:center;margin-left:10px;margin-right:10px"><font><font style="font-family:arial,sans-serif" size="6">NEW STAGING WEBSITE:&nbsp;<a href="http://cpbook.net/" rel="nofollow">http://cpbook.net/</a></font></font></p><p style="font-size:medium;margin-left:10px;margin-right:10px"><font style="background-color:transparent">This is the companion web site for a book: <b>"</b><b>Competitive Programming 3: The New Lower Bound of Programming Contests" </b></font><font style="background-color:transparent">and its two past editions&nbsp;written by myself (<a href="http://www.comp.nus.edu.sg/~stevenha" target="_blank" rel="nofollow">Steven Halim</a> - <a href="http://uhunt.felix-halim.net/id/32900" target="_blank" rel="nofollow">UVa status</a>) and my younger brother (<a href="http://felix-halim.net/" target="_blank" rel="nofollow">Felix Halim</a> - <a href="http://uhunt.felix-halim.net/id/339" target="_blank" rel="nofollow">UVa status</a>) in 2010</font><font style="background-color:transparent">-2015. This book is used in my course in <a href="http://www.comp.nus.edu.sg/" target="_blank" rel="nofollow">School of Computing</a>, <a href="http://www.nus.edu.sg/" target="_blank" rel="nofollow">National University of Singapore</a>: <a href="http://linc.nus.edu.sg/search~S16?/aVerdu%2C+Elena./averdu+elena/-3%2C-1%2C0%2CB/frameset&amp;FF=averdu+elena&amp;1%2C1%2C" target="_blank" rel="nofollow">CS3233 - Competitive Programming</a> (2009-present) and available for <b>wider audiences</b> since 2010.</font></p>
+<p style="font-size:medium;margin-left:10px;margin-right:10px"><font size="2">This
+ book contains a collection of relevant data structures, algorithms, and
+ programming tips written for University students who want to be more 
+competitive in the <a href="http://icpc.baylor.edu/welcome.icpc" target="_blank" rel="nofollow">ACM International Collegiate Programming Contest (ICPC)</a>, high school students who are aspiring to be competitive in the <a href="http://www.ioinformatics.org/index.shtml" target="_blank" rel="nofollow">International Olympiad in Informatics (IOI)</a>,
+ coaches for these competitions, those who love problem solving using 
+computer programs, and those who go for interviews in big IT-companies.</font></p>
+</font></span></div>
+<div style="text-align:left;font-family:arial,sans-serif"><span style="border-collapse:separate;color:rgb(0,0,0);font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;font-size:medium"><font size="2"><font size="2">
+<p style="margin-left:10px;margin-right:10px"><font size="2">Our 
+objective in writing this book is similar with the ICPC vision: To 
+further improve humanity by training current students to be more 
+competitive in programming contests. The possible long term effect is 
+future Computer Science researchers who are well versed in problem 
+solving skills.</font></p>
+<p style="margin-left:10px;margin-right:10px"><b style="color:rgb(0,0,0)"><font size="2"><font style="font-family:arial,sans-serif">Target audience:</font></font></b><span style="color:rgb(0,0,0)">
+ The reader must have some background knowledge in basic data 
+structures,
+ algorithms, and programming languages. Typically, a 2nd year Computer 
+Science students in a University (who have passed a kind of "programming
+ methodology" and "basic data structures and algorithms" modules) or 
+selected high school students who are preparing for National or 
+International Olympiad in Informatics (and thus have done self-study on 
+year-1 University CS curriculum) should have the necessary 
+background. We use both C++ and Java 
+code to illustrate the algorithmic concepts, i.e. we dislike vague 
+pseudo-code commonly found in many other Computer Science textbooks.</span></p>
+</font></font></span>
+<font size="2"><font size="2">
+</font></font></div>
+<div style="text-align:left"><span style="text-indent:0px"><font size="2"><font size="2">
+<p style="margin-left:10px;margin-right:10px;font-weight:normal;border-collapse:separate;color:rgb(0,0,0);font-family:arial,sans-serif;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:normal;text-transform:none;white-space:normal;word-spacing:0px;font-size:medium"><b><font size="2">
+</font></b></p>
+</font></font></span>
+<div style="text-align:left"><span style="text-indent:0px"><font size="2"><font size="2">
+</font></font></span></div>
+<div style="text-align:left"><span style="text-indent:0px"><font size="2"><font size="2">
+</font></font></span>
+<div style="text-align:center"><span style="text-indent:0px"><font size="2"><font size="2">
+<p style="margin-left:10px;margin-right:10px;font-weight:normal;border-collapse:separate;color:rgb(0,0,0);font-family:arial,sans-serif;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:normal;text-transform:none;white-space:normal;word-spacing:0px;font-size:medium"><font size="2"><span style="border-collapse:separate;color:rgb(0,0,0);font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><font style="font-family:arial,sans-serif" size="2"><span style="border-collapse:separate;color:rgb(0,0,0);font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><font><font><b><a href="http://www.lulu.com/product/paperback/competitive-programming-2/16377304" target="_blank" rel="nofollow"></a></b></font></font></span></font></span></font></p>
+</font></font></span></div>
+<span style="text-indent:0px"><font size="2"><font size="2">
+</font></font></span></div>
+<span style="text-indent:0px"><font size="2"><font size="2">
+<p style="margin-left:10px;margin-right:10px"><font size="2"><font style="font-family:arial,sans-serif"> </font></font></p>
+</font></font></span>
+<div style="text-align:center;display:block;margin:5px auto 0px">
+<a href="http://www.lulu.com/commerce/index.php?fBuyContent=13872395" target="_blank" rel="nofollow"><img alt="Support independent publishing: Buy this book on Lulu." src="http://static.lulu.com/images/services/buy_now_buttons/us/blue.gif?20130514083221" border="0"><font size="4" color="#0000ff"><b style="background-color:rgb(255,255,255)">CP3 (A5 Paperback)</b></font></a><font size="4"><span style="background-color:rgb(255,255,255)"><font style="font-weight:bold" color="#ffffff">&nbsp;</font><font color="#000000">|</font></span><b style="color:rgb(255,255,255)"><span style="background-color:rgb(255,255,255)"><span style="line-height:1.6">&nbsp;</span><a href="http://www.lulu.com/commerce/index.php?fBuyContent=13872302" style="line-height:1.6" target="_blank" rel="nofollow"><img alt="Support independent publishing: Buy this book on Lulu." src="http://static.lulu.com/images/services/buy_now_buttons/us/orange.gif?20130514083221" border="0">CP3 (8.25 x 10.75 inch Hard Cover)</a></span></b></font>&nbsp;<span style="font-size:large;line-height:28.7999992370605px;background-color:transparent"><font style="font-weight:bold" color="#ffffff">&nbsp;</font><font color="#000000">|</font></span><b style="font-size:large;line-height:28.7999992370605px;color:rgb(255,255,255);background-color:transparent"><span style="line-height:1.6">&nbsp;</span></b><span style="line-height:1.6;font-size:10pt;background-color:transparent">&nbsp;</span><a href="http://www.lulu.com/commerce/index.php?fBuyContent=16107254" style="line-height:1.6;font-size:10pt;background-color:transparent" rel="nofollow"><img alt="Support independent publishing: Buy this e-book on Lulu." src="http://static.lulu.com/images/services/buy_now_buttons/en/gray.gif?20141120080341" border="0"></a><b style="font-size:large;line-height:28.7999992370605px;color:rgb(255,255,255);background-color:transparent"><a href="http://www.lulu.com/commerce/index.php?fBuyContent=16107254" style="color:rgb(255,153,0);line-height:1.6" target="_blank" rel="nofollow">CP3 (eBook)</a></b></div>
+<div style="text-align:center;display:block;margin:5px auto 0px"><font size="4" color="#000000"><span style="line-height:28px"><span style="background-color:rgb(255,255,255)">Once a while, Lulu offers promotion (COUPON) code. Please check their main homepage&nbsp;</span></span></font><span style="text-align:left;background-color:transparent;line-height:28px"><font size="4" color="#000000"><a href="http://www.lulu.com/home" rel="nofollow">http://www.lulu.com/home</a></font></span><span style="line-height:28px;color:rgb(0,0,0);font-size:large;background-color:transparent">&nbsp;to see if one is available before making purchase</span></div>
+<div style="text-align:center">
+<div style="text-align:center">
+<div style="text-align:left"><span style="color:rgb(0,0,0);text-indent:0px"><font size="2"><font size="2">
+<p style="margin-left:10px;margin-right:10px"><i>"I cannot imagine a better complement for the UVa Online Judge site" -- <a href="http://www.mac.cie.uva.es/%7Erevilla/" target="_blank" rel="nofollow">Miguel A. Revilla</a>, UVa Online Judge site creator, ACM-ICPC Problem Archivist.</i></p>
+</font></font></span><span style="text-indent:0px"><font>
+<p style="color:rgb(0,0,0);font-size:small;margin-left:10px;margin-right:10px"><i>"Competitive Programming is a unique resource that I recommend to any 
+student interested in raising their algorithmic programming skills to 
+the next level. It is packed with insightful tips and techniques that 
+are hard to find elsewhere, and remarkably thorough in its use of 
+examples and references to sample problems." -- <a href="http://www.cs.clemson.edu/%7Ebcdean/" target="_blank" rel="nofollow">Brian C. Dean</a>, Associate Director, USA Computing Olympiad.</i></p>
+</font>
+<p style="text-align:left;margin-left:10px;margin-right:10px"><font><span style="color:rgb(0,0,0);font-family:arial,sans-serif;font-size:medium;line-height:normal"><font size="2"><font size="2"><font size="2"><span style="border-collapse:separate"><b>Links: <a href="https://sites.google.com/site/stevenhalim/home/tableofcontents">Table of Contents</a> |</b> <a href="https://sites.google.com/site/stevenhalim/home/material"><b>Supporting Material</b></a> </span></font></font></font></span><span style="color:rgb(0,0,0);font-family:arial,sans-serif;font-size:medium;line-height:normal"><font size="2"><font size="2"><font size="2"><font size="2"><font size="2"><span style="border-collapse:separate"> | <a href="http://www.comp.nus.edu.sg/~stevenha/visualization" target="_blank" rel="nofollow"><b>VisuAlgo - Data Structures and Algorithms Visualization</b></a>&nbsp;|&nbsp;<a href="http://felix-halim.net/uva/hunting.php?id=32900" target="_blank" rel="nofollow"><b>uHunt</b></a> | <a href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=118" target="_blank" rel="nofollow"><b>UVa</b></a> </span></font></font></font></font></font></span></font><span style="color:rgb(0,0,0);font-family:arial,sans-serif;font-size:medium;line-height:normal"><font size="2"><font size="2"><font size="2"><span style="border-collapse:separate">| </span></font></font></font></span><font style="color:rgb(0,0,0);font-size:10pt;font-family:arial,sans-serif;line-height:normal" size="2"><font size="2"><b><a href="https://sites.google.com/site/stevenhalim/home/credits">Credits</a></b> </font></font><span style="color:rgb(0,0,0);font-family:arial,sans-serif;font-size:medium;line-height:normal"><font size="2"><font size="2"><font size="2"><font size="2"><font size="2"><span style="border-collapse:separate">|</span></font></font></font></font></font></span><font style="color:rgb(0,0,0);font-size:10pt;font-family:arial,sans-serif;line-height:normal" size="2"><font size="2">&nbsp;</font></font><span style="color:rgb(0,0,0);font-family:arial,sans-serif;font-size:medium;line-height:normal"><font size="2"><font size="2"><font size="2"><span style="border-collapse:separate"><b><font size="2"><font size="2"><a href="https://www.facebook.com/competitive.programming" target="_blank" rel="nofollow">Facebook</a></font></font></b>&nbsp;| <a href="https://sites.google.com/site/stevenhalim/home/testimonials"><b>Testimonials</b></a></span></font></font></font></span><span style="color:rgb(0,0,0);font-family:arial,sans-serif;font-size:medium;line-height:normal"><font size="2"><font size="2"><font size="2"><font size="2"><font size="2"><span style="border-collapse:separate"> | <b><a href="https://sites.google.com/site/stevenhalim/home/workshop">IOI workshop</a>&nbsp;| <a href="http://www.lulu.com/spotlight/stevenhalimatgmaildotcom" target="_blank" rel="nofollow">Author Spotlight</a></b></span></font></font></font></font></font></span></p>
+</span></div>
+</div>
+</div>
+<div style="text-align:center"><span style="text-indent:0px"><font size="2"><font size="2">
+</font></font></span></div>
+<p style="margin-left:10px;margin-right:10px;color:rgb(0,0,0)">
+</p>
+<span style="text-indent:0px"><font size="2"><font size="2">
+<div style="display:inline;margin:5px 10px;float:right"><font><font size="2"><font><font><font size="2"><font size="2"><b><b><font size="2">
+</font></b></b></font></font></font></font></font></font></div>
+<font><font><font><font size="2"><font size="2"><b>
+</b></font></font></font></font></font></font></font></span>
+<table style="border-collapse:collapse;border-color:rgb(136,136,136);border-width:1px" cellspacing="0" bordercolor="#888" border="1">
+<tbody>
+<tr>
+<td style="text-align:center;color:rgb(0,0,0);width:177px;height:219px"><b>About the Book</b></td>
+<td style="text-align:center;width:325px;height:219px"><b><font color="#000000">First Edition *</font><span style="background-color:rgb(255,0,0)"><font color="#ffffff">FREE</font></span><font color="#000000">*</font></b><img src="Competitive%20Programming_files/cp.jpg" style="display:block;margin-right:auto;margin-left:auto" width="140" height="200" border="0"></td>
+<td style="text-align:center;width:353px;height:219px"><b><font color="#000000">Second Edition (A5 &amp; Large/A4)&nbsp;</font></b><b><font color="#000000">*</font><span style="background-color:rgb(255,0,0)"><font color="#ffffff">DISCOUNTED</font></span><font color="#000000">*</font></b><img src="Competitive%20Programming_files/cp2.png" style="display:block;margin-right:auto;margin-left:auto" width="138" height="200" border="0"></td>
+<td style="text-align:center;width:383px;height:219px"><b><font color="#000000">&nbsp;Third Edition (A5 &amp; Large Hard Cover)&nbsp;</font></b><b style="text-align:center"><font color="#000000">*</font><span style="background-color:rgb(255,0,0)"><font color="#ffffff">AVAILABLE NOW</font></span><font color="#000000">*<br>
+</font></b><img src="Competitive%20Programming_files/cp3.png" width="139" height="200" border="0"></td>
+</tr>
+<tr>
+<td style="font-weight:normal;text-align:center;width:177px;height:19px"><font color="#000000">&nbsp;Number of Pages<br>
+</font></td>
+<td style="font-weight:normal;width:325px;height:19px"><font color="#000000">&nbsp;152 (76 double-sided A4 sheets) + 4 pages cover<br>
+</font></td>
+<td style="font-weight:normal;width:353px;height:19px"><font color="#000000">&nbsp;262 (131 double-sided sheets) + 4 pages cover<br>
+</font></td>
+<td style="width:383px;height:19px"><font color="#000000">&nbsp;447 (224 double-sided sheets) + 4 pages cover</font></td>
+</tr>
+<tr>
+<td style="font-weight:normal;text-align:center;width:177px;height:19px"><font color="#000000">&nbsp;Total Chapters<br>
+</font></td>
+<td style="font-weight:normal;width:325px;height:19px"><font color="#000000">&nbsp;7</font></td>
+<td style="font-weight:normal;width:353px;height:19px"><font color="#000000">&nbsp;8</font></td>
+<td style="width:383px;height:19px"><font color="#000000">&nbsp;9</font></td>
+</tr>
+<tr>
+<td style="text-align:center;width:177px;height:19px"><font color="#000000">&nbsp;Sample Pages<br>
+</font></td>
+<td style="width:325px;height:19px"><font color="#000000"><b>&nbsp;</b><span style="text-indent:0px"><font size="2"><font size="2"><font size="2"><span style="border-collapse:separate;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><font style="font-family:arial,sans-serif" size="2"><span style="border-collapse:separate;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><font><font>Removed, just download the entire e-book below</font></font></span></font></span></font></font></font></span></font></td>
+<td style="width:353px;height:19px"><font color="#000000">&nbsp;<span style="text-indent:0px"><font size="2"><font size="2"><font size="2"><span style="border-collapse:separate;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><font style="font-family:arial,sans-serif" size="2"><span style="border-collapse:separate;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><font><font><b><a href="http://www.comp.nus.edu.sg/%7Estevenha/myteaching/competitive_programming/book-sample-pages-2nd.pdf" target="_blank" rel="nofollow">Click this link (27 from 262 pages)</a> </b></font></font></span></font></span></font></font></font></span></font></td>
+<td style="width:383px;height:19px"><font color="#000000">&nbsp;See the preview pages @ lulu.com</font></td>
+</tr>
+<tr>
+<td style="text-align:center;width:177px;height:104px"><span style="font-weight:normal"><font color="#000000">&nbsp;Selling Price (Printed)<br>
+<br>
+<br>
+</font></span><br>
+</td>
+<td style="font-weight:normal;width:325px;height:104px"><font color="#000000">&nbsp;Now o<font style="font-family:arial,sans-serif" size="2">nly 8.91 USD -&gt; 7.13 USD<br>
+&nbsp;(i.e. the printing + shipping cost only)<br>
+&nbsp;<b>Get a printed copy of the 1st </b></font><span style="text-indent:0px"><font><font><font size="2"><font size="2"><span style="text-indent:0px"><font><font><font size="2"><font size="2"><font size="2"><span style="border-collapse:separate;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><font size="2"><span style="border-collapse:separate;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><font style="font-family:verdana,sans-serif" color="#000000"><a href="https://sites.google.com/site/stevenhalim/goog_1366512147">
+</a></font></span></font></span></font></font></font></font></font></span></font></font></font></font></span></font><font style="font-family:arial,sans-serif" size="2"><b><font color="#000000">edition&nbsp;from <a href="http://www.lulu.com/product/paperback/competitive-programming/12110025" target="_blank" rel="nofollow">lulu</a></font></b></font></td>
+<td style="width:353px;height:104px"><font color="#000000"><span style="font-weight:normal">&nbsp;Now 18.05 -&gt; 14.86 USD (+ shipping cost)<br>
+&nbsp;</span><font style="font-family:arial,sans-serif" size="2"><b><a href="http://www.lulu.com/product/paperback/competitive-programming-2/16377304" target="_blank" rel="nofollow">Buy the 2nd edition</a><br>
+</b></font></font><font color="#000000"><font style="font-family:arial,sans-serif" size="2"><b><br>
+</b></font></font><font color="#000000">&nbsp;Now 20.96 -&gt; 17.26 USD (+ shipping cost)<br>
+&nbsp;<font style="font-family:arial,sans-serif" size="2"><b><a href="http://www.lulu.com/shop/steven-halim/competitive-programming-2-a4/paperback/product-20143247.html" target="_blank" rel="nofollow">Buy the 2nd and large edition</a></b></font></font></td>
+<td style="width:383px;height:104px"><font color="#000000"><span style="font-family:arial,sans-serif;font-size:small;line-height:20px">&nbsp;29.99 -&gt; Now 26.99 USD (+ shipping cost)<br>
+&nbsp;<b><a href="http://www.lulu.com/shop/steven-halim/competitive-programming-3/paperback/product-21031836.html" target="_blank" rel="nofollow">Buy the 3rd edition (A5 paperback)</a><br>
+</b></span></font><span style="font-family:arial,sans-serif;font-size:small;line-height:20px;color:rgb(0,0,0)"><b><br>
+&nbsp;</b>39.99</span><span style="color:rgb(0,0,0);font-family:arial,sans-serif;font-size:small;line-height:20px">&nbsp;-&gt; Now 35.99</span><span style="color:rgb(0,0,0);font-family:arial,sans-serif;font-size:small;line-height:20px;background-color:transparent">&nbsp;USD (+ shipping cost)</span><span style="font-family:arial,sans-serif;font-size:small;line-height:20px;color:rgb(0,0,0)"><br>
+</span><font color="#000000"><span style="font-family:arial,sans-serif;font-size:small;line-height:20px">&nbsp;<b><a href="http://www.lulu.com/shop/steven-halim/competitive-programming-3-hardcover/hardcover/product-21031840.html" target="_blank" rel="nofollow">Buy the 3rd edition (8.25 x 10.75 inch (~2xA5) hard cover)</a></b></span></font><span style="color:rgb(0,0,0);font-size:small;font-family:arial,sans-serif;line-height:20px"><br>
+</span><b style="color:rgb(0,0,0);font-size:small;line-height:20px"><b><font size="2">
+<div style="margin:5px auto 0pt;text-align:center"></div>
+</font></b></b></td>
+</tr>
+<tr>
+<td style="text-align:center;width:177px;height:39px"><span style="font-weight:normal"><font color="#000000">Selling Price (eBook)</font></span></td>
+<td style="width:325px;height:39px"><font color="#000000"><font style="font-family:arial,sans-serif" size="2">&nbsp;project retired from lulu.com<br>
+&nbsp;simply download the free copy from <b><a href="http://www.comp.nus.edu.sg/~stevenha/myteaching/competitive_programming/cp1.pdf" target="_blank" rel="nofollow">here</a></b></font></font>
+<div style="display:inline;margin:5px 10px;float:right"><font color="#000000"><font><font size="2"><font><font><font size="2"><font size="2"><b><b><font size="2">
+</font></b></b></font></font></font></font></font></font></font></div>
+<span style="text-indent:0px"><font><font><font size="2"><font size="2"><span style="text-indent:0px"><font><font><font size="2"><font size="2"><font size="2"><span style="border-collapse:separate;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><font size="2"><span style="border-collapse:separate;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><font style="font-family:verdana,sans-serif">
+</font></span></font></span></font></font></font></font></font></span></font></font></font></font></span></td>
+<td style="width:353px;height:39px"><font color="#000000"><span style="text-indent:0px"><font><font><font size="2"><font size="2"><span style="text-indent:0px"><font size="2"><font size="2">
+</font></font></span>
+</font></font></font></font></span></font>
+<div style="display:inline;margin:5px 10px;float:right"><font color="#000000"><font><font size="2"><font><font><font size="2"><font size="2"><b><b><font size="2">
+</font></b></b></font></font></font></font></font></font></font></div>
+<span><font color="#000000">&nbsp;just 14.32 USD</font></span><span style="text-indent:0px"><font><font><font size="2"><font size="2"><span style="text-indent:0px"><font size="2"><font size="2">
+<div style="display:inline;margin:5px 10px;float:right"><font><font size="2"><font><font><font size="2"><font size="2"><b><b><font size="2">
+</font></b></b></font></font></font></font></font></font></div>
+</font></font></span></font></font></font></font></span></td>
+<td style="width:383px;height:39px"><font color="#000000">&nbsp;just 19.99 USD</font></td>
+</tr>
+<tr>
+<td style="text-align:center;width:177px;height:39px"><font color="#000000"><span style="font-weight:normal">&nbsp;Printed Version Release Date</span><br>
+</font></td>
+<td style="width:325px;height:39px"><font color="#000000"><span style="font-weight:normal">&nbsp;Monday, 9 August 2010, before IOI 2010</span><br>
+</font></td>
+<td style="width:353px;height:39px"><font color="#000000"><span style="font-weight:normal">&nbsp;Monday, 1 August 2011, after IOI 2011 (A5)<br>
+</span>&nbsp;Thursday, 24 May 2012, the day Steven turned 30&nbsp;(A4)
+</font></td>
+<td style="width:383px;height:39px"><font color="#000000">&nbsp;Friday, 24 May 2013, the day Steven turned 31<br>
+<br>
+</font></td>
+</tr>
+<tr>
+<td style="text-align:center;width:177px;height:39px"><font color="#000000"><span style="font-weight:normal">&nbsp;eBook Version Release Date</span><br>
+</font></td>
+<td style="width:325px;height:39px"><font color="#000000"><span style="font-weight:normal">&nbsp;Saturday, 16 July 2011</span><br>
+&nbsp;<b><a href="http://www.lulu.com/shop/steven-halim-and-felix-halim/competitive-programming/ebook/product-17368441.html" target="_blank" rel="nofollow">Donate 0.99 USD to lulu for the e-book of 1st ed</a></b><br>
+</font></td>
+<td style="width:353px;height:39px"><font color="#000000">&nbsp;Saturday, 22 December 2012<br>
+&nbsp;<b><a href="http://www.lulu.com/content/e-book/competitive-programming-2/13516488" target="_blank" rel="nofollow">Buy e-book of the 2nd edition</a>&nbsp;</b>(only A4 version)<br>
+</font></td>
+<td style="width:383px;height:39px"><span style="color:rgb(0,0,0)">&nbsp;Wednesday, 31 December 2014<br>
+&nbsp;<a href="http://www.lulu.com/shop/steven-halim/competitive-programming-3/ebook/product-21976335.html" target="_blank" rel="nofollow"><b>Buy e-book of the 3rd edition</b></a> (only A4 version)</span></td>
+</tr>
+<tr>
+<td style="text-align:center;width:177px;height:19px"><font color="#000000"><span style="font-weight:normal">&nbsp;100 copies mark</span><br>
+</font></td>
+<td style="width:325px;height:19px"><font color="#000000">&nbsp;<span style="border-collapse:separate;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><font><font><font size="2"><font size="2"><span style="font-family:arial,sans-serif">Tuesday, 30 November 2010&nbsp;(~113 days after release)</span></font></font></font></font></span></font></td>
+<td style="width:353px;height:19px"><font color="#000000">&nbsp;Thursday, 11 August 2011 (11 days after release) :D<br>
+</font></td>
+<td style="width:383px;height:19px"><font color="#000000">&nbsp;Tuesday, 28 May 2013 (just 5 days after release :D)<br>
+</font></td>
+</tr>
+<tr>
+<td style="text-align:center;width:177px;height:59px"><font color="#000000">&nbsp;Sales Status<br>
+</font></td>
+<td style="width:325px;height:59px"><span style="text-indent:0px"><font size="2"><font size="2"><b><font size="2"><font><font><font size="2"><font style="font-family:arial,sans-serif" size="2" color="#000000">
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><font size="2">&gt; </font><span style="font-weight:normal">668 copies as of 13 June 2012</span><br>
+<span style="font-weight:normal"><font size="2">(Steven no longer keep track</font> of these numbers)</span><br>
+</div>
+</font></font></font></font></font></b></font></font></span></td>
+<td style="text-align:center;width:353px;height:59px"><font color="#000000">&nbsp;&gt; 1005 copies as of 27 July 2012 (A5)<br>
+&nbsp;&gt; 153 copies as of 22 Dec 2012 (A4)<span style="font-weight:normal"><br>
+&nbsp;(Steven no longer keep track of these numbers)<br>
+</span></font></td>
+<td style="width:383px;height:59px"><font color="#000000">&nbsp;225&nbsp;</font><span style="color:rgb(0,0,0)">copies as of 13 Jun 2013 (both A5 paperback + hard cover)<br>
+&nbsp;339 copies as of 14 Jul 2013 (both A5 paperback + hard cover)<br>
+&nbsp;~3000+ copies as of 31 Dec 2014 (lulu + local @ Singapore)<br>
+&nbsp;current rate = still steady at 3-4 books/day in the past 1 year :)<br>
+</span></td>
+</tr>
+<tr>
+<td style="text-align:center;width:177px;height:19px">&nbsp;<span style="color:rgb(0,0,0);text-align:center">Errata &amp; plan for next edition</span></td>
+<td style="text-align:left;width:325px;height:19px">&nbsp;<span style="color:rgb(0,0,0);font-size:small;line-height:normal"><a href="https://sites.google.com/site/stevenhalim/home/second" style="color:rgb(255,153,0)">Errata of 1st edition and plan for the 2nd edition</a></span></td>
+<td style="width:353px;height:19px"><b>&nbsp;</b><span style="color:rgb(0,0,0);font-size:small;line-height:normal"><a href="https://sites.google.com/site/stevenhalim/home/third" style="color:rgb(255,153,0)">Errata of 2nd edition and plan for the 3rd edition</a></span></td>
+<td style="width:383px;height:19px">&nbsp;<a href="https://sites.google.com/site/stevenhalim/home/fourth">Errata of 3rd edition and plan for the 4th edition</a></td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<div style="text-align:center"><span style="color:rgb(0,0,0);font-family:arial,sans-serif;font-size:small;line-height:20px">Note: lulu only accepts PayPal, MasterCard, Visa,</span><span style="color:rgb(0,0,0);font-family:arial,sans-serif;font-size:small;line-height:20px">&nbsp;</span><span style="color:rgb(0,0,0);font-family:arial,sans-serif;font-size:small;line-height:20px">Discover, American Express.</span><span style="color:rgb(0,0,0);font-family:arial,sans-serif;font-size:small;line-height:20px">&nbsp;</span><span style="color:rgb(0,0,0);font-family:arial,sans-serif;font-size:small;line-height:20px">You need to have</span><font style="color:rgb(0,0,0);font-family:arial,sans-serif;font-size:small;line-height:20px" size="2">&nbsp;</font><span style="color:rgb(0,0,0);font-family:arial,sans-serif;font-size:small;line-height:20px">one&nbsp;of these cards to buy</span><span style="color:rgb(0,0,0);font-family:arial,sans-serif;font-size:small;line-height:20px">&nbsp;our book from lulu.</span></div>
+<div style="text-align:left;font-family:arial,sans-serif"><span style="border-collapse:separate;color:rgb(0,0,0);font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;font-size:medium"><font size="2"><font size="2">
+</font></font></span></div>
+</div></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages" class="sites-canvas-bottom-panel-wrapper" style="">
+<div class="sites-subpages">
+            Subpages <span id="subpages-total-number">(9):</span>
+<span>
+<a href="https://sites.google.com/site/stevenhalim/home/second" dir="ltr">Errata (1st -&gt; 2nd Ed)</a>
+</span>
+<span>
+<a href="https://sites.google.com/site/stevenhalim/home/third" dir="ltr">Errata (2nd-&gt;3rd Ed)</a>
+</span>
+<span>
+<a href="https://sites.google.com/site/stevenhalim/home/fourth" dir="ltr">Errata (3rd-&gt;4th Ed)</a>
+</span>
+<span>
+<a href="https://sites.google.com/site/stevenhalim/home/credits" dir="ltr">Problem Credits</a>
+</span>
+<span>
+<a href="https://sites.google.com/site/stevenhalim/home/sales" dir="ltr">Sales Data</a>
+</span>
+<span>
+<a href="https://sites.google.com/site/stevenhalim/home/material" dir="ltr">Supporting Material</a>
+</span>
+<span>
+<a href="https://sites.google.com/site/stevenhalim/home/tableofcontents" dir="ltr">Table of Contents</a>
+</span>
+<span>
+<a href="https://sites.google.com/site/stevenhalim/home/testimonials" dir="ltr">Testimonials</a>
+</span>
+<span>
+<a href="https://sites.google.com/site/stevenhalim/home/workshop" dir="ltr">Workshop</a>
+</span>
+</div>
+</div>
+<div id="sites-attachments-container">
+</div>
+</div>
+</div> 
+</td> 
+</tr>
+</tbody></table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter" role="navigation"><p><a class="sites-system-link" href="https://accounts.google.com/ServiceLogin?continue=https://sites.google.com/site/stevenhalim/home&amp;service=jotspot">Sign in</a><span aria-hidden="true">|</span><a class="sites-system-link" href="https://sites.google.com/site/stevenhalim/system/app/pages/recentChanges">Recent Site Activity</a><span aria-hidden="true">|</span><a class="sites-system-link" href="https://sites.google.com/site/stevenhalim/system/app/pages/reportAbuse" target="_blank">Report Abuse</a><span aria-hidden="true">|</span><a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a><span aria-hidden="true">|</span><span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com/site">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="Competitive%20Programming_files/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">if (webspace.editorResources['text']) {webspace.editorResources['text'].unshift('\/site\/stevenhalim\/system\/app\/css\/overlay.css?cb\x3diceberg150goog-ws-noside');webspace.editorResources['text'].unshift('\/site\/stevenhalim\/_\/rsrc\/1559201124000\/system\/app\/themes\/iceberg\/standard-css-iceberg-ltr-ltr.css');}</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/site/stevenhalim/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Navigation", true);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
+                      window.jstiming.report(loadTimer, {}, 'https://gg.google.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false,
+            false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+  //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+          JOT_setupPostRenderingManager();
+        </script>
+<script type="text/javascript">
+          JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+        </script>
+<script type="text/javascript">
+          sites.codeembed.init();
+        </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script type="text/javascript">
+          window.jstiming.load.tick('render');
+          JOT_postEvent('usercontentrendered', this);
+        </script>
+
+
+<iframe id="google_osd_static_frame_8161850273888" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe></body><iframe id="google_esf" name="google_esf" src="Competitive%20Programming_files/zrt_lookup.html" style="display: none;" data-ad-client="ca-pub-5994970727713591"></iframe></html>

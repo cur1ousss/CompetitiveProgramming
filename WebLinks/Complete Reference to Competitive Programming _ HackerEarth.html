@@ -1,0 +1,1810 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- saved from url=(0063)https://www.hackerearth.com/getstarted-competitive-programming/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="theme-color" content="#323754">
+        
+        <meta name="description" content="  HackerEarth is a global hub of 3M+ developers. We help companies accurately assess, interview, and hire top developers for a myriad of roles.">
+        <link rel="canonical" href="https://www.hackerearth.com/getstarted-competitive-programming/">
+        <meta name="msvalidate.01" content="1BF418E510B5A17A2D71685C571BF4EB">
+
+        
+        <meta name="referrer" content="strict-origin-when-cross-origin">
+        
+
+        
+        <iframe src="javascript:false" title="" style="width: 0px; height: 0px; border: 0px; display: none;" src="./Complete Reference to Competitive Programming _ HackerEarth_files/saved_resource.html"></iframe><script type="text/javascript" async="" src="./Complete Reference to Competitive Programming _ HackerEarth_files/nofrzq7u"></script><script src="./Complete Reference to Competitive Programming _ HackerEarth_files/cb=gapi.loaded_0" async=""></script><script type="text/javascript" async="" src="./Complete Reference to Competitive Programming _ HackerEarth_files/recaptcha__en.js"></script><script type="text/javascript" async="" src="./Complete Reference to Competitive Programming _ HackerEarth_files/plusone.js" gapi_processed="true"></script><script id="twitter-wjs" src="./Complete Reference to Competitive Programming _ HackerEarth_files/widgets.js"></script><script id="facebook-jssdk" src="./Complete Reference to Competitive Programming _ HackerEarth_files/all.js"></script><script type="text/javascript" async="" src="./Complete Reference to Competitive Programming _ HackerEarth_files/mixpanel-2-latest.min.js"></script><script async="" src="./Complete Reference to Competitive Programming _ HackerEarth_files/gtm.js"></script><script async="" src="./Complete Reference to Competitive Programming _ HackerEarth_files/analytics.js"></script><script>
+          (function() {
+              if (window.BOOMR && window.BOOMR.version) {
+                  return;
+              }
+              var dom, doc, where, iframe = document.createElement("iframe"),
+                  win = window;
+
+              function boomerangSaveLoadTime(e) {
+                  win.BOOMR_onload = (e && e.timeStamp) || new Date().getTime();
+              }
+              if (win.addEventListener) {
+                  win.addEventListener("load", boomerangSaveLoadTime, false);
+              } else if (win.attachEvent) {
+                  win.attachEvent("onload", boomerangSaveLoadTime);
+              }
+
+              iframe.src = "javascript:false";
+              iframe.title = "";
+              iframe.role = "presentation";
+              (iframe.frameElement || iframe).style.cssText = "width:0;height:0;border:0;display: none;";
+              where = document.getElementsByTagName("script")[0];
+              where.parentNode.insertBefore(iframe, where);
+
+              try {
+                  doc = iframe.contentWindow.document;
+              } catch (e) {
+                  dom = document.domain;
+                  iframe.src = "javascript:var d=document.open();d.domain='" + dom + "';void(0);";
+                  doc = iframe.contentWindow.document;
+              }
+              doc.open()._l = function() {
+                  var js = this.createElement("script");
+                  if (dom) this.domain = dom;
+                  js.id = "boomr-if-as";
+                  js.src = "https://s.go-mpulse.net/boomerang/" +
+                      "QKZWA-3BVYP-7W6XK-6HKWZ-EFFZ4";
+                  BOOMR_lstart = new Date().getTime();
+                  this.body.appendChild(js);
+              };
+              doc.write('<body onload="document._l();">');
+              doc.close();
+          })();
+        </script>
+        
+
+
+        
+<meta name="google-site-verification" content="ozqyeStBcz4eehbY9Ohb_IUQcA4y8BKzzDCT-H1QPPc">
+
+
+        
+        
+        <!-- google analytics start -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-34729975-1', 'auto');
+            ga('require', 'displayfeatures');
+            
+            ga('send', 'pageview');
+        </script>
+        <!-- google analytics end -->
+        
+        
+
+        
+        
+        <!-- Google Tag Manager -->
+        <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-PBHB3B9');
+        </script>
+        <!-- End Google Tag Manager -->
+        
+        
+
+        <title>  
+Complete Reference to Competitive Programming
+ | HackerEarth  </title>
+
+        
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<!-- Facebook tags -->
+<meta property="og:title" content="The complete reference to Competitive Programming">
+<meta property="og:description" content="The complete reference to Competitive Programming that will help you raise your algorithmic programming skills to the next level.">
+<meta property="og:image" content="https://static-fastly.hackerearth.com/static/hackerearth/images/marketing/algorithm_blog/algo-og.jpg">
+<meta property="og:url" content="https://www.hackerearth.com/getstarted-competitive-programming/">
+<meta property="og:site_name" content="HackerEarth">
+<meta property="og:type" content="website">
+<!-- end Facbook tags -->
+
+<!-- Twitter tags -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@HackerEarth">
+<meta name="twitter:url" content="https://www.hackerearth.com/getstarted-competitive-programming/">
+<meta name="twitter:title" content="">
+<!-- end Twitter tags -->
+
+        
+        <link rel="shortcut icon" href="https://static-fastly.hackerearth.com/static/hackerearth/images/logo/HE_identity.png" type="image/x-icon">
+        
+
+        
+
+        
+            <link rel="stylesheet" href="./Complete Reference to Competitive Programming _ HackerEarth_files/base_common_combined.css">
+            <link rel="stylesheet" href="./Complete Reference to Competitive Programming _ HackerEarth_files/marketing_footer.css">
+            <link rel="stylesheet" href="./Complete Reference to Competitive Programming _ HackerEarth_files/tipTip.css">
+            <link rel="stylesheet" href="./Complete Reference to Competitive Programming _ HackerEarth_files/offline-theme-slide.css">
+            <link rel="stylesheet" href="./Complete Reference to Competitive Programming _ HackerEarth_files/font-awesome.min.css">
+            <link rel="stylesheet" href="./Complete Reference to Competitive Programming _ HackerEarth_files/opensans.css">
+            <link rel="stylesheet" href="./Complete Reference to Competitive Programming _ HackerEarth_files/proxima-nova.css">
+            <link rel="stylesheet" href="./Complete Reference to Competitive Programming _ HackerEarth_files/hack.css">
+            <link rel="stylesheet" href="./Complete Reference to Competitive Programming _ HackerEarth_files/unicons.css">
+        
+
+        
+
+
+
+        
+
+        <!-- Make the static variable available for all js files -->
+        <script>
+            var STATIC_URL = "https://static-fastly.hackerearth.com/static/";
+        </script>
+
+        <!-- Store CSRF_COOKIE -->
+        <script>
+            var CSRF_COOKIE_USED = "True";
+            var CSRF_COOKIE = "7Io2Qt9xs9TJyeMJCpAAK90tzH6Roh8mu48cMQvlGsX6IXMG2qNPRALyIvbJNe8F";
+        </script>
+
+        
+<link rel="stylesheet" href="./Complete Reference to Competitive Programming _ HackerEarth_files/algorithm_blog.css">
+
+
+    <style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover, .MJXp-munder {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > *, .MJXp-munder > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+
+    <body><div id="MathJax_Message" style="display: none;"></div>
+        
+            
+<link rel="stylesheet" href="./Complete Reference to Competitive Programming _ HackerEarth_files/notification_toast.css">
+<div class="notification-toast-container notification-top-center regular">
+    <div class="notification-errors">
+        <p id="notification-auth-error" class="error-item hidden no-margin">
+            <span class="fa fa-times less-margin-right"></span>Ensure that you are logged in and have the required permissions to access the test.
+        </p>
+        <p id="notification-server-error" class="error-item hidden no-margin">
+            <span class="fa fa-times less-margin-right"></span>A server error has occurred. Please refresh the page or try after some time.
+        </p>
+        <p id="notification-error" class="error-item hidden no-margin">
+            <span class="fa fa-times less-margin-right"></span>An error has occurred. Please refresh the page or try after some time.
+        </p>
+        <p id="notification-custom-error" class="error-item hidden no-margin"></p>
+        
+    </div>
+</div>
+<script type="text/javascript" src="./Complete Reference to Competitive Programming _ HackerEarth_files/notification-toast.js" crossorigin="anonymous" defer=""></script>
+        
+        
+        
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBHB3B9"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        
+        
+
+        <!-- Placeholder for any alert message on the site -->
+        
+        <div id="alert-message-holder">
+            
+
+            <!-- put a dummy message box so that it can be used when cloning
+                 and adding more -->
+            
+        <div class="alert-message hidden">
+                <div class="message float-left"></div>
+                <div class="cross-holder float-left"><span class="small-cross sprites"></span></div>
+                <div class="clear"></div>
+            </div></div> <!-- end alert-message-holder -->
+
+        <!-- Placeholder for any error message on the site -->
+        
+        <div id="error-message-holder">
+            
+
+            <!-- put a dummy message box so that it can be used when cloning
+                 and adding more -->
+            <div class="error-message hidden">
+                <div class="message float-left"></div>
+                <div class="cross-holder float-left"><span class="small-cross sprites"></span></div>
+                <div class="clear"></div>
+            </div>
+        </div> <!-- end error-message-holder -->
+        
+        
+
+        
+    <div id="top-prompt-container" class="hidden prompt-container"></div>
+    <div id="right-prompt-container" class="hidden prompt-container"></div>
+    <div id="center-modal-prompt-container" class="hidden prompt-container"></div>
+    
+    
+        
+        <header class="header">
+            <i class="fa fa-bars mobile-menu-btn"></i>
+            <nav class="navigation">
+                
+                <a href="https://www.hackerearth.com/" class="logo logo-h-terminal  no-underline float-left track-header-logo"></a>
+                
+
+                
+                <ul class="nav-bar no-padding float-left tablet-hide">
+                    <!-- challenges page -->
+                    <li id="challenges" class="nav-bar-menu "><a class="track-header-challenges" href="https://www.hackerearth.com/challenges/">CHALLENGES</a></li>
+                    <!-- hackathons page -->
+                    
+                    <!-- practice page -->
+                    <li id="problems" class="nav-bar-menu "><a class="track-header-problems" href="https://www.hackerearth.com/practice/">PRACTICE</a></li>
+                    <!-- companies page -->
+                    <li id="companies" class="nav-bar-menu "><a class="track-header-companies" href="https://www.hackerearth.com/companies/">COMPANIES</a></li>
+                </ul>
+                <ul class="nav-bar right-nav-bar no-padding float-right tablet-hide">
+                    
+                    
+                    <li id="searchbar">
+                        <div id="search-icon-container" class="float-left">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <input id="searchbar-input" class="float-left" type="text" value="" name="q" autocomplete="off" spellcheck="false" placeholder="Search developers, problems, etc" ajax1="/search/AJAX/search/" ajax2="/search/search-results/">
+                        <div id="search-dropdown"></div>
+                    </li>
+                    
+                    
+
+                    
+
+                    
+
+
+                    
+
+                    
+
+                    
+                    <li class="nav-bar-menu login-menu-btn"><a target="login-modal" class="track-header-login show-modal">LOGIN</a></li>
+                    <li class="nav-bar-menu signup-menu-btn"><a target="login-modal" class="track-header-signup show-modal show-signup-in-modal">SIGN UP</a></li>
+                    
+
+                    <div class="clear"></div>
+                </ul> <!-- nav-bar -->
+                <div class="clear"></div>
+                
+            </nav> <!-- navigation -->
+
+            <i class="fa fa-filter challenge-filter-btn hidden"></i>
+
+        </header> <!-- header -->
+        
+    
+     <style>
+  #gdpr-modal {
+    position: absolute;
+    bottom: 0;
+  }
+</style>
+<div id="gdpr-modal" class="modal-window smaller-modal hidden">
+  
+
+<style>
+  #gdpr-modal-content {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #gdpr-modal-content .modal-header {
+    padding: 50px 55px 35px 55px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  #gdpr-modal-content .modal-footer {
+    padding: 25px 55px 90px;
+  }
+
+  #gdpr-modal-content .modal-content {
+    padding: 0 55px 5px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #gdpr-modal-content .modal-footer .checkbox-row {
+    font-size: 16px;
+    display: inline-flex;
+  }
+
+  #gdpr-modal-content a {
+    color: #0099ff;
+  }
+  
+  #gdpr-modal-content .button.disabled {
+    background: #f5f6f6 !important;
+  }
+</style>
+
+<div id="gdpr-modal-content">
+  
+<div class="modal-header">HackerEarth’s Privacy Policy and Terms of Service</div>
+  <div class="modal-content">
+      We care about your data privacy. HackerEarth uses the information that you provide to contact you about relevant content, products, and services. <br> <br>
+
+      Our <a href="https://www.hackerearth.com/privacy/" target="_blank">Privacy Policy</a> and <a href="https://www.hackerearth.com/terms-of-service/" target="_blank">Terms of Service</a> will help you understand that you are in control of your data at HackerEarth.
+  </div>
+  <div class="modal-footer">
+    <div class="margin-bottom-15 regular checkbox-row">
+      <input type="checkbox" name="gdpr-tnc">
+      I have read and I agree.
+    </div>
+    <div class="">
+      <input type="submit" name="submit" value="Proceed" class="button btn-blue fontawesome btn-largest disabled large" id="gdpr-submit">
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+    
+
+    
+    
+    
+
+    
+
+    <div id="comment-share-modal" class="modal-window small-modal">
+        <div class="modal-header">
+            Comment permalink
+        </div>
+        <div class="modal-content">
+            <div class="comment-share-wrapper align-center">
+                <textarea class="comment-share-text" type="textbox" rows="4" readonly="readonly" onclick="this.select();"></textarea>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    
+    <!-- live events widget -->
+    <div id="live-events-trigger-data">
+
+
+
+<div id="live-events-container" class="live-events">
+    <div class="green-color pagelet-hover" id="live-events-placeholder" ajax="/AJAX/live_events_widget/" target="live-events-loading">
+        <span>Live Events</span>
+        <span id="live-events-widget-count">5</span>
+    </div>
+    <!-- This div is used for spacing between top and bottom borders while scrolling.-->
+    <div id="live-events-loading">
+    </div>
+</div>
+
+</div>
+    
+
+    <!-- This is the center page which has a fixed width of 1100px -->
+    
+<div class="responsive-page">
+    <header class="fold top-fold align-center">
+        <div class="social-div">
+             <a href="https://twitter.com/intent/tweet?text=The+compelete+reference+to+competitive+%23programming+via+%40HackerEarth"><i class="fa fa-twitter-square"></i></a>
+
+             <a href="http://www.facebook.com/sharer.php?s=100&amp;p[url]=www.hackerearth.com/getstarted-competitive-programming&amp;p[title]=The%20complete%20reference%20to%20competitive%20programming%20via%20@HackerEarth" target="_blank"><i class="fa fa-facebook-square"></i></a>
+
+            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=www.hackerearth.com/getstarted-competitive-programming&amp;title=The%20complete%20reference%20to%20competitive%20programming&amp;summary=The%20complete%20reference%20to%20Competitive%20Programming%20that%20will%20help%20you%20raise%20your%20algorithmic%20programming%20skills%20to%20the%20next%20level.&amp;source=HackerEarth" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+        </div>
+        <div class="larger lighter">The Complete Reference to</div>
+        <div class="lighter weight-700 title">
+            Competitive Programming
+        </div>
+        <div class="large lighter">
+        by
+        <br>
+        Ravi Ojha
+        <br>
+        Software Developer, @HackerEarth
+        </div>
+        <img class="head-img" src="./Complete Reference to Competitive Programming _ HackerEarth_files/head2.jpg">
+    </header>
+
+    <div class="first-fold">
+        <div class="responsive-container">
+            <img class="jumpstart" src="./Complete Reference to Competitive Programming _ HackerEarth_files/jumpstart.jpg">
+            <div class="float-right first-block">
+                <img class="computer" src="./Complete Reference to Competitive Programming _ HackerEarth_files/comp.png">
+                <div class="content">
+                    <div class="medium-margin">
+                    Competitive Programming is a sport, I mean literally. Take any sport, let’s consider cricket for that matter, you walk in to bat for the first time. Swing and a miss, do it couple of times and you’ll eventually hit one over the ropes. Now, consider a programming contest as a game of cricket, metaphorically. Compile a code and submit, you may get a WA (Wrong Answer). Make changes to code and eventually you will get your first AC (Accepted/Correct Answer). Let me give you a sneak peek, about 20% of questions in a programming contest are simple conversion of plain english to a code of your favourite programming language.
+                    </div>
+                    <div class="medium-margin">
+                    Walk right into it, you will learn the unwritten rules of the game as you play harder and get better. And believe me, you don’t need to know any <i>“fancy name”</i> algorithm or data-structure to get started. Ever heard of <i>“Waft shot”</i>, yet you’re the best batsman in your street, right?
+                    </div>
+                </div>
+            </div>
+            <img class="first-fold-img image-align-bottom" src="./Complete Reference to Competitive Programming _ HackerEarth_files/head3.jpg">
+            <div class="clear"></div>
+        </div>
+        <img class="first-fold-img image-align-bottom" src="./Complete Reference to Competitive Programming _ HackerEarth_files/3_1900.jpg">
+    </div><!-- first-fold -->
+
+    <div class="second-fold steps">
+        <div class="responsive-container">
+            <img class="level-img float-left" src="./Complete Reference to Competitive Programming _ HackerEarth_files/level0.png">
+            <div class="fold-container float-right">
+                <div class="step-heading"> Levels of our Journey</div>
+                <div class="sub-heading standard-margin">
+                    A walk in the Park
+                </div>
+                <div class="content">
+                    Alright, let’s conquer the first 20% of programming problems out there.
+                    <br>
+                    You need to know:
+                    <br>
+                    <ul>
+                        <li>Intermediate hold on any one programming language</li>
+                        <li>English! Convert english to code!</li>
+                    </ul>
+                    Let’s take an example problem of this level: <a href="https://www.hackerearth.com/problem/algorithm/terrible-chandu/" target="_blank">Terrible Chandu</a>
+                    <br>
+                    <br>
+                    All you have to do is, read input line from STDIN and print reverse of that line to STDOUT. Go ahead, make a submission. Seek your first AC. Want more? We’ve got loads in our <a href="https://www.hackerearth.com/problems/" target="_blank">practice</a> section. Look for the ones with thousands of correct submissions.
+                </div>
+            </div>
+            <img src="./Complete Reference to Competitive Programming _ HackerEarth_files/cycle.jpg" class="ground">
+            <div class="clear"></div>
+        </div>
+        <img class="ground2" src="./Complete Reference to Competitive Programming _ HackerEarth_files/4_1900.jpg" <="" img="">
+    </div><!-- second-fold -->
+
+    <div class="third-fold steps">
+        <div class="responsive-container">
+            <img class="level-img float-right" src="./Complete Reference to Competitive Programming _ HackerEarth_files/level1.png">
+            <div class="fold-container float-left">
+                <div class="sub-heading">
+                    Welcome to the Jungle
+                </div>
+                <div class="content">
+                    <div>
+                        Okay, now you’re ready to take on some real challenge. Hold tight, we are diving deeper.
+                        <br>
+                        <br>
+                        You need to know:
+                        <ul>
+                        <li><a href="https://www.hackerearth.com/notes/sorting-code-monk/" target="_blank">Sort</a> and <a href="https://www.hackerearth.com/notes/searching-code-monk/" target="_blank">Search algorithms</a></li>
+                        <li><a href="https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/" target="_blank">Hashing</a></li>
+                        <li><a href="https://www.hackerearth.com/notes/number-theory-1/" target="_blank">Number Theory</a></li>
+                        <li><a href="https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/" target="_blank">Greedy Technique</a></li>
+                        </ul>
+                    </div>
+                    <div class="medium-margin">
+                    More importantly, you have to figure out what, when and where to apply them. It gets really tricky and hence to help beginners gain a feeling of confidence we run a series of contests as <a href="https://www.hackerearth.com/codemonk/" target="_blank">Code Monk</a>. Before each contest, we release a tutorial on certain topic and later in the contest the problems are aimed only on that particular topic. I’d recommend you to go through the tutorials and solve a question or two on each topic.
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <img class="trees image-align-bottom" src="./Complete Reference to Competitive Programming _ HackerEarth_files/tree.jpg">
+        </div>
+        <img class="trees image-align-bottom" src="./Complete Reference to Competitive Programming _ HackerEarth_files/5_1900.jpg">
+    </div><!-- third-fold -->
+
+    <div class="fourth-fold steps ">
+        <div class="responsive-container">
+            <img class="level-img float-left" src="./Complete Reference to Competitive Programming _ HackerEarth_files/level2.png">
+            <div class="fold-container float-right">
+                <div class="sub-heading">
+                    Take the Fast Track
+                </div>
+                <div class="content">
+                    By now you’ve realised that the questions are framed to deceive the way we think. Sometimes, If you convert plain english to code, you’d end up with TLE (Time Limit Exceeded) verdict. You need to learn a set of new techniques and algorithms to cope up with the time limits. In certain cases, <a href="https://www.hackerearth.com/notes/dynamic-programming-i-1/" target="_blank">Dynamic Programming (DP)</a> comes to the rescue. Infact, you might have already intuitively used this technique. There’s always at least one question in any contest that can be solved by DP.
+                    <br>
+                    <br>
+                    Also, you’d have noticed that there are questions that just can’t solved by linear array data-structures.
+                    <ul>
+                        <li><a href="https://www.hackerearth.com/notes/graph-theory-part-i/" target="_blank">Graph Theory</a></li>
+                        <li><a href="https://www.hackerearth.com/notes/disjoint-set-union-union-find/" target="_blank">Disjoint Set Union</a> (Union-find)</li>
+                        <li><a href="https://www.hackerearth.com/notes/minimum-spanning-tree/" target="_blank">Minimum Spanning Tree</a></li>
+                    </ul>
+                    These set of data-structures will get you quite far enough. Moreover, you’d have figured that the real art is to modify the techniques you know in order to solve a question. All Easy-Medium and Medium level questions can be tackled in this fashion.
+
+                </div>
+            </div>
+            <div class="clear"></div>
+            <img class="jetpack image-align-bottom" src="./Complete Reference to Competitive Programming _ HackerEarth_files/jetpack.png">
+        </div>
+        <img class="clouds image-align-bottom" src="./Complete Reference to Competitive Programming _ HackerEarth_files/6_1900.jpg">
+    </div><!-- fourth-fold -->
+
+    <div class="fifth-fold steps ">
+        <div class="responsive-container">
+            <img class="level-img float-right" src="./Complete Reference to Competitive Programming _ HackerEarth_files/level3.png">
+            <div class="fold-container float-left">
+                <div class="sub-heading">
+                Load up the Weapons
+                </div>
+                <div class="content">
+                    You are all set to top the leaderboards of Short Programming Challenges, just keep steady persistence. As I’ve already mentioned, it’s a sport, you won’t master it until you actually do it. Go ahead, participate in a short contest, know your strengths, weaknesses and see how you handle the adrenaline mode when the clock is ticking.
+                    <br>
+                    <br>
+                    Stick to your own logic as long as possible, you’ll eventually come up with something similar to the algorithm required to solve the question. You just need to brush it up. Several of these techniques will help you solve some of the toughest of the problems around.
+                    <ul>
+                    <li><a href="https://www.hackerearth.com/notes/segment-tree-and-lazy-propagation/" target="_blank">Segment Tree</a></li>
+                    <li><a href="https://www.hackerearth.com/notes/exact-string-matching-algorithms/" target="_blank">String Algorithms</a></li>
+                    <li><a href="https://www.hackerearth.com/notes/trie-suffix-tree-suffix-array/" target="_blank">Tries, Suffix Tree, Suffix Array.</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <img class="soldier image-align-bottom" src="./Complete Reference to Competitive Programming _ HackerEarth_files/7_1900.jpg">
+    </div><!-- fourth-fold -->
+
+    <div class="sixth-fold steps ">
+        <div class="responsive-container">
+            <img class="jet image-align-top" src="./Complete Reference to Competitive Programming _ HackerEarth_files/jet.png">
+            <img class="level-img float-left" src="./Complete Reference to Competitive Programming _ HackerEarth_files/level4.png">
+            <div class="fold-container float-right">
+                <div class="sub-heading">
+                Heavy Artillery
+                </div>
+                <div class="content">
+                    You’ve already become a pro at this game. If you fail in one, go back and analyze where you went wrong. Read the editorials after the contest. Many programmers underestimate the value of post contest analysis, because you had already figured the whole solution but missed just a single case. So the urge of knowing what you missed is irresistible and you’ll never forget what you learnt in the analysis.
+                    <br>
+                    <br>
+                    Usually there are not many deep algorithm intensive questions in short contests, however longer version such as monthly clash challenges on HackerEarth may have applications of one of these.
+                    <ul>
+                        <li>Heavy Light Decomposition</li>
+                        <li>Graph Coloring, Network Flow</li>
+                        <li>Sqrt Decomposition.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <img class="war image-align-bottom" src="./Complete Reference to Competitive Programming _ HackerEarth_files/9_1900.jpg">
+    </div><!-- fifth-fold -->
+
+    <div class="last-fold">
+        <div class="responsive-container">
+            <div class="title">2 Cents</div>
+            <div class="content">
+                Many programmers argue that the problems in competitive programming do not relate to the real life programming work. For the most part, it is true. Then why do we do it? Because it makes you a better programmer. How?
+                <ul>
+                    <li>Time limit always makes you write time efficient solutions.</li>
+                    <li>Critical test data helps you write correct solutions, in one go!</li>
+                    <li>Further it makes you great at debugging code.</li>
+                    <li>Hard problems makes you break down the problem into chunks, solve them individually and bring it all together to solve the main problem.</li>
+                </ul>
+                Yes, competitive programming is not the only way to master these qualities but it is one of the best ways to do so. Give it a shot, if you enjoy it, it’s worth it. You will be rewarded with objective benefits. If you don’t, even after repeated trials, give yourself a break.
+            </div>
+            <div class="large lighter align-center">
+                <div class="weight-600">Learn from tutorials and solve problems in our new practice section</div>
+                <a href="https://www.hackerearth.com/practice/?utm_source=content-marketing-ih16&amp;utm_medium=trackpage&amp;utm_campaign=ravi-competitive-programming">
+                    <div class="button btn-orange inline-block btn-larger medium-margin">
+                    Practice
+                    </div>
+                </a>
+                <div class="social-div standard-margin">
+                     <a href="https://twitter.com/intent/tweet?text=The+compelete+reference+to+competitive+%23programming+via+%40HackerEarth"><i class="fa fa-twitter-square"></i></a>
+
+                     <a href="http://www.facebook.com/sharer.php?s=100&amp;p[url]=www.hackerearth.com/getstarted-competitive-programming&amp;p[title]=The%20complete%20reference%20to%20competitive%20programming%20via%20@HackerEarth" target="_blank"><i class="fa fa-facebook-square"></i></a>
+
+                    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=www.hackerearth.com/getstarted-competitive-programming&amp;title=The%20complete%20reference%20to%20competitive%20programming&amp;summary=The%20complete%20reference%20to%20Competitive%20Programming%20that%20will%20help%20you%20raise%20your%20algorithmic%20programming%20skills%20to%20the%20next%20level.&amp;source=HackerEarth" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div> <!-- end responsive-page -->
+
+
+    <!-- include modal window for login/signup -->
+    
+        
+
+<div id="login-modal" class="modal-window smaller-modal hidden">
+    <div class="modal-header">
+        <div class="login-form align-center larger heading">Log in</div>
+        <div class="signup-form-div hidden align-center larger heading">Sign Up</div>
+        <div class="password-reset hidden align-center larger heading">Reset Password</div>
+    </div>
+    <div class="modal-content">
+
+        <div class="login-form">
+            
+                
+
+
+<div class="modal-social-login align-center">
+    
+        <div class="social-auth-row">
+            
+                <a url="/zeus/facebook/login/?display=popup&amp;next=%2Fsocial-login-complete%2F%3Forigin_protocol%3Dhttps%26origin_host%3Dwww.hackerearth.com%26redirect%3D/getstarted-competitive-programming/&amp;update=facebook&amp;source=getstarted-competitive-programming&amp;purpose=login" title="Facebook" class="button btn-facebook btn-medium show-popup inline-block margin-top-8 less-margin-right less-margin-bottom" minimal="true">
+            
+                <i class="fa fa-facebook"></i>
+                <span class="regular less-margin-left">
+                    Log in with Facebook
+                </span>
+            </a>
+
+            
+                <a url="/zeus/github/login/?next=%2Fsocial-login-complete%2F%3Forigin_protocol%3Dhttps%26origin_host%3Dwww.hackerearth.com%26redirect%3D/getstarted-competitive-programming/&amp;update=github&amp;source=getstarted-competitive-programming&amp;purpose=login" title="Github" class="button btn-github btn-medium show-popup inline-block margin-top-8 less-margin-right" minimal="true">
+            
+                <i class="fa fa-github"></i>
+                <span class="regular less-margin-left">
+                    Log in with Github
+                </span>
+            </a>
+        </div>
+        
+            <a url="/zeus/google/login/?next=%2Fsocial-login-complete%2F%3Forigin_protocol%3Dhttps%26origin_host%3Dwww.hackerearth.com%26redirect%3D/getstarted-competitive-programming/&amp;update=google&amp;source=getstarted-competitive-programming&amp;purpose=login" title="Google" class="button btn-google btn-medium show-popup margin-top-8 less-margin-right sign-up-btn-modified" minimal="true" style="display: block">
+        
+        <img src="./Complete Reference to Competitive Programming _ HackerEarth_files/google_logo.png" alt="Google" style="vertical-align: middle">
+        <span class="regular medium-margin-left roboto-font-family">
+            Sign in with Google
+        </span>
+        </a>
+    
+    <div class="clear"></div>
+</div>
+<div class="align-center standard-margin word-with-line-head">
+    <div class="word-with-line inline-block">
+        <span class="large light">or</span>
+    </div>
+</div>
+
+            
+            <form id="modal-login-form" name="login-form" method="POST" class="ajax-form medium-margin" ajax="/AJAX/login/">
+                
+
+
+
+
+    
+
+        
+
+        
+        <div class="wrapper small-wrapper">
+            
+            <input id="id_login" name="login" placeholder="Username or Email" type="text" required="">
+        </div>
+        <div class="wrapper small-wrapper">
+            <input id="id_password" name="password" placeholder="Password" type="password" required="">
+        </div>
+        
+    
+    <input type="hidden" name="next" value="/getstarted-competitive-programming/">
+     <div>
+         <a href="https://www.hackerearth.com/getstarted-competitive-programming/#" class="link-3 show-hide-many float-right" show="password-reset" hide="login-form">Forgot Password?</a>
+        <div class="clear"></div>
+    </div>
+    <div class="align-center medium-margin">
+        <input type="submit" name="submit" clicked="Logging In.." value="Log in " class="button btn-blue fontawesome btn-largest weight-600 large">
+    </div>
+
+    
+    <script type="text/javascript">
+        try{
+            grecaptcha.render('nocaptcha-recaptcha', {
+                'sitekey' : ''
+            });
+        }
+        catch(err){}
+    </script>
+    
+
+
+
+            </form>
+            
+            <div class="align-center dark regular standard-margin dont-have-account">
+                Don't have an account? <a href="https://www.hackerearth.com/getstarted-competitive-programming/#" class="link-13 show-hide-many regular" show="signup-form-div" hide="login-form"> Sign up</a>
+            </div>
+            
+        </div>
+
+        <div class="signup-form-div hidden">
+            
+                
+
+
+<div class="modal-social-signup align-center">
+    
+        <div class="social-auth-row">
+            
+                <a id="social-login-button-fb" url="/zeus/facebook/login/?display=popup&amp;next=%2Fsocial-login-complete%2F%3Forigin_protocol%3Dhttps%26origin_host%3Dwww.hackerearth.com%26redirect%3D/getstarted-competitive-programming/&amp;update=facebook&amp;source=getstarted-competitive-programming&amp;purpose=signup" title="Facebook" class="button btn-facebook btn-medium show-popup inline-block margin-top-8 less-margin-right hidden" minimal="true" style="display: none;">
+            
+                <i class="fa fa-facebook"></i>
+                <span class="regular weight-600 less-margin-left">
+                    Facebook
+                </span>
+            </a>
+            <a class="button btn-facebook btn-medium inline-block margin-top-8 less-margin-right less-margin-bottom social-login-button social-login-button-fb show-modal" target="gdpr-modal">
+                <i class="fa fa-facebook"></i>
+                <span class="regular less-margin-left">
+                    Sign up with Facebook
+                </span>
+            </a>
+
+            
+                <a id="social-login-button-github" url="/zeus/github/login/?next=%2Fsocial-login-complete%2F%3Forigin_protocol%3Dhttps%26origin_host%3Dwww.hackerearth.com%26redirect%3D/getstarted-competitive-programming/&amp;update=github&amp;source=getstarted-competitive-programming&amp;purpose=signup" title="Github" class="button btn-github btn-medium inline-block margin-top-8 less-margin-right show-popup hidden" minimal="true" style="display: none;">
+            
+                <i class="fa fa-github"></i>
+                <span class="regular weight-600 less-margin-left">
+                    Github
+                </span>
+            </a>
+            <a class="button btn-github btn-medium inline-block margin-top-8 less-margin-right social-login-button social-login-button-github show-modal" target="gdpr-modal">
+                <i class="fa fa-github"></i>
+                <span class="regular less-margin-left">
+                    Sign up with Github
+                </span>
+            </a>
+        </div>
+
+        
+            <a id="social-login-button-g" url="/zeus/google/login/?next=%2Fsocial-login-complete%2F%3Forigin_protocol%3Dhttps%26origin_host%3Dwww.hackerearth.com%26redirect%3D/getstarted-competitive-programming/&amp;update=google&amp;source=getstarted-competitive-programming&amp;purpose=signup" title="Google" class="button btn-google btn-medium inline-block margin-top-8 less-margin-right show-popup hidden" minimal="true" style="display: none;">
+        
+            <i class="fa fa-google-plus"></i>
+            <span class="regular weight-600 less-margin-left">
+                Google
+            </span>
+        </a>
+        <a class="button btn-google btn-medium margin-top-8 less-margin-right social-login-button social-login-button-g show-modal sign-up-btn-modified" style="display: block" target="gdpr-modal">
+            <img src="./Complete Reference to Competitive Programming _ HackerEarth_files/google_logo.png" alt="Google" style="vertical-align: middle">
+            <span class="regular medium-margin-left roboto-font-family">
+                Sign up with Google
+            </span>
+        </a>
+    
+    <div class="clear"></div>
+</div>
+<div class="align-center standard-margin word-with-line-head">
+    <div class="word-with-line inline-block">
+        <span class="large light">or</span>
+    </div>
+</div>
+
+            
+            
+            <form id="modal-signup-form" name="signup-form" method="POST" class="ajax-form medium-margin" ajax="/AJAX/hackerearth/signup/?source=getstarted-competitive-programming&amp;next=/getstarted-competitive-programming/">
+            
+                
+
+
+
+    
+        
+
+        
+        <div class="wrapper small-wrapper float-left">
+            <input id="id_first_name" maxlength="30" name="first_name" placeholder="First Name" type="text" required="">
+        </div>
+
+        <div class="wrapper small-wrapper float-right">
+            <input id="id_last_name" maxlength="30" name="last_name" placeholder="Last Name" type="text">
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="wrapper small-wrapper">
+            <input id="id_email" maxlength="75" name="email" placeholder="Email" type="text" required="">
+        </div>
+        <div class="wrapper small-wrapper">
+            <input id="id_password" name="password" placeholder="Password" type="password" required="">
+        </div>
+    
+
+    <div class="align-center medium-margin">
+        <button id="signup-start-now" class="button btn-blue fontawesome btn-largest weight-600 large disabled" target="gdpr-modal">Start Now</button>
+    </div>
+
+    <style>
+  #gdpr-modal {
+    position: absolute;
+    bottom: 0;
+  }
+</style>
+<div id="gdpr-modal" class="modal-window smaller-modal hidden">
+  
+
+<style>
+  #gdpr-modal-content {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #gdpr-modal-content .modal-header {
+    padding: 50px 55px 35px 55px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  #gdpr-modal-content .modal-footer {
+    padding: 25px 55px 90px;
+  }
+
+  #gdpr-modal-content .modal-content {
+    padding: 0 55px 5px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #gdpr-modal-content .modal-footer .checkbox-row {
+    font-size: 16px;
+    display: inline-flex;
+  }
+
+  #gdpr-modal-content a {
+    color: #0099ff;
+  }
+  
+  #gdpr-modal-content .button.disabled {
+    background: #f5f6f6 !important;
+  }
+</style>
+
+<div id="gdpr-modal-content">
+  
+<div class="modal-header">HackerEarth’s Privacy Policy and Terms of Service</div>
+  <div class="modal-content">
+      We care about your data privacy. HackerEarth uses the information that you provide to contact you about relevant content, products, and services. <br> <br>
+
+      Our <a href="https://www.hackerearth.com/privacy/" target="_blank">Privacy Policy</a> and <a href="https://www.hackerearth.com/terms-of-service/" target="_blank">Terms of Service</a> will help you understand that you are in control of your data at HackerEarth.
+  </div>
+  <div class="modal-footer">
+    <div class="margin-bottom-15 regular checkbox-row">
+      <input type="checkbox" name="gdpr-tnc">
+      I have read and I agree.
+    </div>
+    <div class="">
+      <input type="submit" name="submit" value="Proceed" class="button btn-blue fontawesome btn-largest disabled large" id="gdpr-submit">
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+            </form>
+            <div class="align-center dark regular standard-margin dont-have-account">
+                Have an account? <a href="https://www.hackerearth.com/getstarted-competitive-programming/#" class="link-13 show-hide-many regular" show="login-form" hide="signup-form-div"> Log in</a>
+            </div>
+        </div>
+
+        <div class="password-reset hidden">
+            <form name="password-reset" method="POST" class="ajax-form" ajax="/AJAX/password/reset/?next=/getstarted-competitive-programming/">
+                
+
+
+
+
+    
+    <p class="dark large"> A password reset link will be sent to the following email id</p>
+    
+    <div class="wrapper">
+        
+        <input id="id_email" name="email" placeholder="Email" size="30" type="text" required="">
+    </div>
+    
+    <div class="align-center medium-margin">
+        <input type="submit" name="submit" clicked="Sending.." value="Send Password Reset Link" class="button btn-blue btn-largest weight-600 large">
+    </div>
+
+
+            </form>
+        </div>
+
+    </div>
+    <div class="gdpr-modal-content hidden">
+        
+
+<style>
+  #gdpr-modal-content {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #gdpr-modal-content .modal-header {
+    padding: 50px 55px 35px 55px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  #gdpr-modal-content .modal-footer {
+    padding: 25px 55px 90px;
+  }
+
+  #gdpr-modal-content .modal-content {
+    padding: 0 55px 5px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #gdpr-modal-content .modal-footer .checkbox-row {
+    font-size: 16px;
+    display: inline-flex;
+  }
+
+  #gdpr-modal-content a {
+    color: #0099ff;
+  }
+  
+  #gdpr-modal-content .button.disabled {
+    background: #f5f6f6 !important;
+  }
+</style>
+
+<div id="gdpr-modal-content">
+  
+<div class="modal-header">HackerEarth’s Privacy Policy and Terms of Service</div>
+  <div class="modal-content">
+      We care about your data privacy. HackerEarth uses the information that you provide to contact you about relevant content, products, and services. <br> <br>
+
+      Our <a href="https://www.hackerearth.com/privacy/" target="_blank">Privacy Policy</a> and <a href="https://www.hackerearth.com/terms-of-service/" target="_blank">Terms of Service</a> will help you understand that you are in control of your data at HackerEarth.
+  </div>
+  <div class="modal-footer">
+    <div class="margin-bottom-15 regular checkbox-row">
+      <input type="checkbox" name="gdpr-tnc">
+      I have read and I agree.
+    </div>
+    <div class="">
+      <input type="submit" name="submit" value="Proceed" class="button btn-blue fontawesome btn-largest disabled large" id="gdpr-submit">
+    </div>
+  </div>
+</div>
+
+    </div>
+</div>
+
+    
+
+    <!-- override this block where we do not want the footer -->
+    
+    
+        
+                
+
+
+
+
+
+<footer class="marketing-footer footer-large">
+    <div class="primary-footer">
+        <div class="standard-margin-bottom contact-wrapper">
+            <div class="standard-margin-bottom">
+                <img src="./Complete Reference to Competitive Programming _ HackerEarth_files/he-footer-logo.svg">
+            </div>
+            <ul class="no-style">
+                <li>+1-650-461-4192</li>
+                <li>
+                    <a href="mailto:contact@hackerearth.com" target="_blank">
+                        contact@hackerearth.com
+                    </a>
+                </li>
+            </ul>
+            <ul class="social-links-container no-style">
+                <li>
+                    <a href="https://www.facebook.com/HackerEarth/" target="_blank">
+                        <img src="./Complete Reference to Competitive Programming _ HackerEarth_files/facebook-logo.svg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/HackerEarth?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                        <img src="./Complete Reference to Competitive Programming _ HackerEarth_files/twitter-logo.svg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/hackerearth/?originalSubdomain=in" target="_blank">
+                        <img src="./Complete Reference to Competitive Programming _ HackerEarth_files/linkedin-logo.svg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCYU6nvKyRYnE5kiG9JXkXpA" target="_blank">
+                        <img src="./Complete Reference to Competitive Programming _ HackerEarth_files/youtube-logo.svg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="standard-margin-bottom">
+            <h3 class="footer-heading">Resources</h3>
+            <ul class="no-style">
+                <li>
+                    <a href="https://www.hackerearth.com/blog/talent-assessment/" target="_blank">
+                        Tech Recruitment Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.hackerearth.com/recruit/resources/guides/" target="_blank">
+                        Product Guides
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.hackerearth.com/recruit/how-to-hire/" target="_blank">
+                        Developer hiring guide
+                    </a>
+                </li>
+                <li>
+                    <a href="http://engineering.hackerearth.com/" target="_blank">
+                        Engineering Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.hackerearth.com/blog/developers/" target="_blank">
+                        Developers Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.hackerearth.com/docs/wiki/developers/solution-guide/" target="_blank">
+                        Developers Wiki
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.hackerearth.com/getstarted-competitive-programming/" target="_blank">
+                        Competitive Programming
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.hackerearth.com/university/" target="_blank">
+                        Start a Programming Club
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.hackerearth.com/practice/machine-learning/prerequisites-of-machine-learning/basic-probability-models-and-rules/tutorial/" target="_blank">
+                        Practice Machine Learning
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="standard-margin-bottom">
+            <h3 class="footer-heading">Solutions</h3>
+            <ul class="no-style">
+                <li>
+                    <a href="https://www.hackerearth.com/recruit/" target="_blank">
+                        Assess Developers
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.hackerearth.com/recruit/facecode/" target="_blank">
+                        Conduct Remote Interviews
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.hackerearth.com/recruit/hiring/university-hiring/" target="_blank">
+                        Assess University Talent
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.hackerearth.com/community-hackathons/" target="_blank">
+                        Organize Hackathons
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="standard-margin-bottom">
+            <h3 class="footer-heading">Company</h3>
+            <ul class="no-style">
+                <li>
+                    <a href="https://www.hackerearth.com/team/" target="_blank">
+                        About Us
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.hackerearth.com/press/" target="_blank">
+                        Press
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.hackerearth.com/companies/hackerearth/jobs/" target="_blank">
+                        Careers
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="standard-margin-bottom">
+            <h3 class="footer-heading">Service &amp; Support</h3>
+            <ul class="no-style">
+                <li>
+                    <a href="https://support.hackerearth.com/hc/en-us" target="_blank">
+                        Technical Support
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.hackerearth.com/reach-us/" target="_blank">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <ul class="secondary-footer no-style">
+        <li>
+            <span>
+                <span>Site Language: </span>
+                <select id="global-locale-switcher" class="nice-select" ajax_url="/users/update-locale-setting/" page_url="/getstarted-competitive-programming/" onchange="changeUserLocale(this, &#39;en-us&#39;, false)">
+                        
+                        
+                        <option value="ru" url="/ru/getstarted-competitive-programming/">русский язык</option>
+                        
+                        
+                        
+                        <option value="fr" url="/fr/getstarted-competitive-programming/">Français</option>
+                        
+                        
+                        
+                        <option value="zh" url="/zh/getstarted-competitive-programming/">中文</option>
+                        
+                        
+                        
+                        <option value="en-us" selected="selected" url="/en-us/getstarted-competitive-programming/">English</option>
+                        
+                        
+                        
+                        <option value="pt-br" url="/pt-br/getstarted-competitive-programming/">Português</option>
+                        
+                        
+                        
+                        <option value="ja" url="/ja/getstarted-competitive-programming/">日本語</option>
+                        
+                        
+                </select>
+            </span>
+        </li>
+        <li>
+            
+            
+                © 2020 HackerEarth All rights reserved
+            
+        </li>
+        <li>
+            <a href="https://www.hackerearth.com/terms-of-service/" target="_blank">
+                Terms of Service
+            </a>
+        </li>
+        <li>
+            <a href="https://www.hackerearth.com/privacy/" target="_blank">
+                Privacy Policy
+            </a>
+        </li>
+    </ul>
+</footer>
+        
+    
+    
+
+    <div class="expand-box" id="recruiter-box" style="display: none;">
+        <div class="down-arrow"></div>
+        <ul class="no-margin">
+            
+            
+            
+            <a href="https://www.hackerearth.com/logout/?next=/getstarted-competitive-programming/"><li>Logout</li></a>
+        </ul>
+    </div>
+
+    
+
+    <!-- Include notifications box -->
+    
+
+
+
+<div class="expand-box" id="notifications-box" style="display: none;">
+    <div class="down-arrow"></div>
+    <div class="notifications-title-container">
+        <div class="float-left weight-600">Notifications</div>
+        <div class="float-right">
+            <a href="https://www.hackerearth.com/getstarted-competitive-programming/#" ajax="https://www.hackerearth.com/notifications/AJAX/mark-all-read/" class="notif-mark-all-read link smaller clicky-ajax">Mark All as Read</a>
+        </div>
+        <div class="clear"></div>
+    </div> <!-- notifications-title-container -->
+
+    <div class="notifications-container nice-scrollbar" id="notifications-container" tabindex="0" style="overflow: hidden; outline: none;">
+    </div> <!-- notifications-container -->
+
+    <div class="smaller caps weight-600 align-center less-margin-2 less-margin-2-bottom">
+        <a class="link" href="https://www.hackerearth.com/notifications/">View All Notifications</a>
+    </div>
+<div id="ascrail2000" class="nicescroll-rails nicescroll-rails-vr" style="width: 7px; z-index: 10; background: rgb(238, 238, 238); cursor: default; position: absolute; top: 1px; left: -7px; height: 0px; opacity: 1; display: none;"><div class="nicescroll-cursors" style="position: relative; top: 0px; float: right; width: 7px; height: 0px; background-color: rgb(204, 204, 204); border: none; background-clip: padding-box; border-radius: 0px;"></div></div><div id="ascrail2000-hr" class="nicescroll-rails nicescroll-rails-hr" style="height: 7px; z-index: 10; background: rgb(238, 238, 238); top: -6px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none;"><div class="nicescroll-cursors" style="position: absolute; top: 0px; height: 7px; width: 0px; background-color: rgb(204, 204, 204); border: none; background-clip: padding-box; border-radius: 0px;"></div></div></div> <!-- notifications-box -->
+
+
+    <!-- Load notification icon with unread count -->
+    <div id="header-notif-icon-trigger" class="load-pagelet hidden" target="header-notif-icon" ajax="/notifications/pagelets/header-notif-icon-count/" show-loader="false"></div>
+
+    
+    <!-- Load live events widget -->
+    <div id="live-events-trigger" class="load-pagelet hidden" target="live-events-trigger-data" ajax="/AJAX/live_events_widget_count/" show-loader="false"></div>
+    
+
+    
+    
+    
+
+    
+
+    
+    
+
+        
+        
+
+        <!-- Store any json returned for bigpipe -->
+        <div id="bigpipe-json" class="hidden">
+            
+        </div>
+
+        <!-- Store any json returned for bigpipe -->
+        <div id="user-prompt-json" class="hidden">
+            
+        </div>
+
+        <!-- Store any html returned for feedback popup -->
+        <div id="user-feedback-popup" class="hidden"></div>
+
+
+        <!-- realtime host -->
+        <div id="realtime-host" class="hidden">realtime.hackerearth.com</div>
+        <!-- realtime port -->
+        <div id="realtime-port" class="hidden">80</div>
+
+        <!-- client name for updating parts of page in realtime -->
+        <div id="realtime-collection-name-0" class="hidden">ab6214f867b78dff6e65c999b0ab416201f61751-realtime</div>
+        
+
+        
+            <div id="common-notification">
+            </div>
+        
+
+        <!-- ping url for user presence -->
+        <div id="ghost-ping-url" class="hidden" ajax="/ghost/ping/"></div>
+
+        
+        
+
+        <!-- url to get active lab features -->
+        
+
+        
+        <div id="external-link-modal" class="modal-window very-large-modal">
+            <div class="modal-content large dark align-left">
+                <div id="external-link-content-wrapper">
+                    <pre></pre>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- All the scripts go here -->
+        <script>
+            
+            var CURRENT_PATH = "https://www.hackerearth.com/getstarted-competitive-programming/";
+            var HISTORY = '';
+            var DEFAULT_REAL_NUMBER_PRECISION = 2;
+            var DECIMAL_PRECISION_ERROR_TEXT = "Only {decimal_limit} decimal places allowed";
+            var SOMETHING_WENT_WRONG_ERROR_TEXT = "Something went wrong. Please try again later.";
+
+            // Make code constants available globally in JS
+            var MAP_LANG_TO_NAME = {"SCALA_2118": "Scala 2.11.8", "LUA": "Lua", "PASCAL": "Pascal", "CSHARP": "C#", "CPP": "C++", "PYTHON3": "Python 3", "POSTGRESQL": "PostgreSQL", "KOTLIN": "Kotlin", "SCALA": "Scala", "PERL": "Perl", "HASKELL": "Haskell", "D": "D", "CPP14": "C++14", "R": "R(RScript)", "CPP11": "C++11", "GO": "Go", "RUBY": "Ruby", "BASH": "Bash", "GROOVY": "Groovy", "LOLCODE": "LOLCODE", "LISP": "Lisp", "Text": "Text", "WHENEVER": "Whenever", "MYSQL": "MySQL", "OBJECTIVEC": "Objective-C", "PHP": "PHP", "JAVASCRIPT_UI": "JavaScript", "PYTHON": "Python", "JAVASCRIPT": "JavaScript(Rhino)", "SWIFT_4_1": "Swift-4.1", "vp": "N/A", "TEXTFILE": "Text", "JAVA8": "Java 8", "JAVASCRIPT_NODE": "JavaScript(Node.js)", "RACKET": "Racket", "HTML": "HTML", "SWIFT": "Swift", "RUST": "Rust", "FSHARP": "F#", "C": "C", "TYPESCRIPT": "TypeScript", "ORACLE_DB": "Oracle_Db", "OCAML": "OCaml", "OCTAVE": "Octave", "CLOJURE": "Clojure", "BEFUNGE": "Befunge", "CSS": "CSS", "ERLANG": "Erlang", "JAVA": "Java", "LISP_SBCL": "Lisp (SBCL)", "JULIA": "Julia", "VB": "Visual Basic", "MSSQL": "MSSQL"};
+            var MAP_NAME_TO_LANG = {"Lisp (SBCL)": "LISP_SBCL", "TypeScript": "TYPESCRIPT", "Java": "JAVA", "Scala": "SCALA", "JavaScript": "JAVASCRIPT_UI", "Perl": "PERL", "Lua": "LUA", "JavaScript(Rhino)": "JAVASCRIPT", "MySQL": "MYSQL", "Erlang": "ERLANG", "LOLCODE": "LOLCODE", "HTML": "HTML", "C#": "CSHARP", "R(RScript)": "R", "C++14": "CPP14", "Rust": "RUST", "Octave": "OCTAVE", "Ruby": "RUBY", "Bash": "BASH", "Groovy": "GROOVY", "C": "C", "Python 3": "PYTHON3", "Lisp": "LISP", "Kotlin": "KOTLIN", "Oracle_Db": "ORACLE_DB", "F#": "FSHARP", "N/A": "vp", "C++": "CPP", "Racket": "RACKET", "Objective-C": "OBJECTIVEC", "Swift": "SWIFT", "CSS": "CSS", "D": "D", "Clojure": "CLOJURE", "Befunge": "BEFUNGE", "Java 8": "JAVA8", "Whenever": "WHENEVER", "PostgreSQL": "POSTGRESQL", "Text": "TEXTFILE", "Swift-4.1": "SWIFT_4_1", "OCaml": "OCAML", "Julia": "JULIA", "JavaScript(Node.js)": "JAVASCRIPT_NODE", "Python": "PYTHON", "Pascal": "PASCAL", "Haskell": "HASKELL", "Scala 2.11.8": "SCALA_2118", "C++11": "CPP11", "Go": "GO", "Visual Basic": "VB", "PHP": "PHP", "MSSQL": "MSSQL"};
+        </script>
+
+        
+
+        <!-- alljs: static_media/js/jquery-1.7.min.patched.js static_media/js/jquery.color.js static_media/js/jquery.elastic.js static_media/js/ajaxSend.js  static_media/js/jquery.inview.js  static_media/js/tooltip/jquery.tipTip.modified.js  static_media/offline/offline.min.js  static_media/js/watermark.min.js  static_media/history.js?v=0.1/scripts/bundled/html4html5/jquery.history.js  static_media/js/jquery.nicescroll.js  static_media/simplemodal/simplemodal.js static_media/js/jquery.sticky.js static_media/js/pusher.min.js static_media/js/ifvisible.min.js static_media/ghost/ghost.js static_media/feeds/feeds.js static_media/base/progress_bar.js -->
+        
+
+
+<script>
+    UPLOADING_TEXT = "Uploading";
+    UPLOADED_TEXT = "Uploaded";
+    SAVING_TEXT = "Saving..";
+    UPLOAD_SUCCESS_MESSAGE = "File saved successfully.";
+    UPLOAD_ERROR_MESSAGE = "An error occured while saving, please try again in sometime.";
+</script>
+<script type="text/javascript" src="./Complete Reference to Competitive Programming _ HackerEarth_files/alljs.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./Complete Reference to Competitive Programming _ HackerEarth_files/base1.0.1.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./Complete Reference to Competitive Programming _ HackerEarth_files/bigpipe.js" crossorigin="anonymous"></script>
+        
+
+
+<script type="text/javascript">
+var CONFIRM_COMMENT_DELETE = "Are you sure, you want to delete comment?";
+var COMMENT_NOT_DELETED = "Comment could not be deleted!";
+var CONFORM_COMMENT_MARK_SPAM = "Are you sure, you want to mark this comment as spam?";
+var COMMENT_NOT_MARKED_SPAM = "Comment could not be marked as spam!";
+var ENTER_15_CHARS = "Enter at least 15 characters";
+var JUST_X_MORE = "Just {count} more to go";
+</script>
+        <script>
+            var MAP_MARKER_SIGNUP_IMAGE = 'https://static-fastly.hackerearth.com/static/metrics/map-marker.png';
+            var MAP_MARKER_LOGIN_IMAGE = 'https://static-fastly.hackerearth.com/static/metrics/map-marker-login.png';
+            var AJAX_URL = '';
+        </script>
+        
+<script>
+    // firestore credentials
+    var firebaseConfig = {
+        apiKey:'AIzaSyD7oH2r4iyvysFx47-IVwrzdwIuw7Ici90',
+        authDomain:'he-production.firebaseapp.com',
+        databaseURL:'https://he-production.firebaseio.com',
+        projectId:'he-production',
+        storageBucket:'he-production.appspot.com',
+        messagingSenderId:'100736274227',
+        appId:'1:100736274227:web:fdd60d6929555af4d3b846'
+    };
+    window.firebaseConfig = firebaseConfig;
+</script>
+
+    <script type="text/javascript" src="./Complete Reference to Competitive Programming _ HackerEarth_files/firebase-app.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./Complete Reference to Competitive Programming _ HackerEarth_files/firebase-firestore.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./Complete Reference to Competitive Programming _ HackerEarth_files/firestore_realtime.js" crossorigin="anonymous"></script>
+
+
+        <script type="text/javascript" src="./Complete Reference to Competitive Programming _ HackerEarth_files/userprompt.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./Complete Reference to Competitive Programming _ HackerEarth_files/history.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./Complete Reference to Competitive Programming _ HackerEarth_files/commentUtils.js" crossorigin="anonymous"></script>
+
+        
+        <script src="./Complete Reference to Competitive Programming _ HackerEarth_files/api.js" async="" defer=""></script>
+        
+
+        
+        <script src="./Complete Reference to Competitive Programming _ HackerEarth_files/offline.min.js" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" async="" src="./Complete Reference to Competitive Programming _ HackerEarth_files/MathJax.js"></script>
+
+
+<script type="text/x-mathjax-config;executed=true">
+    MathJax.Hub.Config({
+        messageStyle: "none",
+        jax: ["input/TeX", "output/SVG", "output/HTML-CSS"],
+        tex2jax: {
+            inlineMath: [['$$','$$'], ['\\(', '\\)']],
+            displayMath: [['$$$', '$$$'], ['\\[', '\\]']],
+            preview: "none"
+        },
+        SVG: {
+            useGlobalCache: false
+        },
+    });
+</script>
+<script type="text/javascript" src="./Complete Reference to Competitive Programming _ HackerEarth_files/MathJax(1).js" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    window.addEventListener("load", function() {
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+    });
+</script>
+
+        <script>
+            Offline.options = {
+                interceptRequests: false,
+                requests: false,
+            };
+        </script>
+
+        
+
+        
+
+
+<script>
+
+$(document).ready(function (){
+    $('#header-notif-icon-trigger').click();
+
+    
+    $('#live-events-trigger').click();
+    
+
+    
+    
+    
+
+    
+
+    // show kone ge widget if not visited
+    
+
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    
+    var m_links = {};
+    var m_elements = {
+        '#modal-login-form input[type=submit]': 'Modal Email Login',
+        '#modal-signup-form input[type=submit]': 'Modal Email Signup',
+        '.modal-social-login .btn-facebook': 'Modal Facebook Login',
+        '.modal-social-login .btn-google': 'Modal Google Login',
+        '.modal-social-signup .btn-facebook': 'Modal Facebook Signup',
+        '.modal-social-signup .btn-google': 'Modal Google Signup',
+        '.top-banner .login-banner a': 'Signup after banner click',
+    };
+    
+    for (var key in m_elements) {
+        $(key).live('click', {'key': key }, function(e) {
+            var key = e.data.key;
+            mixpanel.track('Click', {'name': m_elements[key]});
+        });
+    }
+    for (var key in m_links) {
+        mixpanel.track_links(key, 'Click', {'name': m_links[key]});
+    }
+});
+</script>
+
+
+
+
+<script type="text/javascript" src="./Complete Reference to Competitive Programming _ HackerEarth_files/search.1.0.js" crossorigin="anonymous" defer=""></script>
+
+
+
+
+
+<script type="text/javascript" src="./Complete Reference to Competitive Programming _ HackerEarth_files/lab.js" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="./Complete Reference to Competitive Programming _ HackerEarth_files/gdpr-modal.js" crossorigin="anonymous"></script>
+
+
+
+        <script>
+            // Used in search
+            var is_user_logged_in = false;
+        </script>
+
+        
+        <script type="text/javascript" src="./Complete Reference to Competitive Programming _ HackerEarth_files/detect_timezone.js" crossorigin="anonymous"></script>
+        <script>
+
+            function setTimezoneCookie(detected_user_tz) {
+                /* Sets the detected user timezone as a cookie in the browser.
+                   If someone changes it or removes it, a sanity check is
+                   performed and the cookie is reset.
+
+                   This cookie is set for ready availability of user timezone
+                   in the backend.
+                */
+
+                const USER_TIMEZONE_COOKIE = 'user_tz';
+                // Try to get the existing user timezone cookie stored
+                // in the browser.
+                user_tz = readCookie(USER_TIMEZONE_COOKIE);
+
+                // Flag to determine whether a new cookie has to be created.
+                create_cookie = false;
+
+                if(user_tz) {
+                    if(user_tz !== detected_user_tz) {
+                        // If someone has changed the cookie in some way, we
+                        // set a new cookie.
+                        eraseCookie(USER_TIMEZONE_COOKIE);
+                        create_cookie = true;
+                    }
+                } else {
+                    create_cookie = true;
+                }
+
+                // Create a new cookie if create_cookie flag is set.
+                createCookie(USER_TIMEZONE_COOKIE, detected_user_tz, 1);
+
+            }
+            $(document).ready(function(){
+                var timezone = jstz.determine_timezone(); // Now you have an instance of the TimeZone object.
+                // Set as a cookie in browser for easy access in backend.
+                setTimezoneCookie(timezone.name());
+
+                // Set as a js variable for easy access across frontend.
+                USER_TIMEZONE = timezone.name()
+
+                
+
+                
+
+                
+                
+                
+                
+                
+
+                
+
+                
+                    $.ajax({
+                        type: "POST",
+                        url:"/users/AJAX/set-timezone/",
+                        data: {
+                        'timezone': timezone.name(),
+                        },
+                    });
+                
+            });
+        </script>
+        
+        
+
+        <script type="text/javascript">
+            
+            $(document).ready(function(){
+                //mixpanel delegate links custom method
+                mixpanel.delegate_links = function (parent, selector, event_name, properties) {
+                    properties = properties || {};
+                    parent = parent || document.body;
+                    parent = $(parent);
+                    parent.on('click', selector, function (event) {
+                        var new_tab = event.which === 2 || event.metaKey || event.target.target === '_blank' || this.target === '_blank';
+                        properties.url = event.target.href || this.href;
+                        function callback() {
+                            if (new_tab) {
+                                return;
+                            }
+                            window.location = properties.url;
+                        }
+                        if (!new_tab) {
+                            event.preventDefault();
+                            setTimeout(callback, 300);
+                        }
+                        mixpanel.track(event_name, properties, callback);
+                    });
+                };
+            });
+            
+        </script>
+
+        
+
+
+
+        
+        <!-- mixpanel analytics start -->
+        <script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);mixpanel.init("4c30b8635363027dfb780d5a61785112");
+        </script>
+        <!-- mixpanel analytics end -->
+        <script type="text/javascript">
+            
+                
+                    mixpanel.unregister("username");
+                    mixpanel.unregister("email");
+                    mixpanel.unregister("date_of_joining");
+                    mixpanel.unregister("user_bucket");
+                    mixpanel.unregister("company");
+                    mixpanel.unregister("is_recruiter");
+                    mixpanel.register({
+                        "url_path": "/getstarted-competitive-programming/"
+                    });
+                
+            
+        </script>
+        
+
+        
+        
+        <div id="fb-root"></div>
+        <script>
+            <!-- facebook button -->
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+
+            <!-- twitter button -->
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+            <!-- google+ button -->
+            (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })();
+        </script>
+        
+        
+
+        
+            
+
+<link rel="stylesheet" href="./Complete Reference to Competitive Programming _ HackerEarth_files/cookiebar.css">
+
+<script type="text/javascript" src="./Complete Reference to Competitive Programming _ HackerEarth_files/cookiebar.js" crossorigin="anonymous"></script>
+
+
+        
+
+        
+            
+        
+
+        
+            <!-- Hackerearth Zendesk Widget -->
+
+
+
+
+<link rel="stylesheet" href="./Complete Reference to Competitive Programming _ HackerEarth_files/customer-support-widget.css">
+
+<iframe src="javascript:false" title="" style="display: none;" src="./Complete Reference to Competitive Programming _ HackerEarth_files/saved_resource(1).html"></iframe><script>
+    var COUNTRY_CODE = "IN";
+    var TRIAL_DAYS_LEFT =  0 ;
+    var INTERCOM_APP_ID = 'nofrzq7u';
+    var IS_INTERCOM_FEATUTRE_ENABLE = "True";
+
+    var isRecruiterDashboard = false;
+    var zESettingsRecruiterDashboard = {
+        webWidget: {
+            launcher: {
+                label: {
+                    "en-US": "",
+                    "*": "",
+                }
+            },
+            offset: {
+                horizontal: "-100px", /* To hide actual launcher widget */
+                vertical: "70px"
+            },
+            position: {
+                horizontal: 'right',
+                vertical: 'top'
+            }
+        }
+    };
+
+    var zESettingsDefault = {
+        webWidget: {
+            launcher: {
+                label: {
+                    "en-US": "",
+                    "*": "",
+                }
+            },
+            offset: {
+                horizontal: "-100px", /* To hide actual launcher widget */
+            }
+        }
+    };
+    if(isRecruiterDashboard) {
+       window.zESettings = zESettingsRecruiterDashboard;
+    } else {
+        window.zESettings = zESettingsDefault;
+    }
+    /*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var e=this.createElement("script");n&&(this.domain=n),e.id="js-iframe-async",e.src="https://assets.zendesk.com/embeddable_framework/main.js",this.t=+new Date,this.zendeskHost="hackerearth.zendesk.com",this.zEQueue=a,this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close()}();
+    /*]]>*/
+
+    var ZENDESK_LOCALE = "en-US";
+    var USER_EMAIL = "";
+    var USER_NAME = "";
+    var ATTACHMENT_LABEL = "Attachments (Optional)";
+    var DESCRIPTION_LABEL = "How can we help you, {name}?";
+
+    
+    var APP_ID = INTERCOM_APP_ID;
+
+    window.intercomSettings = {
+        app_id: APP_ID,
+        name: USER_NAME,
+        email: USER_EMAIL,
+        hide_default_launcher: true,
+    };
+
+    (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/' + APP_ID;var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+</script>
+<script type="text/javascript" src="./Complete Reference to Competitive Programming _ HackerEarth_files/customer-support-widget.js" crossorigin="anonymous" defer=""></script>
+
+
+    <div class="customer-support-icon">
+        <p>?</p>
+    </div>
+
+
+        
+    
+
+<iframe data-product="web_widget" title="No content" tabindex="-1" aria-hidden="true" src="./Complete Reference to Competitive Programming _ HackerEarth_files/saved_resource(2).html" style="width: 0px; height: 0px; border: 0px; position: absolute; top: -9999px;"></iframe><iframe scrolling="no" frameborder="0" allowtransparency="true" src="./Complete Reference to Competitive Programming _ HackerEarth_files/widget_iframe.4f8aea4342a4ada72cba2bdffcff6b4d.html" title="Twitter settings iframe" style="display: none;"></iframe><div id="tiptip_holder" style="max-width:200px;"><div id="tiptip_arrow"><div id="tiptip_arrow_inner"></div></div><div id="tiptip_content"></div></div><div class="offline-ui                                                                                                                                                                                                                                                                                                                                                             offline-ui-up "><div class="offline-ui-content" data-retry-in-seconds="null" data-retry-in-abbr="null" data-retry-in="null"></div><a href="https://www.hackerearth.com/getstarted-competitive-programming/" class="offline-ui-retry"></a></div><div class="offline-ui                                                                                                                                                                                                                                                                                                                                                             offline-ui-up "><div class="offline-ui-content" data-retry-in-seconds="null" data-retry-in-abbr="null" data-retry-in="null"></div><a href="https://www.hackerearth.com/getstarted-competitive-programming/" class="offline-ui-retry"></a></div><iframe id="intercom-frame" style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important;" aria-hidden="true" tabindex="-1" title="Intercom" src="./Complete Reference to Competitive Programming _ HackerEarth_files/saved_resource(3).html"></iframe><div id="intercom-css-container"><style data-emotion="intercom-global"></style></div><div id="intercom-container" class="intercom-namespace"><style>html.intercom-mobile-messenger-active,html.intercom-mobile-messenger-active > body,html.intercom-modal-open,#intercom-container-body{overflow:hidden !important;}html.intercom-mobile-messenger-active,html.intercom-mobile-messenger-active > body{position:static !important;}html.intercom-mobile-messenger-active > body{height:0 !important;margin:0 !important;}iframe#intercom-frame{position:absolute !important;opacity:0 !important;width:1px !important;height:1px !important;top:0 !important;left:0 !important;border:none !important;display:block !important;z-index:-1 !important;}</style></div><div><iframe title="Opens a widget where you can find more information" id="launcher" tabindex="0" class="zEWidget-launcher zEWidget-launcher--active" style="border: none; background: transparent; z-index: 999998; transform: translateZ(0px); position: fixed; transition-duration: 250ms; transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1); transition-property: opacity, top, bottom; opacity: 1; width: 139px; height: 50px; max-height: 551px; min-height: 50px; margin: 10px 20px; right: -100px; bottom: 0px;width: 139px;width: 139px;width: 139px;width: 139px;" src="./Complete Reference to Competitive Programming _ HackerEarth_files/saved_resource(4).html"></iframe></div><div><iframe title="Find more information here" id="webWidget" tabindex="-1" class="zEWidget-webWidget " style="border: none; background: transparent; z-index: 999999; transform: translateZ(0px); position: fixed; transition-duration: 250ms; transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1); transition-property: opacity, top, bottom; opacity: 0; width: 357px; height: 100%; max-height: 155px; min-height: 155px; margin-left: 8px; margin-right: 8px; top: -9999px; visibility: hidden;" src="./Complete Reference to Competitive Programming _ HackerEarth_files/saved_resource(5).html"></iframe></div></body></html>

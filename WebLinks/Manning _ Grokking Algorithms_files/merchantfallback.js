@@ -1,0 +1,3 @@
+var sa_cached=false;var sa_filename='/product/28938/merchantfallback.js';var sa_productreverse='';var sa_write_review=0;function saLoadScript(src){var js=window.document.createElement('script');js.src=src;js.type='text/javascript';document.getElementsByTagName("head")[0].appendChild(js);}
+if(typeof(dataToTrack)!='undefined'){if(dataToTrack.index_of('_FR1')>=0){var sa_language='fra';};};if(typeof sa_language=='undefined'){var sa_language=null}
+saLoadScript('//www.shopperapproved.com/widgets/TranslateLanguage.php?rtype=product&lang='+sa_language+'&siteid=28938');

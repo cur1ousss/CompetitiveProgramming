@@ -1,0 +1,53 @@
+	.menuOne	{	background-color:transparent;
+						font-family: verdana,arial,geneva,helvetica;
+						font-size: 11px;
+						text-decoration: none;
+						width:166px; height:16px;}
+						
+	.menuOne:hover	{	background-color:white; 
+						font-family: verdana,arial,geneva,helvetica;
+						font-size: 11px;
+						text-decoration: none;
+						width:166px; height:16px;}
+	
+	.menuTwo		{	background-color:transparent;
+						font-family: verdana,arial,geneva,helvetica;
+						font-color: #000066;
+						font-size: 11px;
+						text-decoration: none;
+						width:166px; height:30px;}
+						
+	.menuTwo:hover	{	background-color:white; 
+						font-family: verdana,arial,geneva,helvetica;
+						font-color: #000066;
+						font-size: 11px;
+						text-decoration: none;
+						width:166px; height:30px;}
+	
+	.currentPageOne	{	background-color:white;
+						font-family: verdana,arial,geneva,helvetica;
+						font-size: 11px;
+						text-decoration: none;
+						width:166px; height:16px;}
+						
+	.currentPageTwo	{	background-color:white; 
+						font-family: verdana,arial,geneva,helvetica;
+						font-color: #000066;
+						font-size: 11px;
+						text-decoration: none;
+						width:166px; height:30px;}
+
+.top_link 			{  	font-family: Verdana, Arial, Helvetica, sans-serif; 
+						font-size: 11px; 
+						font-style: normal; 
+						font-weight: normal; 
+						text-decoration: none; 
+						color: #000000;
+						}
+.bottom_link 		{  	font-family: Verdana, Arial, Helvetica, sans-serif; 
+						font-size: 10px; 
+						font-style: normal; 
+						font-weight: normal; 
+						font-variant: normal; 
+						color: #000000;
+						}
